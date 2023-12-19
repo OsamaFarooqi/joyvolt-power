@@ -1,0 +1,492 @@
+{
+  "sections": {
+    "main": {
+      "type": "page",
+      "disabled": true,
+      "settings": {
+        "kicker": "",
+        "kicker_size": 3,
+        "show_title": true,
+        "title_size": 8,
+        "show_content": true,
+        "content_size": 5,
+        "align_text": "text-left",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "a3484421-a519-4248-920c-e9e44d1f469c": {
+      "type": "section-hero",
+      "blocks": {
+        "template--16244449476799__a3484421-a519-4248-920c-e9e44d1f469c-kicker-1": {
+          "type": "kicker",
+          "settings": {
+            "kicker": "Partner with Joyvolt",
+            "enable_line": false,
+            "text_size": 4
+          }
+        },
+        "template--16244449476799__a3484421-a519-4248-920c-e9e44d1f469c-heading-1": {
+          "type": "heading",
+          "settings": {
+            "title": "Become an Authorized Dealer",
+            "heading_size": 48,
+            "heading_size_mob": 48,
+            "line_height": 56
+          }
+        },
+        "5a74df49-773c-4dd2-a180-2820b9920a8e": {
+          "type": "text",
+          "settings": {
+            "richtext": "<p>Thank you for your interest in joining the Joyvolt family as an Authorized Dealer. At Joyvolt, we're committed to forging partnerships that drive success and bring innovative power solutions to customers worldwide.<\/p>",
+            "description_size": 18
+          }
+        },
+        "1cd75fc8-a7c5-45a3-82f4-51c10a8eee72": {
+          "type": "button",
+          "settings": {
+            "btn_size": 16,
+            "link_text_1": "Apply Now",
+            "link_1": "",
+            "button_size_1": "btn--long",
+            "button_style_1": "btn",
+            "button_color_1": "btn--primary",
+            "link_text_2": "",
+            "link_2": "",
+            "button_size_2": "btn--long",
+            "button_style_2": "btn-text-thick-line",
+            "button_color_2": "btn--white",
+            "link_text_3": "",
+            "link_3": "",
+            "button_size_3": "btn--long",
+            "button_style_3": "btn-text-thick-line",
+            "button_color_3": "btn--white"
+          }
+        }
+      },
+      "block_order": [
+        "template--16244449476799__a3484421-a519-4248-920c-e9e44d1f469c-kicker-1",
+        "template--16244449476799__a3484421-a519-4248-920c-e9e44d1f469c-heading-1",
+        "5a74df49-773c-4dd2-a180-2820b9920a8e",
+        "1cd75fc8-a7c5-45a3-82f4-51c10a8eee72"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/4_1_1.jpg",
+        "height": "use_screen_two_thirds",
+        "overlay_opacity": 50,
+        "overlay_color": "#000000",
+        "enable_overlay_text": false,
+        "preload_image": false,
+        "heading_color": "#FFFFFF",
+        "description_color": "#FFFFFF",
+        "content_width": 2000,
+        "content_width_mob": 100,
+        "text_align": "align--middle-center",
+        "vertical_alignment": "center",
+        "horizontal_alignment": "center",
+        "content_alignment": "center",
+        "text_color": "text--white",
+        "color_bg": "hero__content--transparent",
+        "width": "wrapper--none",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "988be7b9-1704-4acd-8cb8-e19797b89bf9": {
+      "type": "section-custom-content",
+      "blocks": {
+        "0a2a933c-b5d2-4c66-9699-4e7de40a2398": {
+          "type": "text",
+          "settings": {
+            "kicker": "Why Partner with Joyvolt?",
+            "title": "",
+            "text": "<ul><li>Cutting-Edge Products: Gain access to our range of cutting-edge power solutions, including our renowned portable power stations, battery packs, and more.<\/li><li>Brand Recognition: Leverage the strength of the Joyvolt brand, known for reliability, innovation, and quality in the power solutions industry.<\/li><li>Exclusive Benefits: Enjoy exclusive dealer benefits, including competitive pricing, marketing support, and dedicated assistance from our expert team.<\/li><\/ul>",
+            "font_size": 4,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "btn-text-thick-line",
+            "text_color": "text--neutral",
+            "bg_color": ""
+          }
+        },
+        "db87befa-229e-4560-8226-d86091bcae60": {
+          "type": "text",
+          "settings": {
+            "kicker": "What We Look for in Dealers",
+            "title": "",
+            "text": "<p>We value dealers who share our commitment to excellence and customer satisfaction. Here's what we're looking for in our authorized dealers:<\/p><ul><li>Passion for Innovation: A drive to introduce innovative power solutions to customers and deliver unmatched quality.<\/li><li>Customer-Centric Approach: A dedication to ensuring customer satisfaction and providing exceptional service.<\/li><li>Business Growth Mindset: An ambition to grow your business and expand the reach of Joyvolt products in your market.<\/li><\/ul>",
+            "font_size": 4,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "btn-text-thick-line",
+            "text_color": "text--neutral",
+            "bg_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "0a2a933c-b5d2-4c66-9699-4e7de40a2398",
+        "db87befa-229e-4560-8226-d86091bcae60"
+      ],
+      "settings": {
+        "height": "use_screen_one_half",
+        "brick_gutter": 0,
+        "borders": false,
+        "bg_color": "",
+        "preload_image": false,
+        "width": "wrapper",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "593416c6-d148-4349-82ba-c12a5f74b330": {
+      "type": "section-double",
+      "blocks": {
+        "f586a0f8-de2c-4111-bd93-e3305cdc4710": {
+          "type": "text",
+          "settings": {
+            "kicker": "",
+            "title": "How to Apply",
+            "text": "<p>Joining our network of authorized dealers is easy. Simply fill out the application form below, and our team will review your submission. Upon approval, you'll gain access to a world of opportunities and support as a valued member of the Joyvolt dealer network.<\/p>",
+            "heading_size": 32,
+            "sub_heading_size": 16,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "btn-text-thick-line",
+            "text_color": "text--white",
+            "bg_color": "",
+            "with_icon_enable": false,
+            "title_icon": "Add a title",
+            "title_icon_one": "Add a title",
+            "title_icon_two": "Add a title",
+            "title_icon_three": "Add a title"
+          }
+        },
+        "659cbb2d-cc83-4a6c-9b3e-f6a13ca0b3f1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/BING3600_88e1fe65-6eaf-42b3-8f06-c0957df13d32.png",
+            "overlay_opacity": 15,
+            "overlay_color": "#000",
+            "enable_overlay_text": false,
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "btn"
+          }
+        }
+      },
+      "block_order": [
+        "f586a0f8-de2c-4111-bd93-e3305cdc4710",
+        "659cbb2d-cc83-4a6c-9b3e-f6a13ca0b3f1"
+      ],
+      "settings": {
+        "height": "use_screen_one_half",
+        "img_position": "center",
+        "border_radius": 0,
+        "brick_gutter": 0,
+        "borders": false,
+        "bg_color": "#353535",
+        "preload_image": false,
+        "width": "wrapper",
+        "img_col_width": 60,
+        "text_col_width": 40,
+        "row_position": "row",
+        "column_position": "column-reverse",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "c80fa15a-d769-4897-8a36-4561085ed74b": {
+      "type": "section-richtext",
+      "blocks": {
+        "072ed306-6764-427e-a614-79bf08a2ee28": {
+          "type": "heading",
+          "settings": {
+            "heading": "RECOGNIZED BY OVER 200 AUTHORIZED MEDIA AND ORGANIZATIONS WORLDWIDE",
+            "heading_size": 48,
+            "line_height": 56,
+            "heading_size_mob": 48
+          }
+        }
+      },
+      "block_order": [
+        "072ed306-6764-427e-a614-79bf08a2ee28"
+      ],
+      "disabled": true,
+      "settings": {
+        "align_text": "text-center",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--accent",
+        "content_width": 2000,
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "f4325a5c-2623-4ecc-bffb-9ef671d0dbc8": {
+      "type": "section-logos",
+      "blocks": {
+        "323f6c6d-2bfa-4575-b8c2-371e4045d886": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2560px-VOGUE_LOGO_svg.png",
+            "link": "",
+            "new_tab": true,
+            "width": 140,
+            "spacing": 50
+          }
+        },
+        "bce0bc04-6992-4eda-a8c9-74ef2e732ee1": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/forbes-logo-black-transparent.webp",
+            "link": "",
+            "new_tab": true,
+            "width": 140,
+            "spacing": 50
+          }
+        },
+        "5111cc8f-5fc0-4e32-b587-0407aaa7b71f": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/logo-seo.png",
+            "link": "",
+            "new_tab": true,
+            "width": 140,
+            "spacing": 50
+          }
+        },
+        "2898a23e-af93-43d7-a78c-97d25000b23b": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/buzzfeed-logo-black-transparent.png",
+            "link": "",
+            "new_tab": true,
+            "width": 140,
+            "spacing": 50
+          }
+        }
+      },
+      "block_order": [
+        "323f6c6d-2bfa-4575-b8c2-371e4045d886",
+        "bce0bc04-6992-4eda-a8c9-74ef2e732ee1",
+        "5111cc8f-5fc0-4e32-b587-0407aaa7b71f",
+        "2898a23e-af93-43d7-a78c-97d25000b23b"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "",
+        "bg": "palette--light bg--accent",
+        "enable_marquee": false,
+        "marquee_speed": 30,
+        "width": "wrapper--none",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "bdf80137-9010-4f24-b8c6-db026b902467": {
+      "type": "section-richtext",
+      "blocks": {
+        "ae20ec47-2e12-4266-8b78-d8ce354b65c4": {
+          "type": "heading",
+          "settings": {
+            "heading": "Apply Now and Power Up Your Business",
+            "heading_size": 32,
+            "line_height": 56,
+            "heading_size_mob": 48
+          }
+        },
+        "24c035af-92b9-44fb-b51c-d6380fedcd22": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Are you ready to elevate your business with top-tier power solutions from Joyvolt? Complete the application form below to kickstart your journey as an Authorized Dealer and take advantage of exclusive benefits and support.<\/p>",
+            "text_size": 4,
+            "text_columns": 1
+          }
+        }
+      },
+      "block_order": [
+        "ae20ec47-2e12-4266-8b78-d8ce354b65c4",
+        "24c035af-92b9-44fb-b51c-d6380fedcd22"
+      ],
+      "settings": {
+        "align_text": "text-center",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "content_width": 2000,
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 0
+      }
+    },
+    "7f7b8641-1855-4329-8d04-1242ff33d7fd": {
+      "type": "section-liquid",
+      "settings": {
+        "custom_liquid": "<div class=\"globo-formbuilder\" data-id=\"MjAzMDI=\"><\/div>"
+      }
+    },
+    "964d26cb-17b2-42d0-b65a-28b2ce0fa919": {
+      "type": "section-richtext",
+      "blocks": {
+        "d665bf7f-a6bc-4cde-922d-fdd889a40f12": {
+          "type": "heading",
+          "settings": {
+            "heading": "",
+            "heading_size": 32,
+            "line_height": 56,
+            "heading_size_mob": 48
+          }
+        },
+        "70677ee5-28c2-458a-8580-3d83009f0073": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Join us in providing customers with industry-leading power solutions that redefine reliability and innovation.<\/p>",
+            "text_size": 4,
+            "text_columns": 1
+          }
+        }
+      },
+      "block_order": [
+        "d665bf7f-a6bc-4cde-922d-fdd889a40f12",
+        "70677ee5-28c2-458a-8580-3d83009f0073"
+      ],
+      "settings": {
+        "align_text": "text-center",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "content_width": 2000,
+        "width": "wrapper",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "163af1f4-61c3-44a2-b974-6dd92fae5885": {
+      "type": "section-richtext",
+      "blocks": {
+        "2f40d5ec-d22e-40c5-b7a7-95ffef4799c1": {
+          "type": "heading",
+          "settings": {
+            "heading": "CERTIFICATIONS AND AWARDS",
+            "heading_size": 48,
+            "line_height": 56,
+            "heading_size_mob": 48
+          }
+        },
+        "1eac11da-0923-4e09-95fa-934bd9cf8bca": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Joyvolt Power boasts a global patent portfolio featuring 426 patents for portable power stations and solar generators. This impressive collection includes 43 invention patents, 178 utility model patents, and 205 design patents. The brand has also secured recognition with 58 esteemed international awards, such as the Red Dot Design Awards, IF Design Awards, A’Design Award & Competition, and CES Innovation Awards.<\/p>",
+            "text_size": 4,
+            "text_columns": 1
+          }
+        }
+      },
+      "block_order": [
+        "2f40d5ec-d22e-40c5-b7a7-95ffef4799c1",
+        "1eac11da-0923-4e09-95fa-934bd9cf8bca"
+      ],
+      "disabled": true,
+      "settings": {
+        "align_text": "text-center",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--accent",
+        "content_width": 2000,
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 0
+      }
+    },
+    "b2361996-7123-4b69-be1f-9a92dd02ab6b": {
+      "type": "section-logos",
+      "blocks": {
+        "template--16248042258623__b2361996-7123-4b69-be1f-9a92dd02ab6b-logo_image-1": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1_b3ec9ebc-d7d6-4d9e-9d4b-8e52cb45e3d5.png",
+            "link": "",
+            "new_tab": true,
+            "width": 140,
+            "spacing": 50
+          }
+        },
+        "template--16248042258623__b2361996-7123-4b69-be1f-9a92dd02ab6b-logo_image-2": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2_73d30b40-8cb1-4912-90be-8ff5ef2d8842.png",
+            "link": "",
+            "new_tab": true,
+            "width": 140,
+            "spacing": 50
+          }
+        },
+        "template--16248042258623__b2361996-7123-4b69-be1f-9a92dd02ab6b-logo_image-3": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/3_b8bf6dca-2e5e-4f90-b880-2dd6aab79276.png",
+            "link": "",
+            "new_tab": true,
+            "width": 140,
+            "spacing": 50
+          }
+        },
+        "template--16248042258623__b2361996-7123-4b69-be1f-9a92dd02ab6b-logo_image-4": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/4_779447eb-72e2-45ae-9f95-91ab48c8acbe.png",
+            "link": "",
+            "new_tab": true,
+            "width": 140,
+            "spacing": 50
+          }
+        }
+      },
+      "block_order": [
+        "template--16248042258623__b2361996-7123-4b69-be1f-9a92dd02ab6b-logo_image-1",
+        "template--16248042258623__b2361996-7123-4b69-be1f-9a92dd02ab6b-logo_image-2",
+        "template--16248042258623__b2361996-7123-4b69-be1f-9a92dd02ab6b-logo_image-3",
+        "template--16248042258623__b2361996-7123-4b69-be1f-9a92dd02ab6b-logo_image-4"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "",
+        "bg": "palette--light bg--accent",
+        "enable_marquee": true,
+        "marquee_speed": 40,
+        "width": "wrapper--none",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "a3484421-a519-4248-920c-e9e44d1f469c",
+    "988be7b9-1704-4acd-8cb8-e19797b89bf9",
+    "593416c6-d148-4349-82ba-c12a5f74b330",
+    "c80fa15a-d769-4897-8a36-4561085ed74b",
+    "f4325a5c-2623-4ecc-bffb-9ef671d0dbc8",
+    "bdf80137-9010-4f24-b8c6-db026b902467",
+    "7f7b8641-1855-4329-8d04-1242ff33d7fd",
+    "964d26cb-17b2-42d0-b65a-28b2ce0fa919",
+    "163af1f4-61c3-44a2-b974-6dd92fae5885",
+    "b2361996-7123-4b69-be1f-9a92dd02ab6b"
+  ]
+}

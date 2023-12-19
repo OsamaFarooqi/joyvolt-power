@@ -1,0 +1,787 @@
+{
+  "sections": {
+    "main": {
+      "type": "product",
+      "blocks": {
+        "f54c4feb-8975-4beb-aa8f-1e8968c802a0": {
+          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/preview_badge\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+            "text_size": 7,
+            "product_show_cutline": true,
+            "show_rating": true,
+            "show_rating_count": false,
+            "padding_bottom": 20
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "price_size": 6,
+            "padding_bottom": 10
+          }
+        },
+        "94093adc-5c6c-40a1-908a-662d96e8b358": {
+          "type": "discout_code",
+          "settings": {
+            "dis_amount": "66.00",
+            "date_picker": "2023\/08\/30-2023\/09\/14",
+            "discount_codes": "2DAWDAWFG"
+          }
+        },
+        "511ffd51-d25e-4be9-9e70-f363dbe26330": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Frame_5683.png",
+            "image_max_limit": 500,
+            "alignment": "product__block__image--center",
+            "padding_bottom": 20
+          }
+        },
+        "variants": {
+          "type": "variant-selectors",
+          "settings": {
+            "option_space": 30,
+            "padding_bottom": 30
+          }
+        },
+        "subscriptions": {
+          "type": "subscription",
+          "settings": {
+            "subscriptions_enable_selectors": true,
+            "padding_bottom": 20
+          }
+        },
+        "quantity": {
+          "type": "quantity",
+          "settings": {
+            "show_quantity": true,
+            "padding_bottom": 20
+          }
+        },
+        "sizes-remaining": {
+          "type": "size-remaining",
+          "disabled": true,
+          "settings": {
+            "info_page": "",
+            "show_remaining": true,
+            "show_remaining_style": "low",
+            "countdown": 10,
+            "padding_bottom": 0
+          }
+        },
+        "d3d59190-e117-482e-9777-eb4bd01054f9": {
+          "type": "complimentary",
+          "settings": {
+            "title": "Bought Together",
+            "complimentary_list_limit": 2,
+            "padding_bottom": 20
+          }
+        },
+        "buttons": {
+          "type": "add-buttons",
+          "settings": {
+            "enable_payment_button": true,
+            "enable_gift_card_recipient": true,
+            "background_color": "#ffffff",
+            "border_color": "#014ea2",
+            "cart_text_color": "#014ea2",
+            "bg_hover_color": "#014ea2",
+            "hover_border_color": "#014ea2",
+            "hover_cart_text_color": "#ffffff",
+            "background_color_buy": "#014ea2",
+            "border_color_buy": "#014ea2",
+            "cart_text_color_buy": "#ffffff",
+            "bg_hover_color_buy": "#ffffff",
+            "hover_border_color_buy": "#014ea2",
+            "hover_cart_text_color_buy": "#014ea2",
+            "padding_bottom": 20
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+            "style": "none",
+            "enable_description": true,
+            "read_more": true,
+            "icon_description": "",
+            "description_expanded": true,
+            "title_1": "",
+            "icon_name_1": "",
+            "raw_content_1": "<p>This content type will accept <strong>rich text<\/strong> to help with adding styles and links to additional pages or content. Use this to add supplementary information to help your buyers.<\/p>",
+            "title_2": "",
+            "icon_name_2": "",
+            "raw_content_2": "<p>You can use product metafields to assign content to this tab that is unique to an individual product.  Use tabs to highlight unique features, sizing information, or other sales information.<\/p>",
+            "title_3": "",
+            "icon_name_3": "",
+            "raw_content_3": "",
+            "title_4": "",
+            "icon_name_4": "",
+            "raw_content_4": "",
+            "title_5": "",
+            "icon_name_5": "",
+            "raw_content_5": "",
+            "padding_bottom": 20
+          }
+        },
+        "pickup": {
+          "type": "pickup",
+          "disabled": true,
+          "settings": {
+            "padding_bottom": 20
+          }
+        },
+        "sharing": {
+          "type": "sharing",
+          "disabled": true,
+          "settings": {
+            "share_label": "Share",
+            "target_device": "",
+            "padding_bottom": 20
+          }
+        }
+      },
+      "block_order": [
+        "f54c4feb-8975-4beb-aa8f-1e8968c802a0",
+        "title",
+        "price",
+        "94093adc-5c6c-40a1-908a-662d96e8b358",
+        "511ffd51-d25e-4be9-9e70-f363dbe26330",
+        "variants",
+        "subscriptions",
+        "quantity",
+        "sizes-remaining",
+        "d3d59190-e117-482e-9777-eb4bd01054f9",
+        "buttons",
+        "description",
+        "pickup",
+        "sharing"
+      ],
+      "custom_css": [
+        ".btn--add-to-cart {background-color: #04a7cb; color: white !important;}",
+        ".product__price {color: #20b29b; font-weight: 700;}",
+        ".product-clip__image__inner {height: auto;}"
+      ],
+      "settings": {
+        "layout": "thumbnails-below@slides",
+        "image_width": "half",
+        "image_spacing": 10,
+        "align": "left",
+        "bg": "palette--light bg--neutral",
+        "mobile_layout": "carousel",
+        "enable_video_looping": true,
+        "zoom_enable": true,
+        "alt_text_enable": true,
+        "alt_text_icon": "icon-ruler",
+        "product_breadcrumbs_enable": false,
+        "product_breadcrumbs_list": [
+
+        ],
+        "width": "wrapper",
+        "padding_top": 24,
+        "padding_bottom": 36
+      }
+    },
+    "9da4cc68-f957-4244-a1c8-a7a33e94d7bc": {
+      "type": "section-tabs",
+      "blocks": {
+        "template--16240241672383__9da4cc68-f957-4244-a1c8-a7a33e94d7bc-text-2": {
+          "type": "text",
+          "settings": {
+            "enable_review": false,
+            "enable_tech_specs": false,
+            "title": "Overview",
+            "text": "",
+            "overlay_opacity": 15,
+            "overlay_color": "#000000",
+            "enable_overlay_text": false,
+            "kicker_img": "",
+            "title_img": "",
+            "richtext_img": "",
+            "text_align_img": "align--middle-center",
+            "text_color_img": "text--white",
+            "link_text_img": "Shop Now",
+            "link_img": "",
+            "button_color_img": "btn--white",
+            "button_style_img": "btn",
+            "kicker_text": "Image with text",
+            "title_text": "",
+            "text_extended": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+            "text_columns_text": 1,
+            "align_text_text": "text-left",
+            "button_text_text": "",
+            "button_url_text": "",
+            "button_color_text": "btn--neutral",
+            "button_style_text": "btn-text-thick-line",
+            "text_color_text": "text--neutral",
+            "bg_color_text": "",
+            "with_icon_enable": false,
+            "title_icon": "Add a title",
+            "title_icon_one": "Add a title",
+            "title_icon_two": "Add a title",
+            "title_icon_three": "Add a title",
+            "enable_video": true,
+            "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
+          }
+        },
+        "template--16240241672383__9da4cc68-f957-4244-a1c8-a7a33e94d7bc-text-3": {
+          "type": "text",
+          "settings": {
+            "enable_review": false,
+            "enable_tech_specs": true,
+            "title": "Tech Specs",
+            "text": "",
+            "overlay_opacity": 15,
+            "overlay_color": "#000000",
+            "enable_overlay_text": false,
+            "kicker_img": "",
+            "title_img": "",
+            "richtext_img": "",
+            "text_align_img": "align--middle-center",
+            "text_color_img": "text--white",
+            "link_text_img": "Shop Now",
+            "link_img": "",
+            "button_color_img": "btn--white",
+            "button_style_img": "btn",
+            "kicker_text": "Image with text",
+            "title_text": "",
+            "text_extended": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+            "text_columns_text": 1,
+            "align_text_text": "text-left",
+            "button_text_text": "",
+            "button_url_text": "",
+            "button_color_text": "btn--neutral",
+            "button_style_text": "btn-text-thick-line",
+            "text_color_text": "text--neutral",
+            "bg_color_text": "",
+            "with_icon_enable": false,
+            "title_icon": "Add a title",
+            "title_icon_one": "Add a title",
+            "title_icon_two": "Add a title",
+            "title_icon_three": "Add a title",
+            "enable_video": false,
+            "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
+          }
+        },
+        "7a28da45-b926-4af8-8861-1e409c5b7b2a": {
+          "type": "text",
+          "settings": {
+            "enable_review": true,
+            "enable_tech_specs": false,
+            "title": "Reviews",
+            "text": "",
+            "overlay_opacity": 15,
+            "overlay_color": "#000000",
+            "enable_overlay_text": false,
+            "kicker_img": "",
+            "title_img": "",
+            "richtext_img": "",
+            "text_align_img": "align--middle-center",
+            "text_color_img": "text--white",
+            "link_text_img": "Shop Now",
+            "link_img": "",
+            "button_color_img": "btn--white",
+            "button_style_img": "btn",
+            "kicker_text": "Image with text",
+            "title_text": "",
+            "text_extended": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+            "text_columns_text": 1,
+            "align_text_text": "text-left",
+            "button_text_text": "",
+            "button_url_text": "",
+            "button_color_text": "btn--neutral",
+            "button_style_text": "btn-text-thick-line",
+            "text_color_text": "text--neutral",
+            "bg_color_text": "",
+            "with_icon_enable": false,
+            "title_icon": "Add a title",
+            "title_icon_one": "Add a title",
+            "title_icon_two": "Add a title",
+            "title_icon_three": "Add a title",
+            "enable_video": false,
+            "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
+          }
+        }
+      },
+      "block_order": [
+        "template--16240241672383__9da4cc68-f957-4244-a1c8-a7a33e94d7bc-text-2",
+        "template--16240241672383__9da4cc68-f957-4244-a1c8-a7a33e94d7bc-text-3",
+        "7a28da45-b926-4af8-8861-1e409c5b7b2a"
+      ],
+      "settings": {
+        "color_bg": "palette--light bg--neutral",
+        "horizontal_alignment": "center",
+        "inner_color": "#f8f7f6",
+        "inner_content_top": 50,
+        "inner_content_bottom": 50,
+        "width": "wrapper--full",
+        "heading_size": 32,
+        "sub_heading_size": 16,
+        "video_height": 50,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "39193fda-cc19-442e-a84a-c40f901cedb8": {
+      "type": "section-richtext",
+      "blocks": {
+        "template--16240241672383__39193fda-cc19-442e-a84a-c40f901cedb8-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Plug and play home backup power.",
+            "heading_size": 40,
+            "line_height": 56,
+            "heading_size_mob": 36
+          }
+        },
+        "98875324-cae2-4f05-abac-1ae3c7fb68a2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Customize a simple, reliable and sustainable home backup system to keep your essential circuits running when a blackout hits. Ensure peace of mind with the easily integrated whole-home backup kit<\/p>",
+            "text_size": 4,
+            "text_columns": 1
+          }
+        }
+      },
+      "block_order": [
+        "template--16240241672383__39193fda-cc19-442e-a84a-c40f901cedb8-heading-1",
+        "98875324-cae2-4f05-abac-1ae3c7fb68a2"
+      ],
+      "settings": {
+        "align_text": "text-center",
+        "extended_color": "",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "content_width": 850,
+        "width": "wrapper",
+        "padding_top": 64,
+        "padding_bottom": 36
+      }
+    },
+    "0437dd29-c591-419c-998c-787a2576ddd0": {
+      "type": "section-hero",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Image_-_Column_1_c1384c92-fac6-4340-8ea9-78e30629a603.png",
+        "height": "use_image",
+        "overlay_opacity": 15,
+        "overlay_color": "#000000",
+        "enable_overlay_text": false,
+        "preload_image": false,
+        "heading_color": "#ffffff",
+        "description_color": "#ffffff",
+        "content_width": 2000,
+        "content_width_mob": 100,
+        "text_align": "align--middle-center",
+        "vertical_alignment": "center",
+        "horizontal_alignment": "center",
+        "content_alignment": "center",
+        "text_color": "text--white",
+        "color_bg": "hero__content--transparent",
+        "width": "wrapper--none",
+        "padding_top": 0,
+        "padding_bottom": 64
+      }
+    },
+    "3ce9f2ea-28ff-429a-b63a-518bd60beb96": {
+      "type": "section-richtext",
+      "blocks": {
+        "32a18e80-c8cc-4a44-99fe-388b4ee97a6f": {
+          "type": "heading",
+          "settings": {
+            "heading": "Powers Heavy-duty Devices Up To 6000 W",
+            "heading_size": 40,
+            "line_height": 56,
+            "heading_size_mob": 36
+          }
+        },
+        "210951b7-4572-47c8-8276-0aaefac28337": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Expandable to 6000 W, an increase of 30% in rated power, compared to other 2 kWh products on the market. Powers almost all essential devices.<\/p>",
+            "text_size": 4,
+            "text_columns": 1
+          }
+        }
+      },
+      "block_order": [
+        "32a18e80-c8cc-4a44-99fe-388b4ee97a6f",
+        "210951b7-4572-47c8-8276-0aaefac28337"
+      ],
+      "settings": {
+        "align_text": "text-center",
+        "extended_color": "#f8f7f6",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "content_width": 850,
+        "width": "wrapper",
+        "padding_top": 64,
+        "padding_bottom": 32
+      }
+    },
+    "3020daf0-6fc8-4da4-b377-3c876732a46b": {
+      "type": "section-double",
+      "blocks": {
+        "template--16333942259903__3020daf0-6fc8-4da4-b377-3c876732a46b-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Powers_Heavy-duty_Devices_Up_To_6000_W.png",
+            "overlay_opacity": 15,
+            "overlay_color": "#000000",
+            "enable_overlay_text": false,
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "btn"
+          }
+        },
+        "a18cb23f-93a0-4c34-9d4c-414adb283b4b": {
+          "type": "icons",
+          "settings": {
+            "icon_indicator": true,
+            "icon_font_heading": 18,
+            "icon_font_kicker": 18,
+            "icon_font_sub": 18,
+            "sub_icon_color": "#20b29b",
+            "extended_icon_one": "shopify:\/\/shop_images\/Kettle.svg",
+            "extended_title_one": "Kettle",
+            "kicker_title_one": "(850W)",
+            "extended_sub_one": "1.9 Hours",
+            "extended_icon_two": "shopify:\/\/shop_images\/Coffee_Maker.svg",
+            "extended_title_two": "Coffee Maker",
+            "kicker_title_two": "(550W)",
+            "extended_sub_two": "2.8 Hours",
+            "extended_icon_three": "shopify:\/\/shop_images\/Electric_Pressure_Cooker.svg",
+            "extended_title_three": "Electric Pressure Cooker",
+            "kicker_title_three": "(1080W)",
+            "extended_sub_three": "1.7 Hours",
+            "extended_icon_four": "shopify:\/\/shop_images\/Drone.svg",
+            "extended_title_four": "Drone",
+            "kicker_title_four": "(90W)",
+            "extended_sub_four": "45 Times",
+            "extended_icon_five": "shopify:\/\/shop_images\/Portable_Air_Conditioner.svg",
+            "extended_title_five": "Portable Air Conditioner",
+            "kicker_title_five": "(1150W)",
+            "extended_sub_five": "1.9 Hours"
+          }
+        }
+      },
+      "block_order": [
+        "template--16333942259903__3020daf0-6fc8-4da4-b377-3c876732a46b-image-1",
+        "a18cb23f-93a0-4c34-9d4c-414adb283b4b"
+      ],
+      "settings": {
+        "height": "use_screen_three_quarters",
+        "img_position": "right",
+        "border_radius": 16,
+        "brick_gutter": 0,
+        "borders": false,
+        "bg_color": "#f8f7f6",
+        "preload_image": false,
+        "width": "wrapper--full",
+        "img_col_width": 50,
+        "text_col_width": 50,
+        "row_position": "row",
+        "column_position": "column",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "62d2a990-e664-4a7d-b98b-8e45273619e2": {
+      "type": "section-richtext",
+      "blocks": {
+        "template--16333942259903__62d2a990-e664-4a7d-b98b-8e45273619e2-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Tech Specs",
+            "heading_size": 48,
+            "line_height": 56,
+            "heading_size_mob": 36
+          }
+        },
+        "template--16333942259903__62d2a990-e664-4a7d-b98b-8e45273619e2-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Get a concise overview of the key features and details<\/p>",
+            "text_size": 4,
+            "text_columns": 1
+          }
+        }
+      },
+      "block_order": [
+        "template--16333942259903__62d2a990-e664-4a7d-b98b-8e45273619e2-heading-1",
+        "template--16333942259903__62d2a990-e664-4a7d-b98b-8e45273619e2-text-1"
+      ],
+      "settings": {
+        "align_text": "text-center",
+        "extended_color": "",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "content_width": 700,
+        "width": "wrapper",
+        "padding_top": 50,
+        "padding_bottom": 20
+      }
+    },
+    "7d7de66c-78d7-4a59-905b-1e94a3ea795b": {
+      "type": "section-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Tech_Specs.png",
+        "max_width": 100,
+        "x_align": "center",
+        "color_bg": "palette--light bg--neutral",
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "64bbdb15-8b6e-4840-855c-755750c0bd8e": {
+      "type": "tech-specs",
+      "settings": {
+        "padding_top": 0,
+        "padding_bottom": 50
+      }
+    },
+    "169958918271ceb183": {
+      "type": "apps",
+      "blocks": {
+        "1e57fa16-5262-4fb8-b992-d55ea56b7f96": {
+          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/review_widget\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "1e57fa16-5262-4fb8-b992-d55ea56b7f96"
+      ],
+      "disabled": true,
+      "settings": {
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "width": "wrapper",
+        "padding_top": 64,
+        "padding_bottom": 64
+      }
+    },
+    "d60ed993-1970-4845-bcd3-c788fdd2904b": {
+      "type": "section-double",
+      "blocks": {
+        "bdfa002e-1b46-4691-acef-6e71b197c395": {
+          "type": "accordion",
+          "settings": {
+            "accordion_enable": true,
+            "accordion_title": "Frequently Asked Questions",
+            "accordion_title_size": 40,
+            "padding_left": 100,
+            "padding_right": 100,
+            "item_title_size": 24,
+            "item_content_size": 16,
+            "accortion_heading": "Does the product support capacity expansion?",
+            "content": "<p>Yes,Explorer 2000 Plus can be expanded up to 12 kWh and can be expanded up to 24 kWh when paired with a parallel drain plug.<\/p>",
+            "accortion_item_one": "What is the battery type of the product?",
+            "content_item_one": "<p>Share details about your shipping policies, item returns, or customer service.<\/p>",
+            "accortion_item_two": "What is the life expectancy?",
+            "content_item_two": "<p>Share details about your shipping policies, item returns, or customer service.<\/p>"
+          }
+        },
+        "template--16333942259903__d60ed993-1970-4845-bcd3-c788fdd2904b-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/BING3600_88e1fe65-6eaf-42b3-8f06-c0957df13d32.png",
+            "overlay_opacity": 15,
+            "overlay_color": "#000000",
+            "enable_overlay_text": false,
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "btn"
+          }
+        }
+      },
+      "block_order": [
+        "bdfa002e-1b46-4691-acef-6e71b197c395",
+        "template--16333942259903__d60ed993-1970-4845-bcd3-c788fdd2904b-image-1"
+      ],
+      "settings": {
+        "height": "use_screen_three_quarters",
+        "img_position": "bottom",
+        "border_radius": 16,
+        "brick_gutter": 0,
+        "borders": false,
+        "bg_color": "#f8f7f6",
+        "preload_image": false,
+        "width": "wrapper--full",
+        "img_col_width": 50,
+        "text_col_width": 50,
+        "row_position": "row",
+        "column_position": "column-reverse",
+        "padding_top": 64,
+        "padding_bottom": 64
+      }
+    },
+    "d18544fc-3ffa-4d40-a0e1-a03a6af5fb9b": {
+      "type": "section-richtext",
+      "blocks": {
+        "8f1aaa7d-8990-46bb-b082-d0fcedaae42e": {
+          "type": "heading",
+          "settings": {
+            "heading": "You might also like",
+            "heading_size": 40,
+            "line_height": 56,
+            "heading_size_mob": 36
+          }
+        }
+      },
+      "block_order": [
+        "8f1aaa7d-8990-46bb-b082-d0fcedaae42e"
+      ],
+      "settings": {
+        "align_text": "text-center",
+        "extended_color": "",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "content_width": 2000,
+        "width": "wrapper",
+        "padding_top": 50,
+        "padding_bottom": 0
+      }
+    },
+    "related": {
+      "type": "related",
+      "settings": {
+        "heading": "",
+        "bg": "palette--light bg--neutral",
+        "grid_large": 3,
+        "grid_medium": 3,
+        "grid_small": 1.2,
+        "related_products_enable": true,
+        "limit": 6,
+        "product_recommendations_heading": "",
+        "show_recently_viewed": true,
+        "product_recently_limit": 6,
+        "product_recently_minimum": 4,
+        "product_recently_heading": "Recently viewed",
+        "width": "wrapper",
+        "padding_top": 0,
+        "padding_bottom": 50
+      }
+    },
+    "db5ab99c-441f-4101-8351-9ef4b8f2733f": {
+      "type": "section-richtext",
+      "blocks": {
+        "3b2942b0-cf9f-4969-a1eb-e86de92dd1d6": {
+          "type": "text",
+          "settings": {
+            "text": "<p>SHOP THE FEED @joyvolt_official<\/p>",
+            "text_size": 4,
+            "text_columns": 1
+          }
+        }
+      },
+      "block_order": [
+        "3b2942b0-cf9f-4969-a1eb-e86de92dd1d6"
+      ],
+      "settings": {
+        "align_text": "text-center",
+        "extended_color": "",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "content_width": 2000,
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "f040c4ee-1f4a-4bbe-894a-27321e3b6f5a": {
+      "type": "section-gallery",
+      "blocks": {
+        "template--16240241672383__f040c4ee-1f4a-4bbe-894a-27321e3b6f5a-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Image_-_Column_a6acdc63-82a9-41d6-80d6-e4dc68fa2599.png",
+            "link": ""
+          }
+        },
+        "template--16240241672383__f040c4ee-1f4a-4bbe-894a-27321e3b6f5a-image-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Image_-_Column_189ee4f3-fbca-4417-b88d-07df72264ce4.png",
+            "link": ""
+          }
+        },
+        "template--16240241672383__f040c4ee-1f4a-4bbe-894a-27321e3b6f5a-image-3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Image_-_Column_98c1dbc3-f7db-4096-bfc3-45f4d9b9169c.png",
+            "link": ""
+          }
+        },
+        "ff4bfe50-3769-4331-9fbb-bef6a681616b": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Image_-_Column_3536ff82-1ee6-4d61-842e-61cd61d3d398.png",
+            "link": ""
+          }
+        },
+        "fc7b19dd-8b50-4436-9724-7dacfc07d193": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Image_-_Column_a6acdc63-82a9-41d6-80d6-e4dc68fa2599.png",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16240241672383__f040c4ee-1f4a-4bbe-894a-27321e3b6f5a-image-1",
+        "template--16240241672383__f040c4ee-1f4a-4bbe-894a-27321e3b6f5a-image-2",
+        "template--16240241672383__f040c4ee-1f4a-4bbe-894a-27321e3b6f5a-image-3",
+        "ff4bfe50-3769-4331-9fbb-bef6a681616b",
+        "fc7b19dd-8b50-4436-9724-7dacfc07d193"
+      ],
+      "settings": {
+        "scale_image": true,
+        "wh_ratio": 1,
+        "bg": "palette--light bg--neutral",
+        "add_gutters": true,
+        "progress_bar": "mobile",
+        "grid_large": 4,
+        "grid_medium": 2,
+        "grid_mobile": 1.2,
+        "width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "9da4cc68-f957-4244-a1c8-a7a33e94d7bc",
+    "39193fda-cc19-442e-a84a-c40f901cedb8",
+    "0437dd29-c591-419c-998c-787a2576ddd0",
+    "3ce9f2ea-28ff-429a-b63a-518bd60beb96",
+    "3020daf0-6fc8-4da4-b377-3c876732a46b",
+    "62d2a990-e664-4a7d-b98b-8e45273619e2",
+    "7d7de66c-78d7-4a59-905b-1e94a3ea795b",
+    "64bbdb15-8b6e-4840-855c-755750c0bd8e",
+    "169958918271ceb183",
+    "d60ed993-1970-4845-bcd3-c788fdd2904b",
+    "d18544fc-3ffa-4d40-a0e1-a03a6af5fb9b",
+    "related",
+    "db5ab99c-441f-4101-8351-9ef4b8f2733f",
+    "f040c4ee-1f4a-4bbe-894a-27321e3b6f5a"
+  ]
+}

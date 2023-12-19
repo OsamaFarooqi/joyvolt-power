@@ -1,0 +1,246 @@
+{
+  "sections": {
+    "hero": {
+      "type": "section-hero",
+      "blocks": {
+        "contact-block-kicker": {
+          "type": "kicker",
+          "disabled": true,
+          "settings": {
+            "kicker": "<p>Introducing<\/p>",
+            "enable_line": false,
+            "text_size": 3
+          }
+        },
+        "contact-block-heading": {
+          "type": "heading",
+          "settings": {
+            "title": "Get in Touch with Joyvolt",
+            "heading_size": 48,
+            "heading_size_mob": 48,
+            "line_height": 56
+          }
+        },
+        "70ad3dd6-df58-486a-9ee2-0d01149271ca": {
+          "type": "text",
+          "settings": {
+            "richtext": "<p>At Joyvolt, we're passionate about delivering top-tier power solutions that redefine reliability and innovation. Whether you're looking for information about our cutting-edge portable power stations, battery packs, or seeking expert advice on the best power solution for your needs, our team is here to assist you every step of the way.<\/p>",
+            "description_size": 18
+          }
+        }
+      },
+      "block_order": [
+        "contact-block-kicker",
+        "contact-block-heading",
+        "70ad3dd6-df58-486a-9ee2-0d01149271ca"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/3_1_1.jpg",
+        "height": "use_pixels_500",
+        "overlay_opacity": 30,
+        "overlay_color": "#000000",
+        "enable_overlay_text": false,
+        "preload_image": true,
+        "heading_color": "#FFFFFF",
+        "description_color": "#FFFFFF",
+        "content_width": 2000,
+        "content_width_mob": 100,
+        "text_align": "align--middle-left",
+        "vertical_alignment": "center",
+        "horizontal_alignment": "center",
+        "content_alignment": "center",
+        "text_color": "text--white",
+        "color_bg": "hero__content--transparent",
+        "width": "wrapper--none",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "main": {
+      "type": "page",
+      "disabled": true,
+      "settings": {
+        "kicker": "",
+        "kicker_size": 3,
+        "show_title": false,
+        "title_size": 8,
+        "show_content": true,
+        "content_size": 5,
+        "align_text": "text-left",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "width": "wrapper--narrow",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "contact": {
+      "type": "section-contact",
+      "blocks": {
+        "name": {
+          "type": "text",
+          "settings": {
+            "title": "Full Name"
+          }
+        },
+        "email": {
+          "type": "email",
+          "settings": {
+            "title": "Email"
+          }
+        },
+        "message": {
+          "type": "body",
+          "settings": {
+            "title": "Message"
+          }
+        }
+      },
+      "block_order": [
+        "name",
+        "email",
+        "message"
+      ],
+      "settings": {
+        "title": "Contact us",
+        "align_text": "text-left",
+        "button_size": "btn--long",
+        "button_color": "btn--neutral",
+        "button_style": "btn--outline",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "width": "wrapper--narrow",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "ff06ee60-4c0f-441e-b96e-87bf3f86b307": {
+      "type": "section-faq",
+      "blocks": {
+        "template--16333941964991__ff06ee60-4c0f-441e-b96e-87bf3f86b307-text-1": {
+          "type": "text",
+          "settings": {
+            "title": "Have a Question or Need Assistance?",
+            "content": "<p>Our dedicated team is ready to provide you with the guidance and information you need. If you have any queries regarding our products, their features, or compatibility, feel free to reach out. We're committed to ensuring that your power needs are not just met but exceeded.<\/p>"
+          }
+        },
+        "template--16333941964991__ff06ee60-4c0f-441e-b96e-87bf3f86b307-text-2": {
+          "type": "text",
+          "settings": {
+            "title": "Want to Learn More about Our Products?",
+            "content": "<p>If you're eager to explore the unparalleled capabilities of our products showcased in our blog, don't hesitate to contact us for a deeper dive. Our team will be thrilled to walk you through the features, functionalities, and advantages of our power solutions.<\/p>"
+          }
+        },
+        "template--16333941964991__ff06ee60-4c0f-441e-b96e-87bf3f86b307-text-3": {
+          "type": "text",
+          "settings": {
+            "title": "Experience Exceptional Customer Service",
+            "content": "<p>At Joyvolt, customer satisfaction is at the core of what we do. Your experience matters to us, and we're here to ensure that your interaction with our products and services is seamless and gratifying. Expect nothing short of exceptional service when you get in touch with us.<\/p>"
+          }
+        },
+        "595e8577-eda3-408e-9239-f6f36705a73a": {
+          "type": "text",
+          "settings": {
+            "title": "Connect with Us Today",
+            "content": "<p>Ready to power up your life with Joyvolt's innovative solutions? Contact us through the channels below. Our team is excited to assist you on your journey to uncompromised power and reliability.<\/p><ul><li>Email: support@joyvoltpower.com<\/li><li>Live Chat: Available during business hours<\/li><\/ul><p>Join the Joyvolt community today and experience a new level of power solutions tailored to meet your needs<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16333941964991__ff06ee60-4c0f-441e-b96e-87bf3f86b307-text-1",
+        "template--16333941964991__ff06ee60-4c0f-441e-b96e-87bf3f86b307-text-2",
+        "template--16333941964991__ff06ee60-4c0f-441e-b96e-87bf3f86b307-text-3",
+        "595e8577-eda3-408e-9239-f6f36705a73a"
+      ],
+      "settings": {
+        "title": "",
+        "title_align": "text-left",
+        "title_size": 4,
+        "heading_size": 4,
+        "text_size": 3,
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "75e9aae7-1b4d-4feb-a209-d30db59911a9": {
+      "type": "section-announcement",
+      "blocks": {
+        "277b0f93-7097-4406-8bdb-1ef71569cb18": {
+          "type": "custom",
+          "settings": {
+            "text": "<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0631\/0510\/6111\/files\/Image_-_Column_2_0c73b702-e8ee-4ab0-8cfd-f30042b79b3c.png?v=1699582781\" width=100>"
+          }
+        },
+        "template--16240241443007__75e9aae7-1b4d-4feb-a209-d30db59911a9-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>2-Year Warranty<\/p>"
+          }
+        },
+        "f2d4c9f5-f73d-476f-9f4d-acab79c94a4d": {
+          "type": "custom",
+          "settings": {
+            "text": "<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0631\/0510\/6111\/files\/Image_-_Column_1_f83279ec-f754-4408-8f37-c7692b9db44e.png?v=1699582752\" width=100>"
+          }
+        },
+        "a2ff7028-7075-41e9-8ebe-754b19e318f2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>30-Day Money-Back Guarantee<\/p>"
+          }
+        },
+        "3fafde3c-702f-428a-95d3-999320ec6886": {
+          "type": "custom",
+          "settings": {
+            "text": "<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0631\/0510\/6111\/files\/Image_-_Column_ac715bd1-4a0b-4847-8f7b-d7fca15f9cc9.png?v=1699582691\" width=100>"
+          }
+        },
+        "50977a1c-b611-4a4b-a27d-91ca1509633d": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Free & Fast Delivery<\/p>"
+          }
+        },
+        "aa137612-a3c6-44e6-a024-0f9ecc3df04f": {
+          "type": "custom",
+          "settings": {
+            "text": "<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0631\/0510\/6111\/files\/Image_-_Column_2_0c73b702-e8ee-4ab0-8cfd-f30042b79b3c.png?v=1699582781\" width=100>"
+          }
+        },
+        "b13208c5-6d83-45ea-936d-043e6c4774fe": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Lifetime Customer Support<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "277b0f93-7097-4406-8bdb-1ef71569cb18",
+        "template--16240241443007__75e9aae7-1b4d-4feb-a209-d30db59911a9-text-1",
+        "f2d4c9f5-f73d-476f-9f4d-acab79c94a4d",
+        "a2ff7028-7075-41e9-8ebe-754b19e318f2",
+        "3fafde3c-702f-428a-95d3-999320ec6886",
+        "50977a1c-b611-4a4b-a27d-91ca1509633d",
+        "aa137612-a3c6-44e6-a024-0f9ecc3df04f",
+        "b13208c5-6d83-45ea-936d-043e6c4774fe"
+      ],
+      "settings": {
+        "bg_color": "#f8f7f6",
+        "color": "#000000",
+        "font_heading": 24,
+        "padding_top": 18,
+        "padding_bottom": 18
+      }
+    }
+  },
+  "order": [
+    "hero",
+    "main",
+    "contact",
+    "ff06ee60-4c0f-441e-b96e-87bf3f86b307",
+    "75e9aae7-1b4d-4feb-a209-d30db59911a9"
+  ]
+}

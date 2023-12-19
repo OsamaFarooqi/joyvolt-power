@@ -1,0 +1,213 @@
+{%- assign  section_identifier = '#shopify-section-' | append: section.id -%}
+{%- assign  padding_top = section.settings.padding_top | append:'px' -%}
+{%- assign  padding_bottom = section.settings.padding_bottom | append:'px' -%}
+
+{% style %}
+  {{section_identifier}} {
+    padding-top: {{padding_top}};
+    padding-bottom: {{padding_bottom}};
+  }
+  
+  .tech_specs_container {
+    display: block;
+    column-count: 2;
+    column-gap: 24px;
+  }
+  .tech_specs_container .item_specs {
+    margin-bottom: 24px;
+    border-bottom: 1px solid #A8A8A8;
+  }
+  .tech_specs_container h5.specs_title {
+      font-size: 16px;
+      font-weight: 700;
+      line-height: 24px;
+      margin-bottom: 0;
+  }
+  .tech_specs_container .item_specs .specs_content p {
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 24px;
+      padding: 12px 0;
+  }
+
+  @media only screen and (max-width: 600px) {
+     .tech_specs_container {
+        column-count: 1;
+    }
+  }
+ 
+{% endstyle %}
+<section data-section-id="{{ section.id }}">
+  <div class="wrapper  section-padding" data-wrapper>
+    <div class="tech_specs_container">
+       {%- if product.metafields.custom.product_tech_specs.value != blank -%}
+         {%- for product_tech_specs in product.metafields.custom.product_tech_specs.value -%}
+           
+           {%- if product_tech_specs.tech_specs_title and product_tech_specs.tech_specs_content != blank -%}
+               <div class="item_specs">
+                <h5 class="specs_title">{{ product_tech_specs.tech_specs_title }}</h5>
+                <div class="specs_content">{{ product_tech_specs.tech_specs_content | metafield_tag }}</div>
+              </div>
+         {%- endif -%}
+           
+        {%- if product_tech_specs.tech_specs_title_2 and product_tech_specs.tech_specs_content_2 != blank -%}
+              <div class="item_specs">
+                <h5 class="specs_title">{{ product_tech_specs.tech_specs_title_2 }}</h5>
+                <div class="specs_content">{{ product_tech_specs.tech_specs_content_2 | metafield_tag }}</div>
+              </div>
+       {%- endif -%}
+           
+           {%- if product_tech_specs.tech_specs_title_3 and product_tech_specs.tech_specs_content_3 != blank -%}
+             <div class="item_specs">
+                <h5 class="specs_title">{{ product_tech_specs.tech_specs_title_3 }}</h5>
+                <div class="specs_content">{{ product_tech_specs.tech_specs_content_3 | metafield_tag }}</div>
+              </div>
+         {%- endif -%}
+           
+          {%- if product_tech_specs.tech_specs_title_4 and product_tech_specs.tech_specs_content_4 != blank -%}
+             <div class="item_specs">
+                <h5 class="specs_title">{{ product_tech_specs.tech_specs_title_4 }}</h5>
+                <div class="specs_content">{{ product_tech_specs.tech_specs_content_4 | metafield_tag }}</div>
+              </div>
+         {%- endif -%}
+           
+            {%- if product_tech_specs.tech_specs_title_5 and product_tech_specs.tech_specs_content_5 != blank -%}
+             <div class="item_specs">
+                <h5 class="specs_title">{{ product_tech_specs.tech_specs_title_5 }}</h5>
+                <div class="specs_content">{{ product_tech_specs.tech_specs_content_5 | metafield_tag }}</div>
+              </div>
+         {%- endif -%}
+           
+              {%- if product_tech_specs.tech_specs_title_6 and product_tech_specs.tech_specs_content_6 != blank -%}
+             <div class="item_specs">
+                <h5 class="specs_title">{{ product_tech_specs.tech_specs_title_6 }}</h5>
+                <div class="specs_content">{{ product_tech_specs.tech_specs_content_6 | metafield_tag }}</div>
+              </div>
+         {%- endif -%}
+           
+              {%- if product_tech_specs.tech_specs_title_7 and product_tech_specs.tech_specs_content_7 != blank -%}
+             <div class="item_specs">
+                <h5 class="specs_title">{{ product_tech_specs.tech_specs_title_7 }}</h5>
+                <div class="specs_content">{{ product_tech_specs.tech_specs_content_7 | metafield_tag }}</div>
+              </div>
+         {%- endif -%}
+           
+            {%- if product_tech_specs.tech_specs_title_8 and product_tech_specs.tech_specs_content_8 != blank -%}
+             <div class="item_specs">
+                <h5 class="specs_title">{{ product_tech_specs.tech_specs_title_8 }}</h5>
+                <div class="specs_content">{{ product_tech_specs.tech_specs_content_8 | metafield_tag }}</div>
+              </div>
+         {%- endif -%}
+
+        {%- if product_tech_specs.tech_specs_title_9 and product_tech_specs.tech_specs_content_9 != blank -%}
+             <div class="item_specs">
+                <h5 class="specs_title">{{ product_tech_specs.tech_specs_title_9 }}</h5>
+                <div class="specs_content">{{ product_tech_specs.tech_specs_content_9 | metafield_tag }}</div>
+              </div>
+         {%- endif -%}
+
+         {%- if product_tech_specs.tech_specs_title_10 and product_tech_specs.tech_specs_content_10 != blank -%}
+             <div class="item_specs">
+                <h5 class="specs_title">{{ product_tech_specs.tech_specs_title_10 }}</h5>
+                <div class="specs_content">{{ product_tech_specs.tech_specs_content_10 | metafield_tag }}</div>
+              </div>
+         {%- endif -%}
+
+          {%- if product_tech_specs.tech_specs_title_11 and product_tech_specs.tech_specs_content_11 != blank -%}
+             <div class="item_specs">
+                <h5 class="specs_title">{{ product_tech_specs.tech_specs_title_11 }}</h5>
+                <div class="specs_content">{{ product_tech_specs.tech_specs_content_11 | metafield_tag }}</div>
+              </div>
+         {%- endif -%}
+
+         {%- if product_tech_specs.tech_specs_title_12 and product_tech_specs.tech_specs_content_12 != blank -%}
+             <div class="item_specs">
+                <h5 class="specs_title">{{ product_tech_specs.tech_specs_title_12 }}</h5>
+                <div class="specs_content">{{ product_tech_specs.tech_specs_content_12 | metafield_tag }}</div>
+              </div>
+         {%- endif -%}
+
+        {%- if product_tech_specs.tech_specs_title_13 and product_tech_specs.tech_specs_content_13 != blank -%}
+             <div class="item_specs">
+                <h5 class="specs_title">{{ product_tech_specs.tech_specs_title_13 }}</h5>
+                <div class="specs_content">{{ product_tech_specs.tech_specs_content_13 | metafield_tag }}</div>
+              </div>
+         {%- endif -%}
+
+        {%- if product_tech_specs.tech_specs_title_14 and product_tech_specs.tech_specs_content_14 != blank -%}
+             <div class="item_specs">
+                <h5 class="specs_title">{{ product_tech_specs.tech_specs_title_14 }}</h5>
+                <div class="specs_content">{{ product_tech_specs.tech_specs_content_14 | metafield_tag }}</div>
+              </div>
+         {%- endif -%}
+
+        {%- if product_tech_specs.tech_specs_title_15 and product_tech_specs.tech_specs_content_15 != blank -%}
+             <div class="item_specs">
+                <h5 class="specs_title">{{ product_tech_specs.tech_specs_title_15 }}</h5>
+                <div class="specs_content">{{ product_tech_specs.tech_specs_content_15 | metafield_tag }}</div>
+              </div>
+         {%- endif -%}
+
+        {%- if product_tech_specs.tech_specs_title_16 and product_tech_specs.tech_specs_content_16 != blank -%}
+             <div class="item_specs">
+                <h5 class="specs_title">{{ product_tech_specs.tech_specs_title_16 }}</h5>
+                <div class="specs_content">{{ product_tech_specs.tech_specs_content_16 | metafield_tag }}</div>
+              </div>
+         {%- endif -%}
+
+        {%- if product_tech_specs.tech_specs_title_17 and product_tech_specs.tech_specs_content_17 != blank -%}
+             <div class="item_specs">
+                <h5 class="specs_title">{{ product_tech_specs.tech_specs_title_17 }}</h5>
+                <div class="specs_content">{{ product_tech_specs.tech_specs_content_17 | metafield_tag }}</div>
+              </div>
+         {%- endif -%}
+
+        {%- if product_tech_specs.tech_specs_title_18 and product_tech_specs.tech_specs_content_18 != blank -%}
+             <div class="item_specs">
+                <h5 class="specs_title">{{ product_tech_specs.tech_specs_title_18 }}</h5>
+                <div class="specs_content">{{ product_tech_specs.tech_specs_content_18 | metafield_tag }}</div>
+              </div>
+         {%- endif -%}
+           
+         {%- endfor -%}
+      {%- endif -%}
+    </div>
+  </div>
+</section>
+
+{% schema %}
+  {
+    "name": "Tech Specs",
+    "settings": [
+      {
+      "type": "header",
+      "content": "Section spacing"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 180,
+      "step": 2,
+      "unit": "px",
+      "label": "Padding top",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 180,
+      "step": 2,
+      "unit": "px",
+      "label": "Padding bottom",
+      "default": 0
+    }
+    ],
+    "presets": [
+      {
+        "name": "Tech Specs"
+      }
+    ]
+  }
+{% endschema %}

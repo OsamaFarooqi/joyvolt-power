@@ -1,0 +1,525 @@
+{
+  "sections": {
+    "main": {
+      "type": "page",
+      "disabled": true,
+      "settings": {
+        "kicker": "",
+        "kicker_size": 3,
+        "show_title": true,
+        "title_size": 8,
+        "show_content": true,
+        "content_size": 5,
+        "align_text": "text-left",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "a3484421-a519-4248-920c-e9e44d1f469c": {
+      "type": "section-hero",
+      "blocks": {
+        "1934877e-693e-4213-904f-8c79f252b4d9": {
+          "type": "kicker",
+          "settings": {
+            "kicker": "Elevate Your Earnings and Impact",
+            "enable_line": false,
+            "text_size": 4
+          }
+        },
+        "template--16244449476799__a3484421-a519-4248-920c-e9e44d1f469c-heading-1": {
+          "type": "heading",
+          "settings": {
+            "title": "Partner with Joyvolt",
+            "heading_size": 48,
+            "heading_size_mob": 48,
+            "line_height": 56
+          }
+        },
+        "ff88590f-9029-432b-aa5e-8c954f06657f": {
+          "type": "text",
+          "settings": {
+            "richtext": "<p>Joining Joyvolt's Affiliate Program isn't just about promoting power solutions; it's about unlocking a world of earning potential and impact. As an affiliate partner, you'll enjoy a range of exclusive benefits that make partnering with Joyvolt an unparalleled opportunity.<\/p>",
+            "description_size": 18
+          }
+        },
+        "8eb39992-f4fe-4a89-b00c-44f11e80a24f": {
+          "type": "button",
+          "settings": {
+            "btn_size": 16,
+            "link_text_1": "Become an Affiliate Now",
+            "link_1": "https:\/\/joyvolt-power.goaffpro.com\/",
+            "button_size_1": "btn--medium",
+            "button_style_1": "btn",
+            "button_color_1": "btn--primary",
+            "link_text_2": "",
+            "link_2": "",
+            "button_size_2": "btn--long",
+            "button_style_2": "btn-text-thick-line",
+            "button_color_2": "btn--white",
+            "link_text_3": "",
+            "link_3": "",
+            "button_size_3": "btn--long",
+            "button_style_3": "btn-text-thick-line",
+            "button_color_3": "btn--white"
+          }
+        }
+      },
+      "block_order": [
+        "1934877e-693e-4213-904f-8c79f252b4d9",
+        "template--16244449476799__a3484421-a519-4248-920c-e9e44d1f469c-heading-1",
+        "ff88590f-9029-432b-aa5e-8c954f06657f",
+        "8eb39992-f4fe-4a89-b00c-44f11e80a24f"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/IMG_0553_1.jpg",
+        "height": "use_screen_two_thirds",
+        "overlay_opacity": 45,
+        "overlay_color": "#000000",
+        "enable_overlay_text": false,
+        "preload_image": false,
+        "heading_color": "#FFFFFF",
+        "description_color": "#FFFFFF",
+        "content_width": 2000,
+        "content_width_mob": 100,
+        "text_align": "align--middle-center",
+        "vertical_alignment": "center",
+        "horizontal_alignment": "center",
+        "content_alignment": "center",
+        "text_color": "text--white",
+        "color_bg": "hero__content--transparent",
+        "width": "wrapper--none",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "9cf1a787-82df-4c8c-ad90-7643bec1095f": {
+      "type": "section-double",
+      "blocks": {
+        "template--16244449476799__9cf1a787-82df-4c8c-ad90-7643bec1095f-text-1": {
+          "type": "text",
+          "settings": {
+            "kicker": "",
+            "title": "Why Partner With Us?",
+            "text": "<ul><li>Generous Commission: Earn a competitive 5% commission on every successful sale driven through your unique affiliate link, maximizing your earning potential with each referral.<\/li><li>High Average Price Point: With an average product price exceeding $1000, you have the opportunity to earn substantial commissions on each sale you facilitate.<\/li><li>Long Cookie Duration: Benefit from a 30-day cookie duration, ensuring that you receive credit for sales generated within a month of the initial referral, allowing you ample time to earn commissions from your audience's purchases.<\/li><\/ul>",
+            "heading_size": 32,
+            "sub_heading_size": 16,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "button_text": "Join Now",
+            "button_url": "https:\/\/joyvolt-power.goaffpro.com\/",
+            "button_color": "btn--primary",
+            "button_style": "btn btn--long",
+            "text_color": "text--neutral",
+            "bg_color": "",
+            "with_icon_enable": false,
+            "icon_alt": "shopify:\/\/shop_images\/Kettle.svg",
+            "title_icon": "Add a title",
+            "title_icon_one": "Add a title",
+            "title_icon_two": "Add a title",
+            "title_icon_three": "Add a title"
+          }
+        },
+        "template--16244449476799__9cf1a787-82df-4c8c-ad90-7643bec1095f-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/9.jpg",
+            "overlay_opacity": 15,
+            "overlay_color": "#000000",
+            "enable_overlay_text": false,
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "btn"
+          }
+        }
+      },
+      "block_order": [
+        "template--16244449476799__9cf1a787-82df-4c8c-ad90-7643bec1095f-text-1",
+        "template--16244449476799__9cf1a787-82df-4c8c-ad90-7643bec1095f-image-1"
+      ],
+      "settings": {
+        "height": "use_screen_one_half",
+        "img_position": "center",
+        "border_radius": 0,
+        "brick_gutter": 0,
+        "borders": false,
+        "bg_color": "#ffffff",
+        "preload_image": false,
+        "width": "wrapper",
+        "img_col_width": 60,
+        "text_col_width": 40,
+        "row_position": "row",
+        "column_position": "column-reverse",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "031d6808-64ec-4eff-9179-e624b26c3e19": {
+      "type": "section-double",
+      "blocks": {
+        "f747842c-621a-4117-b6cb-cc5b29e99796": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/SMART_HOME_PANEL.png",
+            "overlay_opacity": 15,
+            "overlay_color": "#000000",
+            "enable_overlay_text": false,
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "btn"
+          }
+        },
+        "e15ddcd9-c7c3-4a3e-89c2-c9122c84d60a": {
+          "type": "text",
+          "settings": {
+            "kicker": "",
+            "title": "The Power of Our Products",
+            "text": "<p>At Joyvolt, we pride ourselves on offering top-tier power solutions that redefine reliability and innovation. By partnering with us, you'll be representing a brand known for cutting-edge portable power stations, battery packs, and more, giving your audience access to products they can trust.<\/p>",
+            "heading_size": 32,
+            "sub_heading_size": 16,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--primary",
+            "button_style": "btn btn--long",
+            "text_color": "text--neutral",
+            "bg_color": "",
+            "with_icon_enable": false,
+            "icon_alt": "shopify:\/\/shop_images\/Kettle.svg",
+            "title_icon": "Add a title",
+            "title_icon_one": "Add a title",
+            "title_icon_two": "Add a title",
+            "title_icon_three": "Add a title"
+          }
+        }
+      },
+      "block_order": [
+        "f747842c-621a-4117-b6cb-cc5b29e99796",
+        "e15ddcd9-c7c3-4a3e-89c2-c9122c84d60a"
+      ],
+      "settings": {
+        "height": "use_screen_one_half",
+        "img_position": "center",
+        "border_radius": 0,
+        "brick_gutter": 0,
+        "borders": false,
+        "bg_color": "#ffffff",
+        "preload_image": false,
+        "width": "wrapper",
+        "img_col_width": 60,
+        "text_col_width": 40,
+        "row_position": "row",
+        "column_position": "column-reverse",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "c3b00a2b-8196-4d49-b63c-b1ce7125055c": {
+      "type": "section-icons",
+      "blocks": {
+        "template--16244449476799__c3b00a2b-8196-4d49-b63c-b1ce7125055c-icon_block-1": {
+          "type": "icon_block",
+          "settings": {
+            "icon_name": "icon-dollar",
+            "icon_color": "#aaaaaa",
+            "title": "Affiliates Benefits",
+            "text": "<ul><li>Earn up to a generous 20% commission on every sale.<\/li><li>Stay in the loop with our monthly newsletter.<\/li><li>Enjoy real-time reporting and sales tracking for full transparency<\/li><li>Along with the benefit of 30-day tracking cookies.<\/li><\/ul>",
+            "link_text": "",
+            "link_url": ""
+          }
+        },
+        "template--16244449476799__c3b00a2b-8196-4d49-b63c-b1ce7125055c-icon_block-2": {
+          "type": "icon_block",
+          "settings": {
+            "icon_name": "icon-star-rating",
+            "icon_color": "#aaaaaa",
+            "title": "Benefits for Your Customers",
+            "text": "<ul><li>Diverse product styles available<\/li><li>Affordable prices with high quality<\/li><li>24-hour prompt replies<\/li><li>Instant notifications for the latest website offers<\/li><\/ul>",
+            "link_text": "",
+            "link_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16244449476799__c3b00a2b-8196-4d49-b63c-b1ce7125055c-icon_block-1",
+        "template--16244449476799__c3b00a2b-8196-4d49-b63c-b1ce7125055c-icon_block-2"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "",
+        "bg": "palette--light bg--accent",
+        "icon_size": "icon--medium",
+        "icon_alignment": "icon--top",
+        "layout": "grid--stacked",
+        "align_text": "text-left",
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "0d151b1b-c492-4b60-b799-8c46d1e7318b": {
+      "type": "section-icons",
+      "blocks": {
+        "ed7e6563-1317-4b9a-bfa5-a263d887d03d": {
+          "type": "icon_block",
+          "settings": {
+            "icon_name": "icon-basket-return",
+            "icon_alt": "shopify:\/\/shop_images\/1_67a35142-a4b6-41ad-89de-40c630a1557d.png",
+            "icon_color": "#aaaaaa",
+            "title": "Simple Sign-Up",
+            "text": "<p>Register on ShareASale or our partnered affiliate platforms to get started.<\/p>",
+            "link_text": "",
+            "link_url": ""
+          }
+        },
+        "7d8d1923-5394-44e9-a171-84bbc759fbab": {
+          "type": "icon_block",
+          "settings": {
+            "icon_name": "icon-shipment-world",
+            "icon_alt": "shopify:\/\/shop_images\/2.png",
+            "icon_color": "#aaaaaa",
+            "title": "Receive Your Unique Link",
+            "text": "<p>Upon approval, access your unique affiliate link to track referrals from your audience.<\/p>",
+            "link_text": "",
+            "link_url": ""
+          }
+        },
+        "f70c3813-c07f-46c4-961b-865e08b375c3": {
+          "type": "icon_block",
+          "settings": {
+            "icon_name": "icon-leaf",
+            "icon_alt": "shopify:\/\/shop_images\/3.png",
+            "icon_color": "#aaaaaa",
+            "title": "Promote Joyvolt",
+            "text": "<p>Share your affiliate link across your platforms, encouraging your audience to explore and purchase our high-quality power solutions.<\/p>",
+            "link_text": "",
+            "link_url": ""
+          }
+        },
+        "921c967a-ac16-4766-9795-9f65bf27c4a3": {
+          "type": "icon_block",
+          "settings": {
+            "icon_name": "icon-leaf",
+            "icon_alt": "shopify:\/\/shop_images\/joyvolt_images_a1393e47-7422-46b3-aea4-6acf234d11df.png",
+            "icon_color": "#aaaaaa",
+            "title": "Earn Substantial Commissions",
+            "text": "<p>Every time a sale is made through your link, enjoy a 5% commission on high-value products, maximizing your earnings.<\/p>",
+            "link_text": "",
+            "link_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "ed7e6563-1317-4b9a-bfa5-a263d887d03d",
+        "7d8d1923-5394-44e9-a171-84bbc759fbab",
+        "f70c3813-c07f-46c4-961b-865e08b375c3",
+        "921c967a-ac16-4766-9795-9f65bf27c4a3"
+      ],
+      "settings": {
+        "title": "How it Works",
+        "bg": "palette--dark bg--invert",
+        "icon_size": "icon--large",
+        "icon_alignment": "icon--top",
+        "layout": "grid--stacked",
+        "align_text": "text-center",
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "ecc2179f-bd7e-40ce-990c-a9b177f18053": {
+      "type": "section-faq",
+      "blocks": {
+        "template--16244449476799__ecc2179f-bd7e-40ce-990c-a9b177f18053-text-1": {
+          "type": "text",
+          "settings": {
+            "title": "How can I join the Joyvolt Affiliate Program?",
+            "content": "<p>To join, simply fill out our quick online application with your business details. Once submitted, your application will be reviewed, and you'll receive a response within 2-3 business days.<\/p>"
+          }
+        },
+        "template--16244449476799__ecc2179f-bd7e-40ce-990c-a9b177f18053-text-2": {
+          "type": "text",
+          "settings": {
+            "title": "How are commissions calculated, and when are payouts made?",
+            "content": "<p>Commissions are calculated based on the total sales generated through your affiliate links. Payouts are typically processed on a monthly basis, providing you with a transparent and reliable compensation structure.<\/p>"
+          }
+        },
+        "template--16244449476799__ecc2179f-bd7e-40ce-990c-a9b177f18053-text-3": {
+          "type": "text",
+          "settings": {
+            "title": "Can I track my affiliate performance and earnings in real-time?",
+            "content": "<p>Yes, absolutely! Joyvolt provides affiliates with access to a real-time reporting dashboard. This feature allows you to track your sales, monitor performance, and stay informed about your commission earnings, ensuring complete transparency throughout your affiliate journey.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16244449476799__ecc2179f-bd7e-40ce-990c-a9b177f18053-text-1",
+        "template--16244449476799__ecc2179f-bd7e-40ce-990c-a9b177f18053-text-2",
+        "template--16244449476799__ecc2179f-bd7e-40ce-990c-a9b177f18053-text-3"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "Frequently Asked Questions",
+        "title_align": "text-left",
+        "title_size": 5,
+        "heading_size": 4,
+        "text_size": 4,
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--accent",
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "7c200b0f-6afb-4a72-b627-01c07890437a": {
+      "type": "section-richtext",
+      "blocks": {
+        "template--16333941899455__7c200b0f-6afb-4a72-b627-01c07890437a-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Apply Now and Make an Impact",
+            "heading_size": 32,
+            "line_height": 56,
+            "heading_size_mob": 48
+          }
+        },
+        "template--16333941899455__7c200b0f-6afb-4a72-b627-01c07890437a-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Ready to power up your earnings and make an impact with Joyvolt's Affiliate Program? Sign up today through ShareASale or our partnered affiliate platforms to start promoting industry-leading power solutions and earn substantial commissions.<\/p>",
+            "text_size": 4,
+            "text_columns": 1
+          }
+        },
+        "template--16333941899455__7c200b0f-6afb-4a72-b627-01c07890437a-button-1": {
+          "type": "button",
+          "settings": {
+            "link_text_1": "Join Now",
+            "link_1": "https:\/\/joyvolt-power.goaffpro.com\/",
+            "button_size_1": "btn--medium",
+            "button_style_1": "btn",
+            "button_color_1": "btn--primary",
+            "link_text_2": "",
+            "link_2": "",
+            "button_size_2": "btn--medium",
+            "button_style_2": "btn-text-thick-line",
+            "button_color_2": "btn--neutral",
+            "link_text_3": "",
+            "link_3": "",
+            "button_size_3": "btn--long",
+            "button_style_3": "btn-text-thick-line",
+            "button_color_3": "btn--white"
+          }
+        }
+      },
+      "block_order": [
+        "template--16333941899455__7c200b0f-6afb-4a72-b627-01c07890437a-heading-1",
+        "template--16333941899455__7c200b0f-6afb-4a72-b627-01c07890437a-text-1",
+        "template--16333941899455__7c200b0f-6afb-4a72-b627-01c07890437a-button-1"
+      ],
+      "settings": {
+        "align_text": "text-center",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "content_width": 2000,
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "5d1c7dd1-8dbc-4411-8f9a-f13e7735ac49": {
+      "type": "section-hero",
+      "blocks": {
+        "template--16244449476799__5d1c7dd1-8dbc-4411-8f9a-f13e7735ac49-heading-1": {
+          "type": "heading",
+          "settings": {
+            "title": "Partner with Us in Empowering Customers",
+            "heading_size": 32,
+            "heading_size_mob": 48,
+            "line_height": 56
+          }
+        },
+        "6df82003-7586-417e-b44b-d9a181d63966": {
+          "type": "text",
+          "settings": {
+            "richtext": "<p>Join our affiliate program and become a part of the journey to empower customers worldwide with innovative and reliable power solutions. Together, let's amplify earnings while bringing the excellence of Joyvolt to audiences seeking quality and innovation<\/p>",
+            "description_size": 18
+          }
+        },
+        "template--16244449476799__5d1c7dd1-8dbc-4411-8f9a-f13e7735ac49-button-1": {
+          "type": "button",
+          "settings": {
+            "btn_size": 16,
+            "link_text_1": "Contact Us",
+            "link_1": "",
+            "button_size_1": "btn--medium",
+            "button_style_1": "btn",
+            "button_color_1": "btn--primary",
+            "link_text_2": "",
+            "link_2": "",
+            "button_size_2": "btn--medium",
+            "button_style_2": "btn-text-thick-line",
+            "button_color_2": "btn--primary",
+            "link_text_3": "",
+            "link_3": "",
+            "button_size_3": "btn--long",
+            "button_style_3": "btn-text-thick-line",
+            "button_color_3": "btn--white"
+          }
+        }
+      },
+      "block_order": [
+        "template--16244449476799__5d1c7dd1-8dbc-4411-8f9a-f13e7735ac49-heading-1",
+        "6df82003-7586-417e-b44b-d9a181d63966",
+        "template--16244449476799__5d1c7dd1-8dbc-4411-8f9a-f13e7735ac49-button-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/11_1.jpg",
+        "height": "use_screen_two_thirds",
+        "overlay_opacity": 50,
+        "overlay_color": "#000000",
+        "enable_overlay_text": false,
+        "preload_image": false,
+        "heading_color": "#FFFFFF",
+        "description_color": "#FFFFFF",
+        "content_width": 2000,
+        "content_width_mob": 100,
+        "text_align": "align--middle-center",
+        "vertical_alignment": "center",
+        "horizontal_alignment": "center",
+        "content_alignment": "center",
+        "text_color": "text--white",
+        "color_bg": "hero__content--transparent",
+        "width": "wrapper",
+        "padding_top": 44,
+        "padding_bottom": 44
+      }
+    }
+  },
+  "order": [
+    "main",
+    "a3484421-a519-4248-920c-e9e44d1f469c",
+    "9cf1a787-82df-4c8c-ad90-7643bec1095f",
+    "031d6808-64ec-4eff-9179-e624b26c3e19",
+    "c3b00a2b-8196-4d49-b63c-b1ce7125055c",
+    "0d151b1b-c492-4b60-b799-8c46d1e7318b",
+    "ecc2179f-bd7e-40ce-990c-a9b177f18053",
+    "7c200b0f-6afb-4a72-b627-01c07890437a",
+    "5d1c7dd1-8dbc-4411-8f9a-f13e7735ac49"
+  ]
+}

@@ -1,0 +1,128 @@
+{
+  "sections": {
+    "main": {
+      "type": "page",
+      "disabled": true,
+      "settings": {
+        "kicker": "",
+        "kicker_size": 3,
+        "show_title": false,
+        "title_size": 8,
+        "show_content": true,
+        "content_size": 5,
+        "align_text": "text-left",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "width": "wrapper--narrow",
+        "padding_top": 64,
+        "padding_bottom": 32
+      }
+    },
+    "c5372aa2-3357-466a-8ade-835a29a053ad": {
+      "type": "section-richtext",
+      "blocks": {
+        "template--16333942030527__c5372aa2-3357-466a-8ade-835a29a053ad-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Frequently Asked Questions (FAQ)",
+            "heading_size": 48,
+            "line_height": 56,
+            "heading_size_mob": 48
+          }
+        }
+      },
+      "block_order": [
+        "template--16333942030527__c5372aa2-3357-466a-8ade-835a29a053ad-heading-1"
+      ],
+      "settings": {
+        "align_text": "text-center",
+        "text_color": "text--white",
+        "bg": "palette--dark bg--invert--accent",
+        "content_width": 2000,
+        "width": "wrapper",
+        "padding_top": 102,
+        "padding_bottom": 102
+      }
+    },
+    "accordion-section-1": {
+      "type": "section-faq",
+      "blocks": {
+        "accordion_block_1_1": {
+          "type": "text",
+          "settings": {
+            "title": "What sets Joyvolt's Bingo3000 portable power station apart from others in the market?",
+            "content": "<p>The Bingo3000 is a powerhouse, boasting 1894Wh with 3000W AC power output. Equipped with Turbo Leap technology, it can surge up to an impressive 5400W for maximum device power, ensuring reliable performance during outages.<\/p>"
+          }
+        },
+        "accordion_block_1_2": {
+          "type": "text",
+          "settings": {
+            "title": "How does Joyvolt ensure continuous power supply during extended outages or off-grid scenarios?",
+            "content": "<p>Through our paralleling capability, users can link multiple Bingo3600 units, boosting AC output from 3600W to an impressive 14,400W, guaranteeing sustained power for extended periods.<\/p>"
+          }
+        },
+        "accordion_block_1_3": {
+          "type": "text",
+          "settings": {
+            "title": "What's unique about the EXB2000 and EXB3000 battery packs?",
+            "content": "<p>These battery packs offer exceptional portability, weighing only 18KG while packing a 3kWh capacity. Additionally, their compatibility with 99% of power devices in the market makes them versatile and convenient.<\/p>"
+          }
+        },
+        "accordion_block_1_4": {
+          "type": "text",
+          "settings": {
+            "title": "How does Joyvolt ensure connectivity and control with their power solutions?",
+            "content": "<p>Joyvolt integrates Wi-Fi and 4G capabilities in their power stations, allowing remote monitoring and management via a user-friendly app, ensuring users stay connected and informed even in emergencies.<\/p>"
+          }
+        },
+        "c084a9a9-59c1-42ab-8ecd-996ab214426f": {
+          "type": "text",
+          "settings": {
+            "title": "What safety measures are incorporated into Joyvolt's products?",
+            "content": "<p>Our products feature EV-grade Semi-Solid state batteries, undergo gun-shot tests without emitting fire or smoke. Machine learning predicts potential issues, enabling proactive maintenance, and real-time monitoring via the app enhances safety.<\/p>"
+          }
+        },
+        "329ee793-9eac-4a96-8ccd-b43ab64da716": {
+          "type": "text",
+          "settings": {
+            "title": "Can Joyvolt's power stations support different voltage requirements and EV charging?",
+            "content": "<p>Yes, our stations offer dual voltage support (120V and 240V) for adaptability. Additionally, they feature two-way EV charging, serving as both power sources and chargers for electric vehicles.<\/p>"
+          }
+        },
+        "c65d203f-e1b0-4713-a830-245164d3e852": {
+          "type": "text",
+          "settings": {
+            "title": "What benefits does Joyvolt offer through its Affiliate Program?",
+            "content": "<p>Joyvolt's Affiliate Program offers a competitive 5% commission on each sale, a 30-day cookie duration for referral tracking, and the opportunity to earn substantial commissions due to our products' average price point exceeding $1000<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "accordion_block_1_1",
+        "accordion_block_1_2",
+        "accordion_block_1_3",
+        "accordion_block_1_4",
+        "c084a9a9-59c1-42ab-8ecd-996ab214426f",
+        "329ee793-9eac-4a96-8ccd-b43ab64da716",
+        "c65d203f-e1b0-4713-a830-245164d3e852"
+      ],
+      "settings": {
+        "title": "",
+        "title_align": "text-left",
+        "title_size": 4,
+        "heading_size": 4,
+        "text_size": 3,
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "width": "wrapper",
+        "padding_top": 64,
+        "padding_bottom": 64
+      }
+    }
+  },
+  "order": [
+    "main",
+    "c5372aa2-3357-466a-8ade-835a29a053ad",
+    "accordion-section-1"
+  ]
+}

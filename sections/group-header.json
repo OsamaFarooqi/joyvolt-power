@@ -1,0 +1,165 @@
+{
+  "type": "header",
+  "name": "Header",
+  "sections": {
+    "announcement": {
+      "type": "announcement",
+      "blocks": {
+        "announce_text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Caring for people's lives through the power of meaningful innovation.<\/p>",
+            "target_url_enabled": false,
+            "target_url": "",
+            "target_referrer_enabled": false,
+            "target_referrer": "",
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        },
+        "announce_shipping": {
+          "type": "message",
+          "disabled": true,
+          "settings": {
+            "message": "Spend ||amount|| more for free shipping",
+            "target_url_enabled": false,
+            "target_url": "",
+            "target_referrer_enabled": false,
+            "target_referrer": "",
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        }
+      },
+      "block_order": [
+        "announce_text",
+        "announce_shipping"
+      ],
+      "custom_css": [
+        ".announcement {background: linear-gradient( 90deg, #20b29b 0%, #04a7cb 52.08%, #014ea2 81.77% );}"
+      ],
+      "settings": {
+        "text_size": 3,
+        "layout": "slider",
+        "speed": 5,
+        "padding_top": 4,
+        "padding_bottom": 4
+      }
+    },
+    "header": {
+      "type": "header",
+      "blocks": {
+        "header-block-toolbar": {
+          "type": "toolbar",
+          "disabled": true,
+          "settings": {
+            "announcement_text": "<p>This is announcement <em><strong>richtext<\/strong><\/em> from an announcement block<\/p>",
+            "secondary_linklist": "",
+            "show_menu_desktop": true,
+            "show_menu_mobile": true,
+            "show_locale_desktop": true,
+            "show_locale_mobile": true,
+            "show_currency_desktop": true,
+            "show_currency_mobile": true
+          }
+        },
+        "553d3265-0959-43c2-b5e6-2cbd98975735": {
+          "type": "collection",
+          "settings": {
+            "position": "1",
+            "collection": "portable-power-station",
+            "limit": 2,
+            "wide_element": false,
+            "display": "all"
+          }
+        },
+        "a47c3793-bdf9-4903-b5a3-5db6492455c6": {
+          "type": "collection",
+          "settings": {
+            "position": "1",
+            "collection": "battery-pack",
+            "limit": 5,
+            "wide_element": false,
+            "display": "all"
+          }
+        },
+        "e7a84f1d-deb7-4e07-a4c5-8274d8545796": {
+          "type": "collection",
+          "settings": {
+            "position": "1",
+            "collection": "solar-panel",
+            "limit": 2,
+            "wide_element": false,
+            "display": "all"
+          }
+        },
+        "9fba2509-2ed6-49f0-8bc0-31fa85387944": {
+          "type": "collection",
+          "settings": {
+            "position": "1",
+            "collection": "smart-generator",
+            "limit": 2,
+            "wide_element": false,
+            "display": "all"
+          }
+        },
+        "cdcadb22-c2df-40f9-b524-93fb42c81559": {
+          "type": "collection",
+          "settings": {
+            "position": "1",
+            "collection": "accessories",
+            "limit": 2,
+            "wide_element": false,
+            "display": "all"
+          }
+        },
+        "6f34b35c-e52d-4d7f-80ce-991715696e47": {
+          "type": "collection",
+          "settings": {
+            "position": "1",
+            "collection": "smart-home-panel",
+            "limit": 2,
+            "wide_element": false,
+            "display": "all"
+          }
+        }
+      },
+      "block_order": [
+        "header-block-toolbar",
+        "553d3265-0959-43c2-b5e6-2cbd98975735",
+        "a47c3793-bdf9-4903-b5a3-5db6492455c6",
+        "e7a84f1d-deb7-4e07-a4c5-8274d8545796",
+        "9fba2509-2ed6-49f0-8bc0-31fa85387944",
+        "cdcadb22-c2df-40f9-b524-93fb42c81559",
+        "6f34b35c-e52d-4d7f-80ce-991715696e47"
+      ],
+      "settings": {
+        "header_style": "menu_center",
+        "logo": "shopify:\/\/shop_images\/Joyvolt.png",
+        "logo_max_limit": 120,
+        "logo_padding": 30,
+        "logo_text_size": 5,
+        "main_menu_linklist": "main-menu",
+        "mobile_menu_linklist": "",
+        "full_width": true,
+        "underline_current": false,
+        "enable_search": true,
+        "enable_account": true,
+        "use_icons": true,
+        "header_sticky": "static",
+        "transparent_home": false,
+        "transparent_collection": false,
+        "transparent_blog": false,
+        "transparent_article": false,
+        "transparent_page": false,
+        "transparent_text_color": "#ffffff",
+        "show_collection_images": false,
+        "collection_wh_ratio": 1.5
+      }
+    }
+  },
+  "order": [
+    "announcement",
+    "header"
+  ]
+}

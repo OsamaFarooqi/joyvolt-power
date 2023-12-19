@@ -1,0 +1,109 @@
+{
+  "type": "footer",
+  "name": "Footer",
+  "sections": {
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "6ef87fc9-fad8-4e4f-8a72-78cdbe5b7e71": {
+          "type": "text",
+          "settings": {
+            "title": "Visit Us",
+            "text": "<p>Redin Tech Pte.Ltd<\/p><p>6 Raffles Quay, #14-06 Singapore(04580)<\/p>",
+            "text_size": 4,
+            "accordion_default": "accordion-is-open"
+          }
+        },
+        "linklist-1": {
+          "type": "linklist",
+          "settings": {
+            "linklist": "shop",
+            "title": "Shop",
+            "accordion_default": ""
+          }
+        },
+        "linklist-2": {
+          "type": "linklist",
+          "settings": {
+            "linklist": "customer-information",
+            "title": "Support",
+            "accordion_default": ""
+          }
+        },
+        "2a5d7b77-87e4-4aab-b9df-90908a6164e3": {
+          "type": "linklist",
+          "settings": {
+            "linklist": "about",
+            "title": "",
+            "accordion_default": ""
+          }
+        },
+        "social": {
+          "type": "social",
+          "settings": {
+            "title": "Stay in touch.",
+            "title_size": 48,
+            "text_size": 8,
+            "enable_follow_on_shop": true
+          }
+        },
+        "newsletter": {
+          "type": "newsletter",
+          "settings": {
+            "show_image": false,
+            "wh_ratio": 2,
+            "newsletter_enable": true,
+            "recaptcha_enabled": false,
+            "kicker": "",
+            "heading": "Exclusive offers straight to your inbox & Get the latest news",
+            "richtext": "<p>Be the first to know about new collections and exclusive offers.<\/p>",
+            "news_heading": 40,
+            "news_description": 16,
+            "text_size": 4,
+            "background_color": "#191919",
+            "text_color_value": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "6ef87fc9-fad8-4e4f-8a72-78cdbe5b7e71",
+        "linklist-1",
+        "linklist-2",
+        "2a5d7b77-87e4-4aab-b9df-90908a6164e3",
+        "social",
+        "newsletter"
+      ],
+      "settings": {
+        "menu_position": "left",
+        "footer_image": "shopify:\/\/shop_images\/footer-logo-v2.png",
+        "logo_max_limit": 145,
+        "text_color": "#ffffff",
+        "background_color": "#191919",
+        "label_size": 18,
+        "content_size": 16,
+        "width": "wrapper--full",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "subfooter": {
+      "type": "subfooter",
+      "settings": {
+        "footer_secondary_linklist": "footer",
+        "footer_payment_enable": true,
+        "footer_social_enable": false,
+        "show_locale_selector": true,
+        "show_currency_selector": true,
+        "width": "wrapper--full",
+        "background_color": "#000000",
+        "text_color_value": "#ffffff",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "footer",
+    "subfooter"
+  ]
+}

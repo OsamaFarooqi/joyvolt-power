@@ -1,0 +1,1259 @@
+{
+  "sections": {
+    "hero": {
+      "type": "section-hero",
+      "blocks": {
+        "banner-heading": {
+          "type": "heading",
+          "settings": {
+            "title": "The best way to stay <br> happy for a day camping",
+            "heading_size": 40,
+            "heading_size_mob": 36,
+            "line_height": 36
+          }
+        },
+        "banner-button": {
+          "type": "button",
+          "settings": {
+            "btn_size": 16,
+            "link_text_1": "Shop Now",
+            "link_1": "shopify:\/\/collections\/power-stations",
+            "button_size_1": "btn--medium",
+            "button_style_1": "btn",
+            "button_color_1": "btn--primary",
+            "link_text_2": "",
+            "link_2": "",
+            "button_size_2": "btn--long",
+            "button_style_2": "btn-text-thick-line",
+            "button_color_2": "btn--neutral",
+            "link_text_3": "",
+            "link_3": "",
+            "button_size_3": "btn--long",
+            "button_style_3": "btn-text-thick-line",
+            "button_color_3": "btn--white"
+          }
+        }
+      },
+      "block_order": [
+        "banner-heading",
+        "banner-button"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/home-banner.png",
+        "mobile_image": "shopify:\/\/shop_images\/home-banner-mobile.png",
+        "height": "use_pixels_650",
+        "overlay_opacity": 15,
+        "overlay_color": "#000000",
+        "enable_overlay_text": false,
+        "preload_image": true,
+        "heading_color": "#ffffff",
+        "description_color": "#ffffff",
+        "content_width": 2000,
+        "content_width_mob": 100,
+        "text_align": "align--middle-center",
+        "vertical_alignment": "end",
+        "horizontal_alignment": "center",
+        "content_alignment": "center",
+        "text_color": "text--white",
+        "color_bg": "hero__content--transparent",
+        "width": "wrapper--none",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "2c7ba7ab-70a3-40f0-bbae-86326d745a9e": {
+      "type": "section-mosaic",
+      "blocks": {
+        "template--16240241344703__2c7ba7ab-70a3-40f0-bbae-86326d745a9e-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/BING3600.png",
+            "overlay_opacity": 30,
+            "title_text": "Portable Power Station",
+            "heading_size": 40,
+            "heading_width": 95,
+            "heading_alignment": "center",
+            "text_align": "text-left tile--bottom",
+            "kicker_text": "BING3600",
+            "sub_heading_size": 16,
+            "link_text": "Lean More",
+            "link_url": "shopify:\/\/pages\/become-a-dealer",
+            "btn_size": 16
+          }
+        },
+        "15e0ad62-1233-4fc9-b500-f3b3b0eafe4a": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/SOLAR_PANELS.png",
+            "overlay_opacity": 30,
+            "title_text": "Sustainable Solar Energy",
+            "heading_size": 40,
+            "heading_width": 95,
+            "heading_alignment": "center",
+            "text_align": "text-left tile--bottom",
+            "kicker_text": "SOLAR PANELS",
+            "sub_heading_size": 16,
+            "link_text": "Lean More",
+            "link_url": "shopify:\/\/pages\/contact",
+            "btn_size": 16
+          }
+        },
+        "6e51667e-4f33-4f40-a26f-df3637e1f043": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/SMART_GENERATOR.png",
+            "overlay_opacity": 30,
+            "title_text": "More Efficient, and More Intuitive",
+            "heading_size": 40,
+            "heading_width": 73,
+            "heading_alignment": "center",
+            "text_align": "text-left tile--bottom",
+            "kicker_text": "SMART GENERATOR",
+            "sub_heading_size": 16,
+            "link_text": "Lean More",
+            "link_url": "shopify:\/\/pages\/contact",
+            "btn_size": 16
+          }
+        },
+        "01d1b625-0835-4da4-bb95-b966c43630a6": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/SMART_HOME_PANEL.png",
+            "overlay_opacity": 30,
+            "title_text": "Simple Assembly",
+            "heading_size": 40,
+            "heading_width": 100,
+            "heading_alignment": "center",
+            "text_align": "text-left tile--bottom",
+            "kicker_text": "SMART HOME PANEL",
+            "sub_heading_size": 16,
+            "link_text": "Lean More",
+            "link_url": "#lean-more",
+            "btn_size": 16
+          }
+        }
+      },
+      "block_order": [
+        "template--16240241344703__2c7ba7ab-70a3-40f0-bbae-86326d745a9e-image-1",
+        "15e0ad62-1233-4fc9-b500-f3b3b0eafe4a",
+        "6e51667e-4f33-4f40-a26f-df3637e1f043",
+        "01d1b625-0835-4da4-bb95-b966c43630a6"
+      ],
+      "settings": {
+        "two_grid_layout": true,
+        "row_gap": 60,
+        "col_gap": 62,
+        "vertical_alignment": "start",
+        "horizontal_alignment": "center",
+        "first_block_height": "short",
+        "wh_ratio": 0.7,
+        "split": "center",
+        "color_bg": "palette--light bg--neutral",
+        "width": "wrapper",
+        "padding_top": 50,
+        "padding_bottom": 0
+      }
+    },
+    "e2b2fab4-997a-4e4d-81a5-02dd23a3d4af": {
+      "type": "section-richtext",
+      "blocks": {
+        "dfd5f1a9-20a7-4e11-9ba4-b97004eec2fc": {
+          "type": "heading",
+          "settings": {
+            "heading": "love these pants! wear almost daily and because they look like dress pants, can wear them to work! so comfy!",
+            "heading_size": 32,
+            "line_height": 40,
+            "heading_size_mob": 30
+          }
+        }
+      },
+      "block_order": [
+        "dfd5f1a9-20a7-4e11-9ba4-b97004eec2fc"
+      ],
+      "disabled": true,
+      "custom_css": [
+
+      ],
+      "settings": {
+        "align_text": "text-center",
+        "extended_color": "",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "content_width": 950,
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 0
+      }
+    },
+    "logos": {
+      "type": "section-logos",
+      "blocks": {
+        "logo-0": {
+          "type": "logo_image",
+          "settings": {
+            "text_content": "love these pants! wear almost daily and because they look like dress pants, can wear them to work! so comfy!",
+            "image": "shopify:\/\/shop_images\/vogue-logo_9e2b70c7-f9a3-4cf4-8a9a-e39875520a27.svg",
+            "link": "",
+            "new_tab": false,
+            "width": 170,
+            "spacing": 50
+          }
+        },
+        "logo-1": {
+          "type": "logo_image",
+          "settings": {
+            "text_content": "Unleashing bold statements, one stitch at a time.",
+            "image": "shopify:\/\/shop_images\/allure-logo.svg",
+            "link": "",
+            "new_tab": false,
+            "width": 170,
+            "spacing": 50
+          }
+        },
+        "logo-2": {
+          "type": "logo_image",
+          "settings": {
+            "text_content": "Turning everyday style into extraordinary fashion moments.",
+            "image": "shopify:\/\/shop_images\/marie_claire-logo.svg",
+            "link": "",
+            "new_tab": false,
+            "width": 170,
+            "spacing": 50
+          }
+        },
+        "logo-3": {
+          "type": "logo_image",
+          "settings": {
+            "text_content": "The art of self-expression, woven in the fabric of creativity.",
+            "image": "shopify:\/\/shop_images\/vanity_fair-logo.svg",
+            "link": "",
+            "new_tab": false,
+            "width": 170,
+            "spacing": 50
+          }
+        }
+      },
+      "block_order": [
+        "logo-0",
+        "logo-1",
+        "logo-2",
+        "logo-3"
+      ],
+      "settings": {
+        "enable_special_effects": true,
+        "title": "",
+        "bg": "palette--light bg--neutral",
+        "enable_marquee": false,
+        "marquee_speed": 30,
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "51696774-cb44-4243-a0cc-c1a14060beb0": {
+      "type": "section-richtext",
+      "blocks": {
+        "template--16240241344703__51696774-cb44-4243-a0cc-c1a14060beb0-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Advantage of Joyvolt",
+            "heading_size": 40,
+            "line_height": 60,
+            "heading_size_mob": 36
+          }
+        }
+      },
+      "block_order": [
+        "template--16240241344703__51696774-cb44-4243-a0cc-c1a14060beb0-heading-1"
+      ],
+      "settings": {
+        "align_text": "text-center",
+        "extended_color": "",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "content_width": 2000,
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 0
+      }
+    },
+    "cols": {
+      "type": "section-columns",
+      "blocks": {
+        "column-0": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Image_-_Column_b86fd15f-5e0c-4591-b32b-888cc68ec09b.png",
+            "title": "",
+            "text": "<p>Portable generators for versatile home backup and outdoor electricity needs.<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "button_color": "btn--neutral",
+            "button_style": "btn--soft",
+            "enable_video": false,
+            "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
+          }
+        },
+        "column-1": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Image_-_Column_1_f6c08de6-3227-4311-ac67-b90ca7d58de8.png",
+            "title": "",
+            "text": "<p>For peace of mind during road trips and picnics, to provide electricity.<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "button_color": "btn--neutral",
+            "button_style": "btn--soft",
+            "enable_video": false,
+            "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
+          }
+        },
+        "column-2": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/8_1.jpg",
+            "title": "",
+            "text": "<p>In emergencies, portable generators deliver reliable power.<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "button_color": "btn--neutral",
+            "button_style": "btn--soft",
+            "enable_video": false,
+            "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
+          }
+        }
+      },
+      "block_order": [
+        "column-0",
+        "column-1",
+        "column-2"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "",
+        "bg": "palette--light bg--neutral",
+        "align_text": "text-center",
+        "scale_image": true,
+        "wh_ratio": 1.5,
+        "grid_large": 3,
+        "grid_medium": 3,
+        "grid_mobile": 1.2,
+        "progress_bar_mobile": false,
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 0
+      }
+    },
+    "double": {
+      "type": "section-double",
+      "blocks": {
+        "image": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Semi-Solid_State_Battery-v2.png",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "enable_overlay_text": false,
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "btn"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "kicker": "Semi-Solid State Battery",
+            "title": "Revolutionize Power with Semi-Solid State Battery Technology",
+            "text": "<p>Experience the power revolution with our Semi-Solid State Battery—a fusion of safety, longevity, and unmatched performance, setting the standard for next-generation energy storage solutions.<\/p>",
+            "heading_size": 26,
+            "sub_heading_size": 16,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--primary",
+            "button_style": "btn btn--long",
+            "text_color": "text--neutral",
+            "bg_color": "rgba(0,0,0,0)",
+            "with_icon_enable": false,
+            "title_icon": "Add a title",
+            "title_icon_one": "Add a title",
+            "title_icon_two": "Add a title",
+            "title_icon_three": "Add a title"
+          }
+        }
+      },
+      "block_order": [
+        "image",
+        "text"
+      ],
+      "settings": {
+        "height": "use_screen_one_half",
+        "img_position": "center",
+        "border_radius": 0,
+        "brick_gutter": 0,
+        "borders": false,
+        "bg_color": "",
+        "preload_image": true,
+        "width": "wrapper--none",
+        "img_col_width": 70,
+        "text_col_width": 30,
+        "row_position": "row",
+        "column_position": "column",
+        "padding_top": 32,
+        "padding_bottom": 0
+      }
+    },
+    "9b17377f-000f-4631-903d-3cec0aa80166": {
+      "type": "section-double",
+      "blocks": {
+        "template--16333941801151__9b17377f-000f-4631-903d-3cec0aa80166-text-1": {
+          "type": "text",
+          "settings": {
+            "kicker": "Internet & Power Integrated",
+            "title": "Internet & Power Integrated for Modern Living",
+            "text": "<p>Transform your lifestyle with our integrated solution—where the power of connectivity meets efficient energy management, creating a harmonious blend of innovation and convenience for the ultimate modern living experience.<\/p>",
+            "heading_size": 26,
+            "sub_heading_size": 16,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "btn-text-thick-line",
+            "text_color": "text--neutral",
+            "bg_color": "",
+            "with_icon_enable": false,
+            "title_icon": "Add a title",
+            "title_icon_one": "Add a title",
+            "title_icon_two": "Add a title",
+            "title_icon_three": "Add a title"
+          }
+        },
+        "template--16333941801151__9b17377f-000f-4631-903d-3cec0aa80166-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/4_1.jpg",
+            "overlay_opacity": 15,
+            "overlay_color": "#000000",
+            "enable_overlay_text": false,
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "btn"
+          }
+        }
+      },
+      "block_order": [
+        "template--16333941801151__9b17377f-000f-4631-903d-3cec0aa80166-text-1",
+        "template--16333941801151__9b17377f-000f-4631-903d-3cec0aa80166-image-1"
+      ],
+      "settings": {
+        "height": "use_screen_one_half",
+        "img_position": "center",
+        "border_radius": 0,
+        "brick_gutter": 0,
+        "borders": false,
+        "bg_color": "",
+        "preload_image": false,
+        "width": "wrapper--none",
+        "img_col_width": 70,
+        "text_col_width": 40,
+        "row_position": "row",
+        "column_position": "column-reverse",
+        "padding_top": 26,
+        "padding_bottom": 26
+      }
+    },
+    "0d9460c8-3f8e-4229-9f67-7a9ee9558cdb": {
+      "type": "section-double",
+      "blocks": {
+        "d0e569a5-df31-4349-90e8-4fdaba705f27": {
+          "type": "text",
+          "settings": {
+            "kicker": "",
+            "title": "<h6>Power Station<\/h6><h4>Best for all situation<\/h4>",
+            "text": "<p>Introducing the world's first portable home battery with an expandable ecosystem for home backup, outdoor recreations, professional production, smart energy management, lower energy bills, and more. offering you power security and independence, for any situation.<\/p>",
+            "heading_size": 32,
+            "sub_heading_size": 16,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "button_text": "SHOP NOW",
+            "button_url": "shopify:\/\/collections\/power-stations",
+            "button_color": "btn--primary",
+            "button_style": "btn btn--long",
+            "text_color": "text--neutral",
+            "bg_color": "",
+            "with_icon_enable": false,
+            "title_icon": "Add a title",
+            "title_icon_one": "Add a title",
+            "title_icon_two": "Add a title",
+            "title_icon_three": "Add a title"
+          }
+        },
+        "ef51289f-ca58-43d7-8c79-f5a5df7304e5": {
+          "type": "collection",
+          "settings": {
+            "collection": "power-stations",
+            "kicker": "",
+            "align_text": "text-center",
+            "text_color": "text--white",
+            "bg_color": "#000000",
+            "bg_accent": "#191919"
+          }
+        }
+      },
+      "block_order": [
+        "d0e569a5-df31-4349-90e8-4fdaba705f27",
+        "ef51289f-ca58-43d7-8c79-f5a5df7304e5"
+      ],
+      "disabled": true,
+      "settings": {
+        "height": "use_screen_two_thirds",
+        "img_position": "center",
+        "border_radius": 0,
+        "brick_gutter": 0,
+        "borders": false,
+        "bg_color": "",
+        "preload_image": false,
+        "width": "wrapper--none",
+        "img_col_width": 60,
+        "text_col_width": 40,
+        "row_position": "row",
+        "column_position": "row-reverse",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "189f4de5-ff07-4870-8afc-8044251ac267": {
+      "type": "section-double",
+      "blocks": {
+        "template--16333941801151__189f4de5-ff07-4870-8afc-8044251ac267-text-1": {
+          "type": "text",
+          "settings": {
+            "kicker": "Super Capacity 124kwh",
+            "title": "Unleash Boundless Power with the Super Capacity 124kWh",
+            "text": "<p>Embark on a new era of energy abundance with our Super Capacity 124kWh—an innovation that redefines possibilities, offering an unparalleled reservoir of power for a limitless range of applications.<\/p>",
+            "heading_size": 26,
+            "sub_heading_size": 16,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "btn-text-thick-line",
+            "text_color": "text--neutral",
+            "bg_color": "",
+            "with_icon_enable": false,
+            "title_icon": "Add a title",
+            "title_icon_one": "Add a title",
+            "title_icon_two": "Add a title",
+            "title_icon_three": "Add a title"
+          }
+        },
+        "template--16333941801151__189f4de5-ff07-4870-8afc-8044251ac267-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Super_Capacity_124kwh.png",
+            "overlay_opacity": 15,
+            "overlay_color": "#000000",
+            "enable_overlay_text": false,
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "btn"
+          }
+        }
+      },
+      "block_order": [
+        "template--16333941801151__189f4de5-ff07-4870-8afc-8044251ac267-text-1",
+        "template--16333941801151__189f4de5-ff07-4870-8afc-8044251ac267-image-1"
+      ],
+      "settings": {
+        "height": "use_screen_one_half",
+        "img_position": "center",
+        "border_radius": 0,
+        "brick_gutter": 0,
+        "borders": false,
+        "bg_color": "",
+        "preload_image": false,
+        "width": "wrapper--none",
+        "img_col_width": 70,
+        "text_col_width": 30,
+        "row_position": "row-reverse",
+        "column_position": "column-reverse",
+        "padding_top": 0,
+        "padding_bottom": 26
+      }
+    },
+    "f6ddfffd-34bd-40fc-9a46-e0e1c9c552ec": {
+      "type": "section-double",
+      "blocks": {
+        "template--16333941801151__f6ddfffd-34bd-40fc-9a46-e0e1c9c552ec-text-1": {
+          "type": "text",
+          "settings": {
+            "kicker": "Turbo Leap",
+            "title": "Propel Your Experience into Overdrive",
+            "text": "<p>Elevate your journey with Turbo Leap—an extraordinary leap forward in performance, seamlessly combining power and precision to redefine your driving experience with unmatched speed and efficiency.<\/p>",
+            "heading_size": 26,
+            "sub_heading_size": 16,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "btn-text-thick-line",
+            "text_color": "text--neutral",
+            "bg_color": "",
+            "with_icon_enable": false,
+            "title_icon": "Add a title",
+            "title_icon_one": "Add a title",
+            "title_icon_two": "Add a title",
+            "title_icon_three": "Add a title"
+          }
+        },
+        "template--16333941801151__f6ddfffd-34bd-40fc-9a46-e0e1c9c552ec-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Turbo_Leap.png",
+            "overlay_opacity": 15,
+            "overlay_color": "#000000",
+            "enable_overlay_text": false,
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "btn"
+          }
+        }
+      },
+      "block_order": [
+        "template--16333941801151__f6ddfffd-34bd-40fc-9a46-e0e1c9c552ec-text-1",
+        "template--16333941801151__f6ddfffd-34bd-40fc-9a46-e0e1c9c552ec-image-1"
+      ],
+      "settings": {
+        "height": "use_screen_one_half",
+        "img_position": "center",
+        "border_radius": 0,
+        "brick_gutter": 0,
+        "borders": false,
+        "bg_color": "",
+        "preload_image": false,
+        "width": "wrapper--none",
+        "img_col_width": 70,
+        "text_col_width": 30,
+        "row_position": "row",
+        "column_position": "column-reverse",
+        "padding_top": 0,
+        "padding_bottom": 26
+      }
+    },
+    "0a51b963-ebdf-47d9-a76e-08a55d8ab96e": {
+      "type": "section-double",
+      "blocks": {
+        "template--16333941801151__0a51b963-ebdf-47d9-a76e-08a55d8ab96e-text-1": {
+          "type": "text",
+          "settings": {
+            "kicker": "Cost Effective",
+            "title": "Maximizing Value, Minimizing Expense",
+            "text": "<p>Discover a smarter approach to efficiency with our cost-effective solutions, designed to optimize performance without compromising your budget—empowering you to achieve more with less.<\/p>",
+            "heading_size": 26,
+            "sub_heading_size": 16,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "btn-text-thick-line",
+            "text_color": "text--neutral",
+            "bg_color": "",
+            "with_icon_enable": false,
+            "title_icon": "Add a title",
+            "title_icon_one": "Add a title",
+            "title_icon_two": "Add a title",
+            "title_icon_three": "Add a title"
+          }
+        },
+        "template--16333941801151__0a51b963-ebdf-47d9-a76e-08a55d8ab96e-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Cost_Effective.png",
+            "overlay_opacity": 15,
+            "overlay_color": "#000000",
+            "enable_overlay_text": false,
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "btn"
+          }
+        }
+      },
+      "block_order": [
+        "template--16333941801151__0a51b963-ebdf-47d9-a76e-08a55d8ab96e-text-1",
+        "template--16333941801151__0a51b963-ebdf-47d9-a76e-08a55d8ab96e-image-1"
+      ],
+      "settings": {
+        "height": "use_screen_one_half",
+        "img_position": "center",
+        "border_radius": 0,
+        "brick_gutter": 0,
+        "borders": false,
+        "bg_color": "",
+        "preload_image": false,
+        "width": "wrapper--none",
+        "img_col_width": 70,
+        "text_col_width": 30,
+        "row_position": "row-reverse",
+        "column_position": "column-reverse",
+        "padding_top": 0,
+        "padding_bottom": 26
+      }
+    },
+    "custom": {
+      "type": "section-custom-content",
+      "blocks": {
+        "video-0": {
+          "type": "collection",
+          "settings": {
+            "collection": "power-stations",
+            "kicker": "",
+            "align_text": "text-center",
+            "text_color": "text--neutral",
+            "bg_color": "#f8f7f6",
+            "bg_accent": "#ffffff"
+          }
+        },
+        "523f7c44-1ea1-4b01-b690-abe991b25803": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/10_1.jpg",
+            "overlay_opacity": 35,
+            "overlay_color": "#000000",
+            "enable_overlay_text": false,
+            "kicker": "Power station",
+            "title": "Best for all situation",
+            "richtext": "<p>Introducing the world's first portable home battery with an expandable ecosystem for home backup, outdoor recreations, professional production, smart energy management, lower energy bills, and more. offering you power security and independence, for any situation.<\/p>",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "Shop Now",
+            "link": "shopify:\/\/collections\/all",
+            "button_color": "btn--primary",
+            "button_style": "btn"
+          }
+        }
+      },
+      "block_order": [
+        "video-0",
+        "523f7c44-1ea1-4b01-b690-abe991b25803"
+      ],
+      "disabled": true,
+      "settings": {
+        "height": "use_pixels_650",
+        "brick_gutter": 0,
+        "borders": false,
+        "bg_color": "",
+        "preload_image": false,
+        "width": "wrapper--none",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "83a73f69-8a0a-4620-b8c9-22b890d59588": {
+      "type": "section-double",
+      "blocks": {
+        "template--16333941801151__83a73f69-8a0a-4620-b8c9-22b890d59588-text-1": {
+          "type": "text",
+          "settings": {
+            "kicker": "Multipower",
+            "title": "Elevate Your Energy, Multiply Your Possibilities",
+            "text": "<p>Experience a new dimension of versatility with Multipower—an innovative energy solution that amplifies your capabilities, providing unmatched adaptability and resilience across a spectrum of applications.<\/p>",
+            "heading_size": 26,
+            "sub_heading_size": 16,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "btn-text-thick-line",
+            "text_color": "text--neutral",
+            "bg_color": "",
+            "with_icon_enable": false,
+            "title_icon": "Add a title",
+            "title_icon_one": "Add a title",
+            "title_icon_two": "Add a title",
+            "title_icon_three": "Add a title"
+          }
+        },
+        "template--16333941801151__83a73f69-8a0a-4620-b8c9-22b890d59588-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Multipower.png",
+            "overlay_opacity": 15,
+            "overlay_color": "#000000",
+            "enable_overlay_text": false,
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "btn"
+          }
+        }
+      },
+      "block_order": [
+        "template--16333941801151__83a73f69-8a0a-4620-b8c9-22b890d59588-text-1",
+        "template--16333941801151__83a73f69-8a0a-4620-b8c9-22b890d59588-image-1"
+      ],
+      "settings": {
+        "height": "use_screen_one_half",
+        "img_position": "center",
+        "border_radius": 0,
+        "brick_gutter": 0,
+        "borders": false,
+        "bg_color": "",
+        "preload_image": false,
+        "width": "wrapper--none",
+        "img_col_width": 70,
+        "text_col_width": 30,
+        "row_position": "row",
+        "column_position": "column-reverse",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "e3fbc60c-7ddc-4b31-9a4a-ffdfb819e83f": {
+      "type": "section-columns",
+      "blocks": {
+        "template--16240241344703__e3fbc60c-7ddc-4b31-9a4a-ffdfb819e83f-text_block-1": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/joyvolt_images_d012b45f-ae45-4276-a3cd-c2fa6b47d20d.png",
+            "title": "",
+            "text": "<p>“I am very happy with my purchase. I like that it is portable like luggage with the wheels. I us the Delta Pro with my RV so I can do things like make coffee with my Keruig or run the AC for a short time without starting the loud generator.”<\/p><p><strong>John Due<\/strong><\/p>",
+            "button_label": "",
+            "button_link": "",
+            "button_color": "btn--neutral",
+            "button_style": "btn--soft",
+            "enable_video": false,
+            "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
+          }
+        },
+        "3485ccab-96cd-47fe-a48c-492e2ef13a28": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/joyvolt_images_d012b45f-ae45-4276-a3cd-c2fa6b47d20d.png",
+            "title": "",
+            "text": "<p>“I am very happy with my purchase. I like that it is portable like luggage with the wheels. I us the Delta Pro with my RV so I can do things like make coffee with my Keruig or run the AC for a short time without starting the loud generator.”<\/p><p><strong>Emma Watson<\/strong><\/p>",
+            "button_label": "",
+            "button_link": "",
+            "button_color": "btn--neutral",
+            "button_style": "btn--soft",
+            "enable_video": false,
+            "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
+          }
+        },
+        "c4becaeb-9edb-43e4-956a-6f855eae919a": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/joyvolt_images_d012b45f-ae45-4276-a3cd-c2fa6b47d20d.png",
+            "title": "",
+            "text": "<p>“I am very happy with my purchase. I like that it is portable like luggage with the wheels. I us the Delta Pro with my RV so I can do things like make coffee with my Keruig or run the AC for a short time without starting the loud generator.”<\/p><p><strong>Hey Dorothea<\/strong><\/p>",
+            "button_label": "",
+            "button_link": "",
+            "button_color": "btn--neutral",
+            "button_style": "btn--soft",
+            "enable_video": false,
+            "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
+          }
+        }
+      },
+      "block_order": [
+        "template--16240241344703__e3fbc60c-7ddc-4b31-9a4a-ffdfb819e83f-text_block-1",
+        "3485ccab-96cd-47fe-a48c-492e2ef13a28",
+        "c4becaeb-9edb-43e4-956a-6f855eae919a"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "",
+        "bg": "palette--light bg--accent",
+        "align_text": "text-center",
+        "scale_image": false,
+        "wh_ratio": 5,
+        "grid_large": 3,
+        "grid_medium": 3,
+        "grid_mobile": 1.2,
+        "progress_bar_mobile": false,
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "d52ccc9f-2530-43e4-89b9-1e37f5bf2f7c": {
+      "type": "section-richtext",
+      "blocks": {
+        "35a21921-b7e5-460f-b528-70027e7f5810": {
+          "type": "heading",
+          "settings": {
+            "heading": "Joyvolt’s Hybrid Powertrain System",
+            "heading_size": 40,
+            "line_height": 56,
+            "heading_size_mob": 36
+          }
+        }
+      },
+      "block_order": [
+        "35a21921-b7e5-460f-b528-70027e7f5810"
+      ],
+      "settings": {
+        "align_text": "text-center",
+        "extended_color": "",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "content_width": 700,
+        "width": "wrapper",
+        "padding_top": 50,
+        "padding_bottom": 32
+      }
+    },
+    "87ee4dd9-cdac-40f1-8449-d68b4a61fe0a": {
+      "type": "section-hero",
+      "blocks": {
+        "template--16240241344703__87ee4dd9-cdac-40f1-8449-d68b4a61fe0a-heading-1": {
+          "type": "heading",
+          "settings": {
+            "title": "Electrifying Performance, Efficiently Engineered",
+            "heading_size": 40,
+            "heading_size_mob": 40,
+            "line_height": 56
+          }
+        },
+        "template--16240241344703__87ee4dd9-cdac-40f1-8449-d68b4a61fe0a-text-1": {
+          "type": "text",
+          "settings": {
+            "richtext": "<p>Experience electrifying performance and efficiency with Joyvolt's Hybrid Powertrain System—an innovative blend of electric and traditional propulsion, redefining the future of automotive excellence.<\/p>",
+            "description_size": 18
+          }
+        },
+        "template--16240241344703__87ee4dd9-cdac-40f1-8449-d68b4a61fe0a-button-1": {
+          "type": "button",
+          "settings": {
+            "btn_size": 16,
+            "link_text_1": "Learn More",
+            "link_1": "shopify:\/\/pages\/about-us",
+            "button_size_1": "btn--large btn--long",
+            "button_style_1": "btn",
+            "button_color_1": "btn--primary",
+            "link_text_2": "",
+            "link_2": "",
+            "button_size_2": "btn--long",
+            "button_style_2": "btn-text-thick-line",
+            "button_color_2": "btn--white",
+            "link_text_3": "",
+            "link_3": "",
+            "button_size_3": "btn--long",
+            "button_style_3": "btn-text-thick-line",
+            "button_color_3": "btn--white"
+          }
+        }
+      },
+      "block_order": [
+        "template--16240241344703__87ee4dd9-cdac-40f1-8449-d68b4a61fe0a-heading-1",
+        "template--16240241344703__87ee4dd9-cdac-40f1-8449-d68b4a61fe0a-text-1",
+        "template--16240241344703__87ee4dd9-cdac-40f1-8449-d68b4a61fe0a-button-1"
+      ],
+      "custom_css": [
+        "@media only screen and (max-width: 430px) {img.block.object-cover {object-position: 65% center !important; }}"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Image_-_Column_1_f6c08de6-3227-4311-ac67-b90ca7d58de8.png",
+        "height": "use_screen_full",
+        "overlay_opacity": 70,
+        "overlay_color": "#000000",
+        "enable_overlay_text": false,
+        "preload_image": false,
+        "heading_color": "#ffffff",
+        "description_color": "#ffffff",
+        "content_width": 750,
+        "content_width_mob": 75,
+        "text_align": "align--middle-left",
+        "vertical_alignment": "end",
+        "horizontal_alignment": "left",
+        "content_alignment": "left",
+        "text_color": "text--white",
+        "color_bg": "hero__content--transparent",
+        "width": "wrapper--none",
+        "padding_top": 0,
+        "padding_bottom": 50
+      }
+    },
+    "72cf5262-a396-4583-a944-7b21a72b9355": {
+      "type": "section-richtext",
+      "blocks": {
+        "92deadb9-fae3-4a2d-9d71-9e5f6ddc66d6": {
+          "type": "text",
+          "settings": {
+            "text": "<p>GUIDES FOR THE BEST JOYVOLT<\/p>",
+            "text_size": 4,
+            "text_columns": 1
+          }
+        }
+      },
+      "block_order": [
+        "92deadb9-fae3-4a2d-9d71-9e5f6ddc66d6"
+      ],
+      "settings": {
+        "align_text": "text-center",
+        "extended_color": "",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "content_width": 2000,
+        "width": "wrapper",
+        "padding_top": 50,
+        "padding_bottom": 0
+      }
+    },
+    "2b2812d8-e742-4ea3-a88e-f6f090aa981c": {
+      "type": "section-blog",
+      "settings": {
+        "title": "",
+        "blog_head": 26,
+        "blog_description": 16,
+        "blog_btn": 16,
+        "btn_color": "#04a7cb",
+        "homepage_blog": "news",
+        "homepage_blog_count": 3,
+        "progress_bar": "mobile",
+        "grid_large": 3,
+        "grid_medium": 2,
+        "grid_mobile": 1.2,
+        "wh_ratio": 1.7,
+        "show_author": false,
+        "show_tags": true,
+        "show_date": false,
+        "show_preview": true,
+        "show_link": true,
+        "bg": "palette--light bg--neutral",
+        "color": "text--primary",
+        "show_view_all": false,
+        "button_style": "btn",
+        "width": "wrapper",
+        "padding_top": 32,
+        "padding_bottom": 50
+      }
+    },
+    "ef00009b-366a-42a7-a005-193a7a1738e2": {
+      "type": "section-richtext",
+      "blocks": {
+        "acfb01b3-8c71-4dd3-887e-16f3480cba88": {
+          "type": "text",
+          "settings": {
+            "text": "<p>SHOP THE FEED @joyvolt_official<\/p>",
+            "text_size": 4,
+            "text_columns": 1
+          }
+        }
+      },
+      "block_order": [
+        "acfb01b3-8c71-4dd3-887e-16f3480cba88"
+      ],
+      "settings": {
+        "align_text": "text-center",
+        "extended_color": "",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "content_width": 2000,
+        "width": "wrapper",
+        "padding_top": 50,
+        "padding_bottom": 0
+      }
+    },
+    "91b4eef6-0de1-4d2d-b8ef-0b61a43d9f11": {
+      "type": "section-gallery",
+      "blocks": {
+        "template--16240241344703__91b4eef6-0de1-4d2d-b8ef-0b61a43d9f11-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Image_-_Column_3536ff82-1ee6-4d61-842e-61cd61d3d398.png",
+            "link": ""
+          }
+        },
+        "template--16240241344703__91b4eef6-0de1-4d2d-b8ef-0b61a43d9f11-image-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Image_-_Column_98c1dbc3-f7db-4096-bfc3-45f4d9b9169c.png",
+            "link": ""
+          }
+        },
+        "template--16240241344703__91b4eef6-0de1-4d2d-b8ef-0b61a43d9f11-image-3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Image_-_Column_189ee4f3-fbca-4417-b88d-07df72264ce4.png",
+            "link": ""
+          }
+        },
+        "50f5520d-362e-44e9-be41-8c8bccd60d7b": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Image_-_Column_a6acdc63-82a9-41d6-80d6-e4dc68fa2599.png",
+            "link": ""
+          }
+        },
+        "7efe3684-c1c6-4e86-85bd-2ea6d7432907": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Image_-_Column_98c1dbc3-f7db-4096-bfc3-45f4d9b9169c.png",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16240241344703__91b4eef6-0de1-4d2d-b8ef-0b61a43d9f11-image-1",
+        "template--16240241344703__91b4eef6-0de1-4d2d-b8ef-0b61a43d9f11-image-2",
+        "template--16240241344703__91b4eef6-0de1-4d2d-b8ef-0b61a43d9f11-image-3",
+        "50f5520d-362e-44e9-be41-8c8bccd60d7b",
+        "7efe3684-c1c6-4e86-85bd-2ea6d7432907"
+      ],
+      "settings": {
+        "scale_image": true,
+        "wh_ratio": 1,
+        "bg": "palette--light bg--neutral",
+        "add_gutters": true,
+        "progress_bar": "mobile",
+        "grid_large": 4,
+        "grid_medium": 2,
+        "grid_mobile": 1.2,
+        "width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 50
+      }
+    },
+    "4eb6fb92-eee5-4687-9464-80dcd0c37073": {
+      "type": "section-announcement",
+      "blocks": {
+        "0bedc549-6b91-47ca-a5da-460353680711": {
+          "type": "custom",
+          "settings": {
+            "text": "<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0631\/0510\/6111\/files\/Image_-_Column_2_0c73b702-e8ee-4ab0-8cfd-f30042b79b3c.png?v=1699582781\" width=100>"
+          }
+        },
+        "2803ab4f-2b17-4088-9abf-07e83e1b6caa": {
+          "type": "text",
+          "settings": {
+            "text": "<h5>2-Year Warranty<\/h5>"
+          }
+        },
+        "ed07b796-a8c7-4d31-bb19-d32da7ec442f": {
+          "type": "custom",
+          "settings": {
+            "text": "<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0631\/0510\/6111\/files\/Image_-_Column_1_f83279ec-f754-4408-8f37-c7692b9db44e.png?v=1699582752\" width=100>"
+          }
+        },
+        "c92484d3-0603-41c6-b558-aaa4708e8db1": {
+          "type": "text",
+          "settings": {
+            "text": "<h5>30-Day Money-Back Guarantee<\/h5>"
+          }
+        },
+        "4d995acf-eecd-4f1c-8c45-e05ead5e463a": {
+          "type": "custom",
+          "settings": {
+            "text": "<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0631\/0510\/6111\/files\/Image_-_Column_ac715bd1-4a0b-4847-8f7b-d7fca15f9cc9.png?v=1699582691\" width=100>"
+          }
+        },
+        "4ecf3389-fdb3-46c9-bcfc-4d06c6b6eee9": {
+          "type": "text",
+          "settings": {
+            "text": "<h5>Free & Fast Delivery<\/h5>"
+          }
+        },
+        "c9a9bc45-dd09-40e5-857e-18ff8f38956f": {
+          "type": "custom",
+          "settings": {
+            "text": "<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0631\/0510\/6111\/files\/Image_-_Column_2_0c73b702-e8ee-4ab0-8cfd-f30042b79b3c.png?v=1699582781\" width=100>"
+          }
+        },
+        "bed32102-316e-429c-8c44-016c5e4c0585": {
+          "type": "text",
+          "settings": {
+            "text": "<h5>Lifetime Customer Support<\/h5>"
+          }
+        }
+      },
+      "block_order": [
+        "0bedc549-6b91-47ca-a5da-460353680711",
+        "2803ab4f-2b17-4088-9abf-07e83e1b6caa",
+        "ed07b796-a8c7-4d31-bb19-d32da7ec442f",
+        "c92484d3-0603-41c6-b558-aaa4708e8db1",
+        "4d995acf-eecd-4f1c-8c45-e05ead5e463a",
+        "4ecf3389-fdb3-46c9-bcfc-4d06c6b6eee9",
+        "c9a9bc45-dd09-40e5-857e-18ff8f38956f",
+        "bed32102-316e-429c-8c44-016c5e4c0585"
+      ],
+      "settings": {
+        "bg_color": "#f8f7f6",
+        "color": "#000000",
+        "font_heading": 24,
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    }
+  },
+  "order": [
+    "hero",
+    "2c7ba7ab-70a3-40f0-bbae-86326d745a9e",
+    "e2b2fab4-997a-4e4d-81a5-02dd23a3d4af",
+    "logos",
+    "51696774-cb44-4243-a0cc-c1a14060beb0",
+    "cols",
+    "double",
+    "9b17377f-000f-4631-903d-3cec0aa80166",
+    "0d9460c8-3f8e-4229-9f67-7a9ee9558cdb",
+    "189f4de5-ff07-4870-8afc-8044251ac267",
+    "f6ddfffd-34bd-40fc-9a46-e0e1c9c552ec",
+    "0a51b963-ebdf-47d9-a76e-08a55d8ab96e",
+    "custom",
+    "83a73f69-8a0a-4620-b8c9-22b890d59588",
+    "e3fbc60c-7ddc-4b31-9a4a-ffdfb819e83f",
+    "d52ccc9f-2530-43e4-89b9-1e37f5bf2f7c",
+    "87ee4dd9-cdac-40f1-8449-d68b4a61fe0a",
+    "72cf5262-a396-4583-a944-7b21a72b9355",
+    "2b2812d8-e742-4ea3-a88e-f6f090aa981c",
+    "ef00009b-366a-42a7-a005-193a7a1738e2",
+    "91b4eef6-0de1-4d2d-b8ef-0b61a43d9f11",
+    "4eb6fb92-eee5-4687-9464-80dcd0c37073"
+  ]
+}

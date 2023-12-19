@@ -1,0 +1,332 @@
+{
+  "sections": {
+    "main": {
+      "type": "page",
+      "disabled": true,
+      "settings": {
+        "kicker": "",
+        "kicker_size": 3,
+        "show_title": true,
+        "title_size": 8,
+        "show_content": true,
+        "content_size": 5,
+        "align_text": "text-left",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "62ebe561-074f-4dea-b322-69985011a905": {
+      "type": "section-hero",
+      "blocks": {
+        "template--16244440924351__62ebe561-074f-4dea-b322-69985011a905-heading-1": {
+          "type": "heading",
+          "settings": {
+            "title": "Explore",
+            "text_size": 10
+          }
+        },
+        "template--16244440924351__62ebe561-074f-4dea-b322-69985011a905-text-1": {
+          "type": "text",
+          "settings": {
+            "richtext": "<p>Unlock Answers, Seek Assistance, Uncover Guides, Connect with Us, and Explore Your Nearest Joyvolt Oasis!<\/p>",
+            "text_size": 5
+          }
+        }
+      },
+      "block_order": [
+        "template--16244440924351__62ebe561-074f-4dea-b322-69985011a905-heading-1",
+        "template--16244440924351__62ebe561-074f-4dea-b322-69985011a905-text-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/11_1.jpg",
+        "height": "use_screen_two_thirds",
+        "overlay_opacity": 40,
+        "overlay_color": "#000000",
+        "enable_overlay_text": false,
+        "preload_image": false,
+        "content_width": 2000,
+        "text_align": "align--middle-center",
+        "text_color": "text--white",
+        "color_bg": "hero__content--transparent",
+        "width": "wrapper--none",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "5268c104-845c-4bec-b499-61e37b1d40a3": {
+      "type": "section-faq",
+      "blocks": {
+        "template--16244440924351__5268c104-845c-4bec-b499-61e37b1d40a3-text-1": {
+          "type": "text",
+          "settings": {
+            "title": "How can I find the nearest Joyvolt Power Station?",
+            "content": "<p>Explore our Locator feature to pinpoint the closest Joyvolt oasis for all your power needs.<\/p>"
+          }
+        },
+        "template--16244440924351__5268c104-845c-4bec-b499-61e37b1d40a3-text-2": {
+          "type": "text",
+          "settings": {
+            "title": "What assistance does Joyvolt offer for troubleshooting or product queries?",
+            "content": "<p>Contact our dedicated Customer Service team for personalized assistance and swift resolutions.<\/p>"
+          }
+        },
+        "template--16244440924351__5268c104-845c-4bec-b499-61e37b1d40a3-text-3": {
+          "type": "text",
+          "settings": {
+            "title": "Where can I access detailed manuals and guides for Joyvolt products?",
+            "content": "<p>Delve into our comprehensive Manual Guide section to unlock insights, tips, and step-by-step instructions for seamless product usage.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16244440924351__5268c104-845c-4bec-b499-61e37b1d40a3-text-1",
+        "template--16244440924351__5268c104-845c-4bec-b499-61e37b1d40a3-text-2",
+        "template--16244440924351__5268c104-845c-4bec-b499-61e37b1d40a3-text-3"
+      ],
+      "settings": {
+        "title": "Frequently Asked Questions",
+        "title_align": "text-left",
+        "title_size": 6,
+        "heading_size": 5,
+        "text_size": 4,
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "989d4408-54be-48f2-bd17-dd144a531c44": {
+      "type": "section-icons",
+      "blocks": {
+        "template--16244440924351__989d4408-54be-48f2-bd17-dd144a531c44-icon_block-1": {
+          "type": "icon_block",
+          "settings": {
+            "icon_name": "icon-basket-return",
+            "icon_color": "#aaaaaa",
+            "title": "Free returns",
+            "text": "<p>Returns within 30 days receive a full refund.<\/p>",
+            "link_text": "",
+            "link_url": ""
+          }
+        },
+        "template--16244440924351__989d4408-54be-48f2-bd17-dd144a531c44-icon_block-2": {
+          "type": "icon_block",
+          "settings": {
+            "icon_name": "icon-shipment-world",
+            "icon_color": "#aaaaaa",
+            "title": "Worldwide shipping",
+            "text": "<p>Ship anywhere, rates available at checkout.<\/p>",
+            "link_text": "",
+            "link_url": ""
+          }
+        },
+        "template--16244440924351__989d4408-54be-48f2-bd17-dd144a531c44-icon_block-3": {
+          "type": "icon_block",
+          "settings": {
+            "icon_name": "icon-phone",
+            "icon_color": "#aaaaaa",
+            "title": "24\/7 support",
+            "text": "<p>Call us anytime at 1(800) 555-1234.<\/p>",
+            "link_text": "",
+            "link_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16244440924351__989d4408-54be-48f2-bd17-dd144a531c44-icon_block-1",
+        "template--16244440924351__989d4408-54be-48f2-bd17-dd144a531c44-icon_block-2",
+        "template--16244440924351__989d4408-54be-48f2-bd17-dd144a531c44-icon_block-3"
+      ],
+      "settings": {
+        "title": "",
+        "bg": "palette--light bg--accent",
+        "icon_size": "icon--medium",
+        "icon_alignment": "icon--top",
+        "layout": "grid--stacked",
+        "align_text": "text-center",
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "1b1e4dc7-06f8-4793-a3fe-33936a58eb6f": {
+      "type": "section-richtext",
+      "blocks": {
+        "template--16244440924351__1b1e4dc7-06f8-4793-a3fe-33936a58eb6f-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Our Manuals",
+            "text_size": 6
+          }
+        },
+        "2f401844-45b4-4598-bd10-028241c839cd": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Dive into the depths of product mastery with Joyvolt's Manuals Section. Unveil the secrets to optimal performance and discover expert tips as you explore our comprehensive guides. From quick-start instructions to advanced usage insights, empower yourself with knowledge and make the most of your Joyvolt experience.<\/p>",
+            "text_size": 4,
+            "text_columns": 1
+          }
+        }
+      },
+      "block_order": [
+        "template--16244440924351__1b1e4dc7-06f8-4793-a3fe-33936a58eb6f-heading-1",
+        "2f401844-45b4-4598-bd10-028241c839cd"
+      ],
+      "settings": {
+        "align_text": "text-center",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "content_width": 2000,
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "c8631516-1192-4a46-8e85-90badb4eba9a": {
+      "type": "section-columns",
+      "blocks": {
+        "template--16244440924351__c8631516-1192-4a46-8e85-90badb4eba9a-text_block-1": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Image_-_Column_a6acdc63-82a9-41d6-80d6-e4dc68fa2599.png",
+            "title": "Power Mastery 101: Your Ultimate Joyvolt Guide",
+            "text": "",
+            "button_label": "Download",
+            "button_link": "#",
+            "button_color": "btn--primary",
+            "button_style": "btn",
+            "enable_video": false,
+            "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
+          }
+        },
+        "template--16244440924351__c8631516-1192-4a46-8e85-90badb4eba9a-text_block-2": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Image_-_Column_98c1dbc3-f7db-4096-bfc3-45f4d9b9169c.png",
+            "title": "Navigating Energized Adventures: Joyvolt User Handbook",
+            "text": "",
+            "button_label": "Download",
+            "button_link": "#",
+            "button_color": "btn--primary",
+            "button_style": "btn",
+            "enable_video": false,
+            "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
+          }
+        },
+        "91fa29b3-7db7-4745-bcde-bccb6fc347d6": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Image_-_Column_189ee4f3-fbca-4417-b88d-07df72264ce4.png",
+            "title": "Unleashing Potential: Advanced Techniques with Joyvolt Power Solutions",
+            "text": "",
+            "button_label": "Download",
+            "button_link": "#",
+            "button_color": "btn--primary",
+            "button_style": "btn",
+            "enable_video": false,
+            "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
+          }
+        }
+      },
+      "block_order": [
+        "template--16244440924351__c8631516-1192-4a46-8e85-90badb4eba9a-text_block-1",
+        "template--16244440924351__c8631516-1192-4a46-8e85-90badb4eba9a-text_block-2",
+        "91fa29b3-7db7-4745-bcde-bccb6fc347d6"
+      ],
+      "settings": {
+        "title": "",
+        "bg": "palette--light bg--neutral",
+        "align_text": "text-center",
+        "scale_image": true,
+        "wh_ratio": 1,
+        "grid_large": 3,
+        "grid_medium": 3,
+        "grid_mobile": 1.2,
+        "progress_bar_mobile": false,
+        "width": "wrapper",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "0888f832-5474-42b8-a0fd-81d0b32e8015": {
+      "type": "section-contact",
+      "blocks": {
+        "template--16244440924351__0888f832-5474-42b8-a0fd-81d0b32e8015-text-1": {
+          "type": "text",
+          "settings": {
+            "title": "Full Name"
+          }
+        },
+        "template--16244440924351__0888f832-5474-42b8-a0fd-81d0b32e8015-email-1": {
+          "type": "email",
+          "settings": {
+            "title": "Email"
+          }
+        },
+        "template--16244440924351__0888f832-5474-42b8-a0fd-81d0b32e8015-body-1": {
+          "type": "body",
+          "settings": {
+            "title": "Message"
+          }
+        }
+      },
+      "block_order": [
+        "template--16244440924351__0888f832-5474-42b8-a0fd-81d0b32e8015-text-1",
+        "template--16244440924351__0888f832-5474-42b8-a0fd-81d0b32e8015-email-1",
+        "template--16244440924351__0888f832-5474-42b8-a0fd-81d0b32e8015-body-1"
+      ],
+      "settings": {
+        "title": "Contact Us",
+        "align_text": "text-left",
+        "button_size": "btn--long",
+        "button_color": "btn--neutral",
+        "button_style": "btn--outline",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--accent",
+        "width": "wrapper--narrow",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "1699939566ff764018": {
+      "type": "apps",
+      "blocks": {
+        "fbac8617-abc8-4cbf-9159-8c64fb163fe7": {
+          "type": "shopify:\/\/apps\/s-store-locator\/blocks\/storeify-storelocator\/e7003487-cc51-4321-9488-2c47c07a5b17",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "fbac8617-abc8-4cbf-9159-8c64fb163fe7"
+      ],
+      "custom_css": [
+        ".address-info,.item-content,.storeify-sear-box {color: black !important;}"
+      ],
+      "settings": {
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "62ebe561-074f-4dea-b322-69985011a905",
+    "5268c104-845c-4bec-b499-61e37b1d40a3",
+    "989d4408-54be-48f2-bd17-dd144a531c44",
+    "1b1e4dc7-06f8-4793-a3fe-33936a58eb6f",
+    "c8631516-1192-4a46-8e85-90badb4eba9a",
+    "0888f832-5474-42b8-a0fd-81d0b32e8015",
+    "1699939566ff764018"
+  ]
+}
