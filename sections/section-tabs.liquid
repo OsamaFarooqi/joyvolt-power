@@ -128,6 +128,7 @@
       {%- assign raw_content = pages[block.settings.raw_content].content -%}
       {%- assign tab_content = content | default: raw_content -%}
       {%- assign with_icon_enable = block.settings.with_icon_enable -%}
+      {%- assign kik_ref_tab_id = block.settings.kik_ref_tab_id -%}
 
       {%- if title != blank and title != '' -%}
         {%- capture tab_links -%}
@@ -141,6 +142,9 @@
             @shopify:block:select="select({{ forloop.index0 }})"
             {%- endif -%}
           >
+          {% if block.type == "anchor" %}
+          <a class="py-3 transition select-none typography-body {% if forloop.index == 1 %} active {% endif %} " href="#kik-{{- block.settings.kik_ref_tab_id |  downcase  |  replace: ' ', '_'  -}}"> {{ title }}</a>
+          {% else %}
             <button
               class="py-3 transition select-none typography-body"
               role="tab"
@@ -156,6 +160,7 @@
             >
               {{ title }}
             </button>
+          {% endif %}
           </li>
         {%- endcapture -%}
 
@@ -1208,6 +1213,25 @@
           "type": "page",
           "id": "raw_content",
           "label": "Tab content"
+        }
+      ]
+    },
+    {
+      "name": "Anchor",
+      "type": "anchor",
+      "settings": [
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Title",
+          "default": "Anchor tab",
+          "info": "Reviews"
+        },
+        {
+          "type": "text",
+          "id": "kik_ref_tab_id",
+          "label": "Referenced Tab ID",
+          "info": "add id in small latters and add '_' instead of space ' ' like 'kikstart_ecom'"
         }
       ]
     }
