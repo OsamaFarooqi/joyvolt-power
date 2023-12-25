@@ -89,7 +89,9 @@
         "template--16340274577599__4d0ac600-2f80-4bc0-8444-0f413ea1f36d-heading-1"
       ],
       "settings": {
+        "kik_section_id": "",
         "align_text": "text-center",
+        "extended_color": "",
         "text_color": "text--neutral",
         "bg": "palette--light bg--neutral",
         "content_width": 2000,
@@ -300,6 +302,7 @@
         "template--16340274577599__cd8907f7-0cfb-4781-8c84-cc54e5ccf3b9-text-2",
         "template--16340274577599__cd8907f7-0cfb-4781-8c84-cc54e5ccf3b9-text-3"
       ],
+      "disabled": true,
       "settings": {
         "color_bg": "palette--light bg--accent",
         "horizontal_alignment": "center",
@@ -314,11 +317,129 @@
         "padding_bottom": 0
       }
     },
+    "b7388155-25f6-44d3-ae22-6dbb581b9c7d": {
+      "type": "kik-section-product-tabs",
+      "blocks": {
+        "9eef2af9-7698-47e6-a57d-5251d921b60b": {
+          "type": "anchor",
+          "settings": {
+            "title": "Hours-Long Outages",
+            "kik_ref_tab_id": "hours_long_outages"
+          }
+        },
+        "93e609fb-562f-4244-be81-13d3713daeb4": {
+          "type": "anchor",
+          "settings": {
+            "title": "1 Day Outages",
+            "kik_ref_tab_id": "1_day_outages"
+          }
+        },
+        "1d581738-a1ef-43df-a81f-3bb7ad2120b6": {
+          "type": "anchor",
+          "settings": {
+            "title": "3 Day Outages",
+            "kik_ref_tab_id": "3_day_outages"
+          }
+        }
+      },
+      "block_order": [
+        "9eef2af9-7698-47e6-a57d-5251d921b60b",
+        "93e609fb-562f-4244-be81-13d3713daeb4",
+        "1d581738-a1ef-43df-a81f-3bb7ad2120b6"
+      ],
+      "settings": {
+        "color_bg": "palette--light bg--neutral",
+        "horizontal_alignment": "center",
+        "inner_color": "rgba(0,0,0,0)",
+        "inner_content_top": 0,
+        "inner_content_bottom": 0,
+        "width": "wrapper--full",
+        "heading_size": 32,
+        "sub_heading_size": 16,
+        "video_height": 36,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "0fe5d21a-0482-49b7-9e65-c11ae0575b01": {
+      "type": "section-double",
+      "blocks": {
+        "template--16340274577599__0fe5d21a-0482-49b7-9e65-c11ae0575b01-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Hours-Long_Outages.png",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "enable_overlay_text": false,
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "btn"
+          }
+        },
+        "template--16340274577599__0fe5d21a-0482-49b7-9e65-c11ae0575b01-text-1": {
+          "type": "text",
+          "settings": {
+            "kicker": "",
+            "title": "Hours-Long Outages",
+            "text": "<p>Ensure continuous power for critical devices, to prevent potential risks or loss caused by power outages. You can even use it as a mobile power hub in scenarios where power sources might be limited or not easily accessible.<\/p>",
+            "heading_size": 40,
+            "sub_heading_size": 16,
+            "text_columns": 1,
+            "align_text": "text-center",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "btn-text-thick-line",
+            "text_color": "text--neutral",
+            "bg_color": "",
+            "with_icon_enable": true,
+            "icon_alt": "shopify:\/\/shop_images\/Plug-and-Play.svg",
+            "title_icon": "Plug-and-Play",
+            "icon_alt_one": "shopify:\/\/shop_images\/Compact_and_Portable.svg",
+            "title_icon_one": "Compact and Portable",
+            "icon_alt_two": "shopify:\/\/shop_images\/Multiple_Outlets.svg",
+            "title_icon_two": "Multiple Outlets",
+            "icon_alt_three": "shopify:\/\/shop_images\/Conserved_Energy.svg",
+            "title_icon_three": "Conserved Energy"
+          }
+        }
+      },
+      "block_order": [
+        "template--16340274577599__0fe5d21a-0482-49b7-9e65-c11ae0575b01-image-1",
+        "template--16340274577599__0fe5d21a-0482-49b7-9e65-c11ae0575b01-text-1"
+      ],
+      "settings": {
+        "kik_section_id": "hours_long_outages",
+        "height": "use_screen_three_quarters",
+        "img_position": "center",
+        "border_radius": 0,
+        "brick_gutter": 0,
+        "borders": false,
+        "bg_color": "#f8f7f6",
+        "preload_image": true,
+        "width": "wrapper--full",
+        "img_col_width": 50,
+        "text_col_width": 50,
+        "row_position": "row",
+        "column_position": "column",
+        "padding_top": 50,
+        "padding_bottom": 180
+      }
+    },
     "b97e7baa-ef19-4a2a-835e-f84c02897aaa": {
       "type": "section-collection",
+      "custom_css": [
+        "@media only screen and (min-width: 480px) {.js-grid[data-grid-large=\"2\"] {grid-template-columns: repeat(2, minmax(0, 400px)); justify-content: center; }}"
+      ],
       "settings": {
         "title": "",
-        "collection": "collection",
+        "collection": "steady-home-power-solution",
         "product_offset": 180,
         "grid": 2,
         "rows": 1,
@@ -326,7 +447,7 @@
         "bg": "palette--light bg--accent",
         "show_view_all": false,
         "width": "wrapper",
-        "padding_top": 36,
+        "padding_top": 32,
         "padding_bottom": 30
       }
     },
@@ -364,7 +485,7 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/1-Day_Outages.png",
-            "overlay_opacity": 15,
+            "overlay_opacity": 0,
             "overlay_color": "#000000",
             "enable_overlay_text": false,
             "kicker": "",
@@ -384,6 +505,7 @@
         "template--16340274577599__a7d3c28b-1ba0-42ee-ae5f-286834e3c0a0-image-1"
       ],
       "settings": {
+        "kik_section_id": "1_day_outages",
         "height": "use_screen_three_quarters",
         "img_position": "center",
         "border_radius": 0,
@@ -402,9 +524,12 @@
     },
     "769893d2-48b6-407f-bedd-dc7fe2c327e4": {
       "type": "section-collection",
+      "custom_css": [
+        "@media only screen and (min-width: 480px) {.js-grid[data-grid-large=\"2\"] {grid-template-columns: repeat(2, minmax(0, 400px)); justify-content: center; }}"
+      ],
       "settings": {
         "title": "",
-        "collection": "collection",
+        "collection": "steady-home-power-solution",
         "product_offset": 180,
         "grid": 2,
         "rows": 1,
@@ -416,14 +541,14 @@
         "padding_bottom": 30
       }
     },
-    "0fe5d21a-0482-49b7-9e65-c11ae0575b01": {
+    "e8edef2f-7243-4f72-a7f6-0ae379206560": {
       "type": "section-double",
       "blocks": {
-        "template--16340274577599__0fe5d21a-0482-49b7-9e65-c11ae0575b01-image-1": {
+        "9f2f7cb1-fb61-44a2-baf0-a3dcc63561d1": {
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/3-Day_Outages.png",
-            "overlay_opacity": 15,
+            "overlay_opacity": 0,
             "overlay_color": "#000000",
             "enable_overlay_text": false,
             "kicker": "",
@@ -437,7 +562,7 @@
             "button_style": "btn"
           }
         },
-        "template--16340274577599__0fe5d21a-0482-49b7-9e65-c11ae0575b01-text-1": {
+        "0a4a46f2-8f41-4584-a669-e189af089f01": {
           "type": "text",
           "settings": {
             "kicker": "",
@@ -466,10 +591,11 @@
         }
       },
       "block_order": [
-        "template--16340274577599__0fe5d21a-0482-49b7-9e65-c11ae0575b01-image-1",
-        "template--16340274577599__0fe5d21a-0482-49b7-9e65-c11ae0575b01-text-1"
+        "9f2f7cb1-fb61-44a2-baf0-a3dcc63561d1",
+        "0a4a46f2-8f41-4584-a669-e189af089f01"
       ],
       "settings": {
+        "kik_section_id": "3_day_outages",
         "height": "use_screen_three_quarters",
         "img_position": "center",
         "border_radius": 0,
@@ -513,7 +639,7 @@
             "accordion_title_size": 40,
             "padding_left": 100,
             "padding_right": 100,
-            "item_title_size": 24,
+            "item_title_size": 18,
             "item_content_size": 16,
             "accortion_heading": "Does the product support capacity expansion?",
             "content": "<p>Yes,Explorer 2000 Plus can be expanded up to 12 kWh and can be expanded up to 24 kWh when paired with a parallel drain plug.<\/p>",
@@ -527,7 +653,7 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/BING3600_88e1fe65-6eaf-42b3-8f06-c0957df13d32.png",
-            "overlay_opacity": 15,
+            "overlay_opacity": 0,
             "overlay_color": "#000000",
             "enable_overlay_text": false,
             "kicker": "",
@@ -547,6 +673,7 @@
         "template--16340274577599__7146025a-b6a4-4854-b6d9-555605801949-image-1"
       ],
       "settings": {
+        "kik_section_id": "",
         "height": "use_screen_three_quarters",
         "img_position": "bottom",
         "border_radius": 16,
@@ -636,7 +763,9 @@
         "template--16240241311935__6b30c07e-ff5c-4cae-bf5c-7589ef303247-text-1"
       ],
       "settings": {
+        "kik_section_id": "",
         "align_text": "text-center",
+        "extended_color": "",
         "text_color": "text--neutral",
         "bg": "palette--light bg--neutral",
         "content_width": 2000,
@@ -783,10 +912,12 @@
     "4d0ac600-2f80-4bc0-8444-0f413ea1f36d",
     "c261e06b-a0d3-46a3-b849-96f13c28fddf",
     "cd8907f7-0cfb-4781-8c84-cc54e5ccf3b9",
+    "b7388155-25f6-44d3-ae22-6dbb581b9c7d",
+    "0fe5d21a-0482-49b7-9e65-c11ae0575b01",
     "b97e7baa-ef19-4a2a-835e-f84c02897aaa",
     "a7d3c28b-1ba0-42ee-ae5f-286834e3c0a0",
     "769893d2-48b6-407f-bedd-dc7fe2c327e4",
-    "0fe5d21a-0482-49b7-9e65-c11ae0575b01",
+    "e8edef2f-7243-4f72-a7f6-0ae379206560",
     "b438828c-403c-489d-8772-d02c70938e76",
     "7146025a-b6a4-4854-b6d9-555605801949",
     "subcollections",

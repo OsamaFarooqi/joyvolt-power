@@ -32,7 +32,7 @@
       if block.type == 'collection'
         assign block_count = block_count | plus: block.settings.limit
         assign child_count = child_count | plus: block.settings.limit
-        else
+      else
         assign block_count = block_count | plus: 1
         assign child_count = child_count | plus: 1
       endif
@@ -61,54 +61,64 @@
   endif
 -%}
 {% capture classes %}{% if grandparent %} grandparent kids-{{ child_count }} {{ blocks_count_class }}{% elsif parent %} parent{% else %} child{% endif %}{% if link.active %} main-menu--active{% endif %}{% endcapture %}
-
-<div class="menu__item {{ classes }}"
+<div
+  class="menu__item kik-menu__item {{ classes }}"
   data-main-menu-text-item
   {% if expands %}
-    role="button"
-    aria-haspopup="true"
-    aria-expanded="false"
-    data-hover-disclosure-toggle="dropdown-{{ key }}"
-    aria-controls="dropdown-{{ key }}"
+  role="button"
+  aria-haspopup="true"
+  aria-expanded="false"
+  data-hover-disclosure-toggle="dropdown-{{ key }}"
+  aria-controls="dropdown-{{ key }}"
   {% endif %}>
-  <a href="{{ link.url }}" data-top-link class="navlink navlink--toplevel{% if highlight_links contains link_title_handle %} highlight--link{% endif %}">
+  <a
+    href="{{ link.url }}"
+    data-top-link
+    class="navlink navlink--toplevel{% if highlight_links contains link_title_handle %} highlight--link{% endif %}">
     <span class="navtext">{{ link.title | strip_html | escape }}</span>
   </a>
   {% if expands %}
-    <div class="header__dropdown"
+    <div
+      class="header__dropdown"
       data-hover-disclosure
       id="dropdown-{{ key }}">
-      <div class="header__dropdown__wrapper">
-        <div class="header__dropdown__inner">
+      <div class="header__dropdown__wrapper {% if link.levels == 2 %}kik-narrow{% endif %}">
+  <div class="header__dropdown__inner {% if link.levels == 2 %} kik-one-line {% endif %}">
           {%- if grandparent -%}
 
             {% if link.levels == 2 %}
               {% for link in link.links %}
-                <div class="dropdown__family dropdown__family--grandchild">
+                <div class="dropdown__family dropdown__family--grandchild kik-3-level">
                   {%- if section.settings.show_collection_images and link.url contains collections_string -%}
                     {%- assign collection_string = link.url | split: collections_string | last -%}
                     {%- assign collection_obj = collections[collection_string] -%}
 
                     {%- if collection_obj.image != blank -%}
                       <div class="dropdown__image">
-                        {%- render 'image',
-                          cover: true,
-                          img_object: collection_obj.image,
-                          wh_ratio: section.settings.collection_wh_ratio,
-                          sizes: '25vw',
-                          loading: 'lazy'
+                        {%- render 'image'
+                          , cover: true
+                          , img_object: collection_obj.image
+                          , wh_ratio: section.settings.collection_wh_ratio
+                          , sizes: '25vw'
+                          , loading: 'lazy'
                         -%}
                       </div>
                     {%- endif -%}
                   {%- endif -%}
 
                   {% assign link_title_handle = link.title | handle %}
-                  <a href="{{ link.url }}" data-stagger-first class="navlink navlink--child{% if link.active %} main-menu--active{% endif %}{% if highlight_links contains link_title_handle %} highlight--link{% endif %}">
+                  <a
+                    href="{{ link.url }}"
+                    data-stagger-first
+                    class="navlink navlink--child{% if link.active %} main-menu--active{% endif %}{% if highlight_links contains link_title_handle %} highlight--link{% endif %}">
                     <span class="navtext">{{ link.title | strip_html | escape }}</span>
                   </a>
                   {% for link in link.links %}
                     {% assign link_title_handle = link.title | handle %}
-                    <a href="{{ link.url }}" data-stagger-second class="navlink navlink--grandchild{% if link.active %} main-menu--active{% endif %}{% if highlight_links contains link_title_handle %} highlight--link{% endif %}">
+                    <a
+                      href="{{ link.url }}"
+                      data-stagger-second
+                      class="navlink navlink--grandchild{% if link.active %} main-menu--active{% endif %}{% if highlight_links contains link_title_handle %} highlight--link{% endif %}">
                       <span class="navtext">{{ link.title | strip_html | escape }}</span>
                     </a>
                   {% endfor %}
@@ -118,7 +128,10 @@
               <div class="dropdown__family dropdown__family--child">
                 {% for link in link.links %}
                   {% assign link_title_handle = link.title | handle %}
-                  <a href="{{ link.url }}" data-stagger class="navlink navlink--grandchild{% if link.active %} main-menu--active{% endif %}{% if highlight_links contains link_title_handle %} highlight--link{% endif %}">
+                  <a
+                    href="{{ link.url }}"
+                    data-stagger
+                    class="navlink navlink--grandchild{% if link.active %} main-menu--active{% endif %}{% if highlight_links contains link_title_handle %} highlight--link{% endif %}">
                     <span class="navtext">{{ link.title | strip_html | escape }}</span>
                   </a>
                 {% endfor %}
@@ -128,7 +141,9 @@
             {% for block in section.blocks %}
               {% comment %} Render block content {% endcomment %}
               {%- if block.settings.position == index -%}
-                {% render 'header-block', block: block, column_count: child_count %}
+                {% render 'header-block'
+                  , block: block
+                  , column_count: child_count %}
               {%- endif -%}
             {% endfor %}
 
@@ -136,7 +151,10 @@
             {% comment %} Simple dropdown {% endcomment %}
             {% for link in link.links %}
               {% assign link_title_handle = link.title | handle %}
-              <a href="{{ link.url }}" data-stagger class="navlink navlink--child{% if link.active %} main-menu--active{% endif %}{% if highlight_links contains link_title_handle %} highlight--link{% endif %}">
+              <a
+                href="{{ link.url }}"
+                data-stagger
+                class="navlink navlink--child{% if link.active %} main-menu--active{% endif %}{% if highlight_links contains link_title_handle %} highlight--link{% endif %}">
                 <span class="navtext">{{ link.title | strip_html | escape }}</span>
               </a>
             {% endfor %}

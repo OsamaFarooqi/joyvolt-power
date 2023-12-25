@@ -35,6 +35,14 @@
  {% endfor %}
 
 {% style %} 
+  {{ section_identifier }} .standard__kicker {
+  color: var(--Dark-Grey, #7D7D7D);
+}
+  @media screen and (max-width: 768px){
+      .kik-section-double .image__hero__frame {
+  height:200px;
+} 
+  }
   {% comment %} Extended Icons Start {% endcomment %}
   {{ section_identifier }} .extended_icon_container .icon__column__text p.icon__column__heading {
      font-size: {{icon_font_heading}};
@@ -531,13 +539,14 @@ button.accordion {
 %}
 
 <section data-section-id="{{ section.id }}"
+  id="kik-{{section.settings.kik_section_id}}"
   data-section-type="custom-content"
   {% if transparent_header and section.settings.width == "wrapper--none" and section.settings.padding_top == 0 %}data-overlay-header{% endif %}
   style="--PT: {{ section.settings.padding_top }}px;
          --PB: {{ section.settings.padding_bottom }}px;
          --BRICK-GUTTER: {{ section.settings.brick_gutter }}px;
          {% if section.settings.bg_color != blank %}background-color: {{ section.settings.bg_color }};{% endif %}">
-  <div class="section-padding {{ section.settings.width }}" data-wrapper>
+  <div class="section-padding kik-section-double {{ section.settings.width }}" data-wrapper>
     <div  {% if with_icon_enable %} id="text_with_icon" {% endif %} {% if accordion_enable %} id="accordion_enable" {% endif %} {% if icon_indicator %} id="icon_indicator_enable" {% endif %} class="brick__section brick--{{ section.blocks.size }} {{ margin_class }} {{ border_class }} {{ section.settings.height }} {{ swaparoo_class }}"
       data-overflow-wrapper>
       {% for block in section.blocks %}
@@ -1367,6 +1376,12 @@ accordions.forEach((accordion, i) => {
   "name": "Image with text",
   "max_blocks": 2,
   "settings": [
+  {
+    "type": "text",
+    "id": "kik_section_id",
+    "label": "Kik section ID",
+    "info": "for product tabs on product page. Add ID in small latters and add '_' instead of space ' ' like 'kikstart_ecom'"
+  },
   {
     "type": "select",
     "id": "height",

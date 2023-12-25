@@ -25,14 +25,16 @@
           "type": "heading",
           "settings": {
             "title": "Explore",
-            "text_size": 10
+            "heading_size": 48,
+            "heading_size_mob": 48,
+            "line_height": 56
           }
         },
         "template--16244440924351__62ebe561-074f-4dea-b322-69985011a905-text-1": {
           "type": "text",
           "settings": {
             "richtext": "<p>Unlock Answers, Seek Assistance, Uncover Guides, Connect with Us, and Explore Your Nearest Joyvolt Oasis!<\/p>",
-            "text_size": 5
+            "description_size": 18
           }
         }
       },
@@ -47,8 +49,14 @@
         "overlay_color": "#000000",
         "enable_overlay_text": false,
         "preload_image": false,
+        "heading_color": "#ffffff",
+        "description_color": "#ffffff",
         "content_width": 2000,
+        "content_width_mob": 100,
         "text_align": "align--middle-center",
+        "vertical_alignment": "center",
+        "horizontal_alignment": "center",
+        "content_alignment": "center",
         "text_color": "text--white",
         "color_bg": "hero__content--transparent",
         "width": "wrapper--none",
@@ -95,8 +103,8 @@
         "text_color": "text--neutral",
         "bg": "palette--light bg--neutral",
         "width": "wrapper",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 64,
+        "padding_bottom": 64
       }
     },
     "989d4408-54be-48f2-bd17-dd144a531c44": {
@@ -160,7 +168,9 @@
           "type": "heading",
           "settings": {
             "heading": "Our Manuals",
-            "text_size": 6
+            "heading_size": 48,
+            "line_height": 56,
+            "heading_size_mob": 48
           }
         },
         "2f401844-45b4-4598-bd10-028241c839cd": {
@@ -177,7 +187,9 @@
         "2f401844-45b4-4598-bd10-028241c839cd"
       ],
       "settings": {
+        "kik_section_id": "",
         "align_text": "text-center",
+        "extended_color": "",
         "text_color": "text--neutral",
         "bg": "palette--light bg--neutral",
         "content_width": 2000,
@@ -307,6 +319,7 @@
       "block_order": [
         "fbac8617-abc8-4cbf-9159-8c64fb163fe7"
       ],
+      "disabled": true,
       "custom_css": [
         ".address-info,.item-content,.storeify-sear-box {color: black !important;}"
       ],

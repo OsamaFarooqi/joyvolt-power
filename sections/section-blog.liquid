@@ -7,6 +7,29 @@
 
 
 {% style %} 
+     {{ section_identifier }} .kik-blog button.flickity-button.flickity-prev-next-button.previous::before {
+       content: "";
+      background-repeat: no-repeat;
+      background: url('https://cdn.shopify.com/s/files/1/0631/0510/6111/files/octicon_arrow-up-16_e489baef-f3a9-4363-b01c-871541980ac2.svg?v=1703244153');
+      background-size: cover;
+      display: block;
+      height: 30px;
+      width: 30px;
+     margin-left: 3px;
+  }
+  {{ section_identifier }} .kik-blog button.flickity-button.flickity-prev-next-button.next::before {
+      content: "";
+      background-repeat: no-repeat;
+      background: url('https://cdn.shopify.com/s/files/1/0631/0510/6111/files/octicon_arrow-up-16.svg?v=1703244060');
+      background-size: cover;
+      display: block;
+      height: 30px;
+      width: 30px;
+      margin-left: 3px;
+  }
+  .kik-blog button.flickity-button.flickity-prev-next-button.next svg.flickity-button-icon, .kik-blog button.flickity-button.flickity-prev-next-button.previous svg.flickity-button-icon {
+    display: none;
+}
   {{ section_identifier }} .article__item-content h3.article__item-title {
     font-size: {{blog_head}};
     font-weight: 700;
@@ -92,7 +115,7 @@
 
 
 <div
-  class="section-blog section-{{ section.id }} {{ section.settings.bg }} {{ section_no_title_class }} {% if show_mobile_bar %} section-without-padding-mobile{% endif %}"
+  class="section-blog kik-blog section-{{ section.id }} {{ section.settings.bg }} {{ section_no_title_class }} {% if show_mobile_bar %} section-without-padding-mobile{% endif %}"
   data-section-id="{{ section.id }}"
   data-section-type="section-blog"
   style="--PT: {{ section.settings.padding_top }}px; --PB: {{ section.settings.padding_bottom }}px;">

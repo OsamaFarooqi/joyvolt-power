@@ -9,12 +9,17 @@
     font-weight: 700;
     line-height: 24px;
 } 
-.tab_title_container ul li a {
+.tab_title_container ul li  {
 color: rgb(var(--rgb-content) / .5);
 }
-.tab_title_container ul li a.active {
+.tab_title_container ul li.active {
     color: rgb(var(--rgb-content)); 
 }
-.tab_title_container ul li a:hover {
+.tab_title_container ul li:hover {
     color: rgb(var(--rgb-content)); 
+}
+
+
+.menu__item.grandparent .header__dropdown .header__dropdown__wrapper .header__dropdown__inner.kik-one-line{
+    grid-template-columns: 1fr 1fr 1fr;
 }

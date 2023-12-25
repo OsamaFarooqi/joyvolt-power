@@ -1,0 +1,1375 @@
+  <!-- /sections/section-tabs.liquid -->
+
+        
+  {%- assign  section_identifier = '#shopify-section-' | append: section.id -%}
+  {%- assign horizontal_alignment = section.settings.horizontal_alignment -%}
+  {%- assign inner_color = section.settings.inner_color -%}
+
+  {%- assign inner_content_top = section.settings.inner_content_top | append:'px' -%}
+  {%- assign inner_content_bottom = section.settings.inner_content_bottom | append:'px' -%}
+
+
+  {%- assign heading_size = section.settings.heading_size | append:'px' -%}
+  {%- assign sub_heading_size = section.settings.sub_heading_size | append:'px' -%}
+  {%- assign video_height = section.settings.video_height | append:'vw' -%}
+  
+  
+  {% style %}
+    {{ section_identifier }} .wrapper--full {
+      padding-left: unset;
+      padding-right: unset;
+    }
+    {{ section_identifier }} .tab_content {
+        padding-top: {{inner_content_top}};
+        padding-left: var(--outer);
+        padding-right: var(--outer);
+        padding-bottom: {{inner_content_bottom}};
+        background: {{inner_color}};
+    }
+      {{ section_identifier }} .text__standard h2.standard__heading {
+      font-size: {{heading_size}};
+      font-weight: 700;
+      /* line-height: 56px; */
+    }
+    {{ section_identifier }} .text__standard p.standard__kicker {
+        font-size: {{sub_heading_size}};
+        font-weight: 700;
+        line-height: 24px;
+        letter-spacing: 2.5px;
+        text-transform: uppercase;
+        margin-bottom: 0;
+    }
+    {{ section_identifier }} .tab_title_container {
+        justify-content: {{horizontal_alignment}};
+        margin-bottom: 0;
+    }
+    .tab_title_container ul li button {
+      font-family: Nunito;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 24px; 
+    }
+    {{ section_identifier }} .content_tab_conainer {
+        flex-direction: row;
+        display: flex;
+        align-items: center;
+    }
+    {{ section_identifier }} .border-content\/20 {
+        border-color: #04A7CB;
+    }
+    {{ section_identifier }} .border-b-4 {
+        border-bottom-width: 1px;
+        margin-bottom: 0;
+    }
+    {% comment %}
+    Video Content
+  {% endcomment %}
+    .aspect-video {
+      position: relative;
+        height: {{video_height}};
+        width: 100%;
+    }
+  @media only screen and (max-width: 1024px) {
+      .icon_container {
+          width: 100%;
+      }
+  }
+
+
+  @media only screen and (max-width: 768px) {
+    {{ section_identifier }} .text__standard h2.standard__heading {
+      font-size: 35px;
+      line-height: 44px;
+    }
+    {{ section_identifier }} .tab_content .text_with_icon {
+          flex-direction: column;
+      }
+    {{ section_identifier }} .tab_content.is_enable_text_with_icon {
+          padding-bottom: 120px;
+      }
+    {{ section_identifier }} .tab_content .text_with_icon .brick__block.text_block {
+          padding-top: 20px;
+    }
+  }
+  @media only screen and (max-width: 430px) {
+  {{ section_identifier }} .content_tab_conainer {
+          flex-direction: column;
+      }
+    {{ section_identifier }} .text__standard h2.standard__heading {
+          font-size: 25px;
+    }
+  }
+
+
+
+  {% endstyle %}
+
+  <style>
+    .{{section.id}}_kikfixedElement {
+      position:static;
+      top:0;
+      width:100%;
+      z-index:100;
+  }
+
+  .kik-product-tabs-item {
+    cursor: pointer;
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+
+    font-family: Nunito;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+  }
+
+  .kik-product-tabs ul{
+    padding: 16px 0;
+  }
+
+  .kik-product-tabs-sticky {
+    position: fixed;
+    top: 8%;
+    background: var(--White, #FFF);
+    box-shadow: 0px 5px 30px 0px rgba(0, 0, 0, 0.12), 0px -5px 30px 0px rgba(0, 0, 0, 0.12);
+  }
+  .kik-product-tabs-sticky .section-padding {
+    padding-bottom: 0px;
+  }
+
+  .kik-product-tabs-item.active li{
+    color: color: rgb(var(--rgb-content)); 
+  }
+  </style>
+
+  <script>
+  window.addEventListener('scroll', function() {
+    var el = document.querySelector('.{{section.id}}_kikfixedElement');
+    var isPositionFixed = (window.getComputedStyle(el).position === 'fixed');
+   /*  var rect = el.getBoundingClientRect();
+    var el_position = rect.top + 400; */
+    // var el_position = el.offsetTop + 200;
+    const el_position = el.offsetTop;
+    if (window.pageYOffset >= el_position) {
+      el.classList.add('kik-product-tabs-sticky');
+    }else{
+      el.classList.remove('kik-product-tabs-sticky');
+        }
+   /*  if (window.scrollY < (el_position - 200) && isPositionFixed) {
+      el.classList.remove('kik-product-tabs-sticky');
+    } */
+  });
+  </script>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function(){
+      var tabs = document.querySelectorAll('.kik-product-tabs-item');
+      console.log('tabs:', tabs.length);
+
+      tabs.forEach(tab => {
+      
+        tab.addEventListener('click', function(){
+          /* For styling */
+          tabs.forEach(tab_inner => {
+            tab_inner.classList.remove('border-content/20');
+            tab_inner.classList.remove('active');
+            tab_inner.classList.add('border-transparent');
+          });
+          this.classList.add('border-content/20');
+          this.classList.add('active');
+          this.classList.remove('border-transparent');
+
+          /* for Anchor link working */
+          var el = document.getElementById(tab.dataset.linkto);
+          console.log(el);
+         // var rect = el.offsetTop();
+          var tab_position = el.offsetTop - 150 ;
+          console.log("tab_position", tab_position);
+          window.scrollTo(0,tab_position);
+
+        });
+
+      
+
+      });
+
+      tabs[0].classList.add('active');  //to apply styling
+
+
+
+
+    })
+
+  </script>
+
+  <section
+    class="
+      {{ section.settings.color_bg }}
+      {{ section.settings.width }}
+      {{section.id}}_kikfixedElement 
+    "
+    style="
+      --PT: {{ section.settings.padding_top }}px;
+      --PB: {{ section.settings.padding_bottom }}px;
+    "
+    x-data="tabs()"
+    x-bind="bindTabs"
+    data-section-id="{{ section.id }}"
+    data-section-type="tabs"
+  >
+    <div class="section-padding kik-product-tabs">
+      {%- assign tab_links = '' -%}
+      {%- assign tab_contents = '' -%}
+
+      {%- for block in section.blocks -%}
+        {%- assign title = block.settings.title -%}
+        {%- assign content = block.settings.text -%}
+        {%- assign raw_content = pages[block.settings.raw_content].content -%}
+        {%- assign tab_content = content | default: raw_content -%}
+        {%- assign with_icon_enable = block.settings.with_icon_enable -%}
+        {%- assign kik_ref_tab_id = block.settings.kik_ref_tab_id -%}
+
+        {%- if title != blank and title != '' -%}
+          {%- capture tab_links -%}
+            {{ tab_links }}
+
+            <li
+          class="inline-flex border-b-4 kik-product-tabs-item"
+              :class="isSelected({{ forloop.index0 }}) ? 'border-content/20' : 'border-transparent'"
+
+              {%- if request.design_mode -%}
+              @shopify:block:select="select({{ forloop.index0 }})"
+              {%- endif -%}
+              data-linkto="kik-{{- block.settings.kik_ref_tab_id |  downcase  |  replace: ' ', '_'  -}}"
+            >
+            {% if block.type == "anchor" %}
+          {{ title }}
+            {% comment %} <a class="py-3 transition select-none typography-body" href="#kik-{{- block.settings.kik_ref_tab_id |  downcase  |  replace: ' ', '_'  -}}"> </a> {% endcomment %}
+            {% else %}
+              <button
+                class="py-3 transition select-none typography-body"
+                role="tab"
+                type="button"
+                tabindex="0"
+                x-bind="bindTab({{ forloop.index0 }})"
+                :class="
+                  isSelected({{ forloop.index0 }}) ?
+                    'text-content/100' :
+                    'text-content/50 hover:text-content/100'
+                "
+                {{ block.shopify_attributes }}
+              >
+                {{ title }}
+              </button>
+            {% endif %}
+            </li>
+          {%- endcapture -%}
+
+          {%- capture tab_contents -%}
+            {{ tab_contents }}
+            <div
+              x-bind="bindTabpanel({{ forloop.index0 }})"
+              tabindex="0"
+              role="tabpanel"
+              class="content_tab_conainer block text-4 transition duration-400  {% if with_icon_enable %} text_with_icon {% endif %}"
+
+              x-transition:enter="block"
+              x-transition:enter-start="opacity-0"
+              x-transition:enter-end="opacity-100"
+              x-transition:leave="hidden"
+              x-transition:leave-start="opacity-100"
+              x-transition:leave-end="opacity-0"
+
+              {% unless forloop.first %}
+                x-cloak
+              {% endunless %}
+            >
+            {% comment %}
+                Default-text-Section
+            {% endcomment %}
+              
+            {{ tab_content }}
+            
+            {% comment %}
+                  APP
+            {% endcomment %}
+              
+            {% if block.settings.enable_review %} 
+            <!-- Start of Judge.me code --> 
+              <div style='clear:both'></div> 
+              <div class="wrapper">
+                <div id='judgeme_product_reviews' class='jdgm-widget jdgm-review-widget' data-id='{{ product.id }}'> 
+                  {{ product.metafields.judgeme.widget }} 
+                </div> 
+              </div> 
+            <!-- End of Judge.me code -->
+              {% endif %}
+        
+              {% comment %}
+                Tech Specs
+            {% endcomment %}
+            {% if block.settings.enable_tech_specs %}
+              <div class="wrapper">
+              <div class="tech_specs_container">
+                  {%- if product.metafields.custom.product_tech_specs.value != blank -%}
+                    {%- for product_tech_specs in product.metafields.custom.product_tech_specs.value -%}
+                      
+                      {%- if product_tech_specs.tech_specs_title and product_tech_specs.tech_specs_content != blank -%}
+                          <div class="item_specs">
+                            <h5 class="specs_title">{{ product_tech_specs.tech_specs_title }}</h5>
+                            <div class="specs_content">{{ product_tech_specs.tech_specs_content | metafield_tag }}</div>
+                          </div>
+                    {%- endif -%}
+                      
+                    {%- if product_tech_specs.tech_specs_title_2 and product_tech_specs.tech_specs_content_2 != blank -%}
+                          <div class="item_specs">
+                            <h5 class="specs_title">{{ product_tech_specs.tech_specs_title_2 }}</h5>
+                            <div class="specs_content">{{ product_tech_specs.tech_specs_content_2 | metafield_tag }}</div>
+                          </div>
+                  {%- endif -%}
+                      
+                      {%- if product_tech_specs.tech_specs_title_3 and product_tech_specs.tech_specs_content_3 != blank -%}
+                        <div class="item_specs">
+                            <h5 class="specs_title">{{ product_tech_specs.tech_specs_title_3 }}</h5>
+                            <div class="specs_content">{{ product_tech_specs.tech_specs_content_3 | metafield_tag }}</div>
+                          </div>
+                    {%- endif -%}
+                      
+                      {%- if product_tech_specs.tech_specs_title_4 and product_tech_specs.tech_specs_content_4 != blank -%}
+                        <div class="item_specs">
+                            <h5 class="specs_title">{{ product_tech_specs.tech_specs_title_4 }}</h5>
+                            <div class="specs_content">{{ product_tech_specs.tech_specs_content_4 | metafield_tag }}</div>
+                          </div>
+                    {%- endif -%}
+                      
+                        {%- if product_tech_specs.tech_specs_title_5 and product_tech_specs.tech_specs_content_5 != blank -%}
+                        <div class="item_specs">
+                            <h5 class="specs_title">{{ product_tech_specs.tech_specs_title_5 }}</h5>
+                            <div class="specs_content">{{ product_tech_specs.tech_specs_content_5 | metafield_tag }}</div>
+                          </div>
+                    {%- endif -%}
+                      
+                          {%- if product_tech_specs.tech_specs_title_6 and product_tech_specs.tech_specs_content_6 != blank -%}
+                        <div class="item_specs">
+                            <h5 class="specs_title">{{ product_tech_specs.tech_specs_title_6 }}</h5>
+                            <div class="specs_content">{{ product_tech_specs.tech_specs_content_6 | metafield_tag }}</div>
+                          </div>
+                    {%- endif -%}
+                      
+                          {%- if product_tech_specs.tech_specs_title_7 and product_tech_specs.tech_specs_content_7 != blank -%}
+                        <div class="item_specs">
+                            <h5 class="specs_title">{{ product_tech_specs.tech_specs_title_7 }}</h5>
+                            <div class="specs_content">{{ product_tech_specs.tech_specs_content_7 | metafield_tag }}</div>
+                          </div>
+                    {%- endif -%}
+                      
+                        {%- if product_tech_specs.tech_specs_title_8 and product_tech_specs.tech_specs_content_8 != blank -%}
+                        <div class="item_specs">
+                            <h5 class="specs_title">{{ product_tech_specs.tech_specs_title_8 }}</h5>
+                            <div class="specs_content">{{ product_tech_specs.tech_specs_content_8 | metafield_tag }}</div>
+                          </div>
+                    {%- endif -%}
+            
+                    {%- if product_tech_specs.tech_specs_title_9 and product_tech_specs.tech_specs_content_9 != blank -%}
+                        <div class="item_specs">
+                            <h5 class="specs_title">{{ product_tech_specs.tech_specs_title_9 }}</h5>
+                            <div class="specs_content">{{ product_tech_specs.tech_specs_content_9 | metafield_tag }}</div>
+                          </div>
+                    {%- endif -%}
+            
+                    {%- if product_tech_specs.tech_specs_title_10 and product_tech_specs.tech_specs_content_10 != blank -%}
+                        <div class="item_specs">
+                            <h5 class="specs_title">{{ product_tech_specs.tech_specs_title_10 }}</h5>
+                            <div class="specs_content">{{ product_tech_specs.tech_specs_content_10 | metafield_tag }}</div>
+                          </div>
+                    {%- endif -%}
+            
+                      {%- if product_tech_specs.tech_specs_title_11 and product_tech_specs.tech_specs_content_11 != blank -%}
+                        <div class="item_specs">
+                            <h5 class="specs_title">{{ product_tech_specs.tech_specs_title_11 }}</h5>
+                            <div class="specs_content">{{ product_tech_specs.tech_specs_content_11 | metafield_tag }}</div>
+                          </div>
+                    {%- endif -%}
+            
+                    {%- if product_tech_specs.tech_specs_title_12 and product_tech_specs.tech_specs_content_12 != blank -%}
+                        <div class="item_specs">
+                            <h5 class="specs_title">{{ product_tech_specs.tech_specs_title_12 }}</h5>
+                            <div class="specs_content">{{ product_tech_specs.tech_specs_content_12 | metafield_tag }}</div>
+                          </div>
+                    {%- endif -%}
+            
+                    {%- if product_tech_specs.tech_specs_title_13 and product_tech_specs.tech_specs_content_13 != blank -%}
+                        <div class="item_specs">
+                            <h5 class="specs_title">{{ product_tech_specs.tech_specs_title_13 }}</h5>
+                            <div class="specs_content">{{ product_tech_specs.tech_specs_content_13 | metafield_tag }}</div>
+                          </div>
+                    {%- endif -%}
+            
+                    {%- if product_tech_specs.tech_specs_title_14 and product_tech_specs.tech_specs_content_14 != blank -%}
+                        <div class="item_specs">
+                            <h5 class="specs_title">{{ product_tech_specs.tech_specs_title_14 }}</h5>
+                            <div class="specs_content">{{ product_tech_specs.tech_specs_content_14 | metafield_tag }}</div>
+                          </div>
+                    {%- endif -%}
+            
+                    {%- if product_tech_specs.tech_specs_title_15 and product_tech_specs.tech_specs_content_15 != blank -%}
+                        <div class="item_specs">
+                            <h5 class="specs_title">{{ product_tech_specs.tech_specs_title_15 }}</h5>
+                            <div class="specs_content">{{ product_tech_specs.tech_specs_content_15 | metafield_tag }}</div>
+                          </div>
+                    {%- endif -%}
+            
+                    {%- if product_tech_specs.tech_specs_title_16 and product_tech_specs.tech_specs_content_16 != blank -%}
+                        <div class="item_specs">
+                            <h5 class="specs_title">{{ product_tech_specs.tech_specs_title_16 }}</h5>
+                            <div class="specs_content">{{ product_tech_specs.tech_specs_content_16 | metafield_tag }}</div>
+                          </div>
+                    {%- endif -%}
+            
+                    {%- if product_tech_specs.tech_specs_title_17 and product_tech_specs.tech_specs_content_17 != blank -%}
+                        <div class="item_specs">
+                            <h5 class="specs_title">{{ product_tech_specs.tech_specs_title_17 }}</h5>
+                            <div class="specs_content">{{ product_tech_specs.tech_specs_content_17 | metafield_tag }}</div>
+                          </div>
+                    {%- endif -%}
+            
+                    {%- if product_tech_specs.tech_specs_title_18 and product_tech_specs.tech_specs_content_18 != blank -%}
+                        <div class="item_specs">
+                            <h5 class="specs_title">{{ product_tech_specs.tech_specs_title_18 }}</h5>
+                            <div class="specs_content">{{ product_tech_specs.tech_specs_content_18 | metafield_tag }}</div>
+                          </div>
+                    {%- endif -%}
+                      
+                    {%- endfor -%}
+                  {%- endif -%}
+                </div>
+              </div>
+            {% endif %}
+              {% comment %}
+              Tech Specs End
+            {% endcomment %}
+            
+            {% comment %}
+                Images-Section
+            {% endcomment %}
+            {% if block.settings.image != blank %} 
+              <div class="brick__block image_block" data-overflow-frame {{ block.shopify_attributes }}>
+                  <div class="brick__block__image {{ block.settings.text_color_img }}">
+                    {%- if block.settings.kicker_img != blank or
+                          block.settings.title_img != blank or
+                          block.settings.richtext_img != blank or
+                          block.settings.link_text_img != blank or
+                          block.settings.link_img != blank
+                    -%}
+                      <div class="hero__content__wrapper {{ block.settings.text_align_img }}">
+                        <div class="hero__content {% if block.settings.enable_overlay_text %} backdrop--hero{% endif %}" {% if block.settings.enable_overlay_text %} style="--bg: {{ block.settings.overlay_color }}; --opacity: {{ block.settings.overlay_opacity | times: 0.01 }};"{% endif %} data-overflow-content>
+    
+                          {% if block.settings.kicker_img != blank %}
+                            <p class="hero__kicker"
+                              data-aos="hero"
+                              data-aos-anchor="{{ animation_anchor }}"
+                              data-aos-order="1">
+                              {{ block.settings.kicker_img | escape }}
+                            </p>
+                          {% endif %}
+    
+                          {%- if block.settings.title_img != blank -%}
+                            <h1 class="hero__title heading-size-9"
+                              data-aos="hero"
+                              data-aos-anchor="{{ animation_anchor }}"
+                              data-aos-order="2">{{ block.settings.title_img | escape }}</h1>
+                          {%- endif -%}
+    
+                          {%- if block.settings.richtext_img != blank -%}
+                            <div class="hero__description rte body-size-6"
+                              data-aos="hero"
+                              data-aos-anchor="{{ animation_anchor }}"
+                              data-aos-order="3">
+                              {{ block.settings.richtext_img }}
+                            </div>
+                          {%- endif -%}
+    
+                          {%- if block.settings.link_text_img != blank -%}
+                            <div class="hero__cta__wrapper">
+                              <a class="hero__btn {{ block.settings.button_style_img }} {{ block.settings.button_color_img }}"
+                                href="{{ block.settings.link_img }}"
+                                data-aos="hero"
+                                data-aos-anchor="{{ animation_anchor }}"
+                                data-aos-order="4">
+                                {{ block.settings.link_text_img | escape }}
+                              </a>
+                            </div>
+                          {%- endif -%}
+                        </div>
+    
+                        {%- if block.settings.link_img != blank and block.settings.link_text_img == blank -%}
+                          <a href="{{ block.settings.link_img }}" class="link-over-image" aria-label="{{ block.settings.image.alt | strip_html | escape }}"></a>
+                        {%- endif -%}
+                      </div>
+                    {%- endif -%}
+    
+                    {% unless block.settings.enable_overlay_text %}
+                      <div class="image-overlay" style="--bg:{{ block.settings.overlay_color }}; opacity:{{ block.settings.overlay_opacity | times: 0.01 }};"></div>
+                    {% endunless %}
+    
+                    {%- capture sizes -%}
+                      {%- render 'image-grid-sizes',
+                        columns_desktop: section.blocks.size,
+                        columns_tablet: section.blocks.size,
+                        columns_mobile: 1.0,
+                        section_width: section.settings.width
+                      %}
+                    {%- endcapture -%}
+    
+                    {%- capture srcset -%}
+                      {%- render 'image-grid-srcset',
+                        image: block.settings.image,
+                        columns_desktop: section.blocks.size,
+                        columns_tablet: section.blocks.size,
+                        columns_mobile: 1.0,
+                        section_width: section.settings.width
+                      %}
+                    {%- endcapture -%}
+    
+                    {%- render 'image-parallax', img_object: block.settings.image, frame_height_class: section.settings.height, srcset: srcset, sizes: sizes, preload: preload, loading: loading, fetchpriority: fetchpriority -%}
+                  </div>
+                </div>
+              {% endif %}
+            
+              {% comment %}
+                Text-Section
+            {% endcomment %}
+              {% if block.settings.image != blank %} 
+                  {%- liquid
+                    assign kicker_line_class = ''
+                    if block.settings.title_text == blank
+                      assign kicker_line_class = 'kicker__line'
+                    endif
+      
+                    assign characters = block.settings.text_extended | size
+                    assign justify_class = ''
+                    if characters > 400 and block.settings.align_text_text == 'text-center' and block.settings.text_columns_text > 1
+                      assign justify_class = 'text-justify'
+                    endif
+      
+                    assign bg_color = block.settings.bg_color_text
+                    assign transparent_spacing_class = ""
+                    if bg_color == 'rgba(0,0,0,0)' or bg_color == blank
+                      assign transparent_spacing_class = "brick__block__text--transparent"
+                    endif
+                  -%}
+                  <div class="brick__block text_block" data-prevent-transparent-header {{ block.shopify_attributes }}>
+                    <div class="brick__block__text {{ transparent_spacing_class }} {{ block.settings.text_color_text }}" data-overflow-frame style="--bg: {{ bg_color }};">
+                      <div class="brick__block__text__inner">
+                        <div class="text__standard {{ block.settings.align_text_text }}" data-overflow-content>
+                          {% assign text_size_class = block.settings.font_size | prepend: 'body-size-' %}
+      
+                          {% if block.settings.kicker_text != blank %}
+                            <p class="standard__kicker {{ kicker_line_class }}"
+                              data-aos="hero"
+                              data-aos-anchor="{{ animation_anchor }}"
+                              data-aos-order="1">
+                              {{ block.settings.kicker_text }}
+                            </p>
+                          {% endif %}
+      
+                          {% if block.settings.title_text != blank %}
+                            <h2 class="standard__heading heading-size-9"
+                              data-aos="hero"
+                              data-aos-anchor="{{ animation_anchor }}"
+                              data-aos-order="2">
+                              {{ block.settings.title_text }}
+                            </h2>
+                          {% endif %}
+      
+                          {% if block.settings.text_extended != blank %}
+                            {% assign text_columns_class = block.settings.text_columns_text | prepend: 'columns--' %}
+                            <div class="rte {{ text_size_class }} {{ text_columns_class }} {{ justify_class }}"
+                              data-aos="hero"
+                              data-aos-anchor="{{ animation_anchor }}"
+                              data-aos-order="3">
+                              {{ block.settings.text_extended }}
+                            </div>
+                          {% endif %}
+      
+                
+                          {% if block.settings.with_icon_enable != blank %}
+                            <div class="icon_container">
+                              <div class="icon_item">
+                                {%- if block.settings.icon_alt != blank -%}
+                                    {%- assign icon_width = 40 %}
+                                    {%- assign icon_width_2x = icon_width | times: 2 %}
+                      
+                                    {% capture srcset %}
+                                      {{ block.settings.icon_alt | image_url: width: icon_width_2x }} 2x,
+                                      {{ block.settings.icon_alt | image_url: width: icon_width }}
+                                    {% endcapture %}
+                                    <div class="icon__column__icon" data-aos-delay="{{ delay }}" data-aos="svg-dash">
+                                      {% render 'image', cover: true, img_object: block.settings.icon_alt, srcset: srcset, width: icon_width %}
+                                    </div>
+                                  <div class="icon__column__text">
+                                    {% if block.settings.title_icon != blank %}
+                                      <p class="icon__column__heading">{{ block.settings.title_icon | escape }}</p>
+                                    {% endif %}
+                                  </div>
+                                {%- endif -%}
+                              </div>
+                            <div class="icon_item">
+                                {%- if block.settings.icon_alt_one != blank -%}
+                                    {%- assign icon_width = 40 %}
+                                    {%- assign icon_width_2x = icon_width | times: 2 %}
+                      
+                                    {% capture srcset %}
+                                      {{ block.settings.icon_alt_one | image_url: width: icon_width_2x }} 2x,
+                                      {{ block.settings.icon_alt_one | image_url: width: icon_width }}
+                                    {% endcapture %}
+                                    <div class="icon__column__icon" data-aos-delay="{{ delay }}" data-aos="svg-dash">
+                                      {% render 'image', cover: true, img_object: block.settings.icon_alt_one, srcset: srcset, width: icon_width %}
+                                    </div>
+                                  <div class="icon__column__text">
+                                    {% if block.settings.title_icon_one != blank %}
+                                      <p class="icon__column__heading">{{ block.settings.title_icon_one | escape }}</p>
+                                    {% endif %}
+                                  </div>
+                                {%- endif -%}
+                              </div>
+                            <div class="icon_item">
+                                {%- if block.settings.icon_alt_two != blank -%}
+                                    {%- assign icon_width = 40 %}
+                                    {%- assign icon_width_2x = icon_width | times: 2 %}
+                      
+                                    {% capture srcset %}
+                                      {{ block.settings.icon_alt_two | image_url: width: icon_width_2x }} 2x,
+                                      {{ block.settings.icon_alt_two | image_url: width: icon_width }}
+                                    {% endcapture %}
+                                    <div class="icon__column__icon" data-aos-delay="{{ delay }}" data-aos="svg-dash">
+                                      {% render 'image', cover: true, img_object: block.settings.icon_alt_two, srcset: srcset, width: icon_width %}
+                                    </div>
+                                  <div class="icon__column__text">
+                                    {% if block.settings.title_icon_two != blank %}
+                                      <p class="icon__column__heading">{{ block.settings.title_icon_two | escape }}</p>
+                                    {% endif %}
+                                  </div>
+                                {%- endif -%}
+                              </div>
+                            <div class="icon_item">
+                                {%- if block.settings.icon_alt_three != blank -%}
+                                    {%- assign icon_width = 40 %}
+                                    {%- assign icon_width_2x = icon_width | times: 2 %}
+                      
+                                    {% capture srcset %}
+                                      {{ block.settings.icon_alt_three | image_url: width: icon_width_2x }} 2x,
+                                      {{ block.settings.icon_alt_three | image_url: width: icon_width }}
+                                    {% endcapture %}
+                                    <div class="icon__column__icon" data-aos-delay="{{ delay }}" data-aos="svg-dash">
+                                      {% render 'image', cover: true, img_object: block.settings.icon_alt_three, srcset: srcset, width: icon_width %}
+                                    </div>
+                                  <div class="icon__column__text">
+                                    {% if block.settings.title_icon_three != blank %}
+                                      <p class="icon__column__heading">{{ block.settings.title_icon_three | escape }}</p>
+                                    {% endif %}
+                                  </div>
+                                {%- endif -%}
+                              </div>
+                            </div>
+                          {% endif %}
+                
+      
+                          {% if block.settings.button_text_text != blank %}
+                            <a href="{{ block.settings.button_url_text }}"
+                              class="standard__cta {{ block.settings.button_style_text }} {{ block.settings.button_color_text }}"
+                              data-aos="hero"
+                              data-aos-anchor="{{ animation_anchor }}"
+                              data-aos-order="4">
+                              {{ block.settings.button_text_text }}
+                            </a>
+                          {% endif %}
+      
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                {% endif %}
+            {% comment %}
+                Video-Section
+            {% endcomment %}
+            
+            {% comment %}
+              Video Section
+            {% endcomment %}
+            {%- if block.settings.enable_video -%}  
+            {%- assign layout_spacing = settings.layout_outer | times: 2 -%}
+            {%- assign image_size = settings.layout_site_width | minus: layout_spacing | append: 'x' -%}
+            {%- assign html_video = block.settings.video -%}
+            {%- assign video_link = block.settings.video_link -%}
+            
+            {%- if video_link contains 'youtube.com/watch' -%}
+              {%- assign video_id = video_link | split: 'v=' -%}
+              {%- assign video_id = video_id[1] | split: '&' | first -%}
+              {%- assign video_url = 'https://www.youtube.com/embed/' | append: video_id -%}
+              {%- assign external_video = true -%}
+            {%- elsif video_link contains 'youtu.be/' -%}
+              {%- assign video_id = video_link | split: '.be/' -%}
+              {%- assign video_id = video_id[1] | split: '&' | first -%}
+              {%- assign video_url = 'https://www.youtube.com/embed/' | append: video_id -%}
+              {%- assign external_video = true -%}
+            {%- elsif video_link contains 'vimeo.com/' -%}
+              {%- assign video_id = video_link | split: 'vimeo.com/' -%}
+              {%- assign video_id = video_id[1] | split: '?' | first -%}
+              {%- assign video_url = 'https://player.vimeo.com/video/' | append: video_id -%}
+              {%- assign external_video = true -%}
+            {%- endif -%}
+            {% comment %}
+              Video Section End
+            {% endcomment %}
+              <div class="aspect-video relative">
+                  {%- if external_video -%}  
+                    <iframe
+                      class="block absolute top-0 right-0 bottom-0 left-0 w-full h-full"
+                      src="{{ video_url }}"
+                      frameborder="0"
+                      allow="fullscreen"
+                      allowfullscreen>
+                    </iframe>
+                    {%- elsif html_video != blank -%} 
+                    {{ html_video | video_tag: controls: true, preload: 'none', image_size: image_size, class: 'block absolute top-0 right-0 bottom-0 left-0 w-full h-full' }}
+                  {%- endif -%}
+                </div>
+              {% endif %}
+            </div>
+          {%- endcapture -%}
+        {%- endif -%}
+      {%- endfor -%}
+
+      {%- if tab_links != '' -%}
+        <div class="tab_title_container relative flex items-center mb-5" x-data="overflow({ inset: { left: 10, right: 10 }})">
+          <button
+            x-cloak
+            x-show="isOverflowing.left"
+            class="absolute w-7 h-7 -mt-2 left-0 transform rotate-90 transition duration-150 hover:opacity-80 z-20"
+            @click="$nudge($refs.overflowContainer, { left: -30, behavior: 'smooth' })"
+            x-hold="$nudge($refs.overflowContainer, { left: -25 })"
+            x-transition:enter-start="opacity-0"
+            x-transition:enter-end="opacity-100"
+            x-transition:leave-start="opacity-100"
+            x-transition:leave-end="opacity-0"
+            tabindex="-1"
+          >
+            {% render 'icon-arrow-down' %}
+          </button>
+          <ul
+            x-bind="bindTablist"
+            role="tablist"
+            class="mb-0 flex items-stretch space-x-7 overflow-x-auto max-w-full scrollbar-hide"
+            x-init="checkOverflow()"
+            x-ref="overflowContainer"
+
+            {% comment %}
+              Use of .throttle + .debounce here fixes Alpine's lack of a .trailing modifier to catch the last
+              scroll / resize event: https://github.com/alpinejs/alpine/discussions/2905
+            {% endcomment %}
+            @scroll.throttle.debounce="checkOverflow()"
+            @resize.window.throttle="checkOverflow()"
+            :class="{
+              'gradient-mask-l-10': isOverflowing.left && !isOverflowing.right,
+              'gradient-mask-r-10': isOverflowing.right && !isOverflowing.left,
+              'gradient-mask-x-10': isOverflowing.left && isOverflowing.right
+            }"
+          >
+            {{ tab_links }}
+          </ul>
+          <button
+            x-cloak
+            x-show="isOverflowing.right"
+            class="absolute w-7 h-7 -mt-2 right-0 transform -rotate-90 transition duration-150 hover:opacity-80 z-20"
+            @click="$nudge($refs.overflowContainer, { left: 30, behavior: 'smooth' })"
+            x-hold="$nudge($refs.overflowContainer, { left: 25 })"
+            x-transition:enter-start="opacity-0"
+            x-transition:enter-end="opacity-100"
+            x-transition:leave-start="opacity-100"
+            x-transition:leave-end="opacity-0"
+            tabindex="-1"
+          >
+            {% render 'icon-arrow-down' %}
+          </button>
+        </div>
+      <div class="tab_content {% for block in section.blocks %}{% if block.settings.with_icon_enable %}is_enable_text_with_icon{% endif %}{% endfor %}">
+        <div x-ref="tabpanels">
+          {{ tab_contents }}
+        </div>
+    </div>
+      {%- endif -%}
+    </div>
+  </section>
+
+  {% schema %}
+  {
+    "name": "Product Tabs",
+    "settings": [
+      {
+        "type": "select",
+        "id": "color_bg",
+        "label": "Background color",
+        "default": "palette--light bg--neutral",
+        "options": [
+          { "value": "palette--light bg--neutral", "label": "Default"},
+          { "value": "palette--light bg--accent", "label": "Light"},
+          { "value": "palette--dark bg--invert", "label": "Dark"},
+          { "value": "palette--dark bg--invert--accent", "label": "Dark accent"},
+          { "value": "palette--bright bg--bright", "label": "Bright"},
+          { "value": "palette--bright bg--bright--accent", "label": "Bright accent"}
+        ]
+      },
+      {
+        "type": "select",
+        "id": "horizontal_alignment",
+        "label": "Horizontal Tab Alignment",
+        "options": [
+          {
+            "value": "start",
+            "label": "Left"
+          },
+          {
+            "value": "center",
+            "label": "Center"
+          },
+          {
+            "value": "end",
+            "label": "Right"
+          }
+        ],
+        "default": "center"
+      },
+      {
+        "type": "header",
+        "content": "Inner Content Settings"
+      },
+      {
+          "type": "color",
+          "id": "inner_color",
+          "label": "Inner Background Color",
+          "default": "transparent"
+        },
+      {
+        "type": "range",
+        "id": "inner_content_top",
+        "min": 0,
+        "max": 180,
+        "step": 2,
+        "unit": "px",
+        "label": "Inner Content Padding Top",
+        "default": 0
+      },
+      {
+        "type": "range",
+        "id": "inner_content_bottom",
+        "min": 0,
+        "max": 180,
+        "step": 2,
+        "unit": "px",
+        "label": "Inner Content Padding Bottom",
+        "default": 0
+      },
+      {
+        "type": "select",
+        "id": "width",
+        "label": "Width",
+        "default": "wrapper",
+        "options": [
+          { "value": "wrapper--full", "label": "Full width padded" },
+          { "value": "wrapper", "label": "Page width" },
+          { "value": "wrapper--narrow", "label": "Page width narrow" },
+          { "value": "wrapper--tiny", "label": "Page width extra narrow" }
+        ]
+      },
+      {
+        "type": "range",
+        "id": "heading_size",
+        "min": 0,
+        "max": 180,
+        "step": 2,
+        "unit": "px",
+        "label": "Heading Size",
+        "default": 32
+      },
+      {
+        "type": "range",
+        "id": "sub_heading_size",
+        "min": 0,
+        "max": 180,
+        "step": 2,
+        "unit": "px",
+        "label": "Sub Heading Size",
+        "default": 16
+      },
+      {
+        "type": "range",
+        "id": "video_height",
+        "min": 0,
+        "max": 180,
+        "step": 2,
+        "unit": "px",
+        "label": "Video Height",
+        "info": "Effect the video height if the video section is enable",
+        "default": 36
+      },
+      {
+        "type": "header",
+        "content": "Padding Section"
+      },
+      {
+        "type": "range",
+        "id": "padding_top",
+        "min": 0,
+        "max": 180,
+        "step": 2,
+        "unit": "px",
+        "label": "Padding top",
+        "default": 36
+      },
+      {
+        "type": "range",
+        "id": "padding_bottom",
+        "min": 0,
+        "max": 180,
+        "step": 2,
+        "unit": "px",
+        "label": "Padding bottom",
+        "default": 36
+      }
+    ],
+    "blocks": [
+      {
+        "name": "Text",
+        "type": "text",
+        "settings": [
+          {
+            "type": "header",
+            "content": "Review"
+          },
+          {
+            "type": "checkbox",
+            "id": "enable_review",
+            "label": "Enable Reviews",
+            "info": "Create a specific tab and title",
+            "default": false
+          },
+          {
+            "type": "header",
+            "content": "Tech Specs"
+          },
+          {
+            "type": "checkbox",
+            "id": "enable_tech_specs",
+            "label": "Enable Tech Specs",
+            "info": "Create a specific tab and title",
+            "default": false
+          },
+          {
+            "type": "header",
+            "content": "Tab Default"
+          },
+          {
+            "type": "text",
+            "id": "title",
+            "label": "Title Tab",
+            "default": "Tab heading"
+          },
+          {
+            "type": "richtext",
+            "id": "text",
+            "label": "Text",
+            "default": "<p>This content type will accept <strong>rich text</strong> to help with adding styles and links to additional pages or content. Use this to add supplementary information to help your buyers.</p>"
+          },
+          {
+            "type": "header",
+            "content": "Image Section"
+          },
+          {
+            "type": "image_picker",
+            "id": "image",
+            "label": "Image"
+          },
+          {
+            "type": "header",
+            "content": "Overlay"
+          },
+          {
+            "type": "range",
+            "id": "overlay_opacity",
+            "label": "Opacity",
+            "info": "Increase contrast for legible text.",
+            "min": 0,
+            "max": 100,
+            "step": 5,
+            "unit": "%",
+            "default":15
+          },
+          {
+            "type": "color",
+            "id": "overlay_color",
+            "label": "Overlay color",
+            "default": "#000"
+          },
+          {
+            "type": "checkbox",
+            "id": "enable_overlay_text",
+            "label": "Overlay behind text only",
+            "default": false
+          },
+          {
+            "type": "header",
+            "content": "Text"
+          },
+          {
+            "type": "text",
+            "id": "kicker_img",
+            "label": "Kicker Image Overlay"
+          },
+          {
+            "type": "text",
+            "id": "title_img",
+            "label": "Title Image Overlay"
+          },
+          {
+            "type": "richtext",
+            "id": "richtext_img",
+            "label": "Text Image Overlay"
+          },
+          {
+            "type": "select",
+            "id": "text_align_img",
+            "label": "Alignment",
+            "default": "align--middle-center",
+            "options": [
+              { "value": "align--top-left", "label": "Top left"},
+              { "value": "align--top-center", "label": "Top center"},
+              { "value": "align--top-right", "label": "Top right"},
+              { "value": "align--middle-left", "label": "Middle left"},
+              { "value": "align--middle-center", "label": "Absolute center"},
+              { "value": "align--middle-right", "label": "Middle right"},
+              { "value": "align--bottom-left", "label": "Bottom left"},
+              { "value": "align--bottom-center", "label": "Bottom center"},
+              { "value": "align--bottom-right", "label": "Bottom right"}
+            ]
+          },
+          {
+            "type": "select",
+            "id": "text_color_img",
+            "label": "Text color",
+            "default": "text--white",
+            "options": [
+              { "value": "text--neutral", "label": "Normal text"},
+              { "value": "text--white", "label": "White"},
+              { "value": "text--primary", "label": "Primary accent"},
+              { "value": "text--secondary", "label": "Secondary accent"},
+              { "value": "text--black", "label": "Black"},
+              { "value": "text--invert--primary", "label": "Primary dark accent"},
+              { "value": "text--invert--secondary", "label": "Secondary dark accent"},
+              { "value": "text--invert", "label": "Inverted text color"},
+              { "value": "text--bright--primary", "label": "Primary bright accent"},
+              { "value": "text--bright--secondary", "label": "Secondary bright accent"}
+            ]
+          },
+          {
+            "type": "header",
+            "content": "Button"
+          },
+          {
+            "type": "text",
+            "id": "link_text_img",
+            "label": "Button Text Overlay",
+            "default": "Shop Now",
+            "info": "Leave blank to link entire image"
+          },
+          {
+            "type": "url",
+            "id": "link_img",
+            "label": "Link Image Overlay"
+          },
+          {
+            "type": "select",
+            "id": "button_color_img",
+            "label": "Color Image",
+            "default": "btn--white",
+            "options": [
+              { "value": "btn--primary", "label": "Bright accent" },
+              { "value": "btn--secondary", "label": "Secondary accent" },
+              { "value": "btn--neutral", "label": "Text color" },
+              { "value": "btn--black", "label": "Black" },
+              { "value": "btn--white", "label": "White" }
+            ]
+          },
+          {
+            "type": "select",
+            "id": "button_style_img",
+            "label": "Button style Image Overlay",
+            "default": "btn",
+            "options": [
+              { "value": "btn-text-thick-line", "label": "Capitalized text" },
+              { "value": "btn", "label": "Solid button" },
+              { "value": "btn--soft", "label": "Soft button" },
+              { "value": "btn--outline", "label": "Outlined button" }
+            ]
+          },
+          {
+            "type": "header",
+            "content": "Text With Icons Section"
+          },
+          {
+            "type": "text",
+            "id": "kicker_text",
+            "label": "Kicker Text",
+            "default": "Image with text"
+          },
+          {
+            "type": "text",
+            "id": "title_text",
+            "label": "Title"
+          },
+          {
+            "type": "richtext",
+            "id": "text_extended",
+            "label": "Text",
+            "default": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
+          },
+          {
+            "type":  "range",
+            "id":    "text_columns_text",
+            "label": "Columns",
+            "min":    1,
+            "max":    3,
+            "step":   1,
+            "default":1,
+            "info": "Desktop only"
+          },
+          {
+            "type": "select",
+            "id": "align_text_text",
+            "label": "Text alignment",
+            "default": "text-left",
+            "options": [
+              { "value": "text-left","label": "Left" },
+              { "value": "text-center","label": "Centered" },
+              { "value": "text-right","label": "Right" }
+            ]
+          },
+          {
+            "type": "header",
+            "content": "Button"
+          },
+          {
+            "type":"text",
+            "id":"button_text_text",
+            "label":"Text"
+          },
+          {
+            "type":"url",
+            "id":"button_url_text",
+            "label":"Link"
+          },
+          {
+            "type": "select",
+            "id": "button_color_text",
+            "label": "Color Text",
+            "default": "btn--neutral",
+            "options": [
+              { "value": "btn--primary", "label": "Bright accent" },
+              { "value": "btn--secondary", "label": "Secondary accent" },
+              { "value": "btn--neutral", "label": "Text color" },
+              { "value": "btn--black", "label": "Black" },
+              { "value": "btn--white", "label": "White" }
+            ]
+          },
+          {
+            "type": "select",
+            "id": "button_style_text",
+            "label": "Button style Text",
+            "default": "btn-text-thick-line",
+            "options": [
+              { "value": "btn-text-thick-line", "label": "Capitalized text" },
+              { "value": "btn btn--long", "label": "Solid button" },
+              { "value": "btn--soft btn--long", "label": "Soft button" },
+              { "value": "btn--outline btn--long", "label": "Outlined button" }
+            ]
+          },
+          {
+            "type": "header",
+            "content": "Style"
+          },
+          {
+            "type": "select",
+            "id": "text_color_text",
+            "label": "Text color",
+            "default": "text--neutral",
+            "options": [
+              { "value": "text--neutral", "label": "Normal text"},
+              { "value": "text--white", "label": "White"},
+              { "value": "text--primary", "label": "Primary accent"},
+              { "value": "text--secondary", "label": "Secondary accent"},
+              { "value": "text--black", "label": "Black"},
+              { "value": "text--invert--primary", "label": "Primary dark accent"},
+              { "value": "text--invert--secondary", "label": "Secondary dark accent"},
+              { "value": "text--invert", "label": "Inverted text color"},
+              { "value": "text--bright--primary", "label": "Primary bright accent"},
+              { "value": "text--bright--secondary", "label": "Secondary bright accent"}
+            ]
+          },
+          {
+            "type": "color",
+            "id": "bg_color_text",
+            "label": "Background"
+          },
+          {
+            "type": "header",
+            "content": "Icons Section"
+          },
+          {
+            "type": "checkbox",
+            "id": "with_icon_enable",
+            "label": "Enable/Add Icons",
+            "default": false
+          },
+          {
+            "type": "image_picker",
+            "id": "icon_alt",
+            "label": "Alternative icon/image"
+          },
+          {
+            "type": "text",
+            "id": "title_icon",
+            "label": "Title",
+            "default": "Add a title"
+          },
+          {
+            "type": "image_picker",
+            "id": "icon_alt_one",
+            "label": "Alternative icon/image"
+          },
+          {
+            "type": "text",
+            "id": "title_icon_one",
+            "label": "Title",
+            "default": "Add a title"
+          },
+          {
+            "type": "image_picker",
+            "id": "icon_alt_two",
+            "label": "Alternative icon/image"
+          },
+          {
+            "type": "text",
+            "id": "title_icon_two",
+            "label": "Title",
+            "default": "Add a title"
+          },
+          {
+            "type": "image_picker",
+            "id": "icon_alt_three",
+            "label": "Alternative icon/image"
+          },
+          {
+            "type": "text",
+            "id": "title_icon_three",
+            "label": "Title",
+            "default": "Add a title"
+          },
+          {
+            "type": "header",
+            "content": "Video Section"
+          },
+          {
+              "type": "checkbox",
+              "id": "enable_video",
+              "label": "Enable Video Section",
+              "default": false
+            },
+            {
+            "type": "video",
+            "id": "video",
+            "label": "Video"
+          },
+          {
+            "type": "video_url",
+            "id": "video_link",
+            "label": "Video link",
+            "accept": ["youtube", "vimeo"],
+            "info": "Streaming video source from YouTube or Vimeo.",
+            "default": "https://www.youtube.com/watch?v=_9VUPq3SxOc"
+          }
+        ]
+      },
+      {
+        "name": "Page",
+        "type": "page",
+        "settings": [
+          {
+            "type": "text",
+            "id": "title",
+            "label": "Title",
+            "default": "Page tab",
+            "info": "Example: Size chart"
+          },
+          {
+            "type": "page",
+            "id": "raw_content",
+            "label": "Tab content"
+          }
+        ]
+      },
+      {
+        "name": "Anchor",
+        "type": "anchor",
+        "settings": [
+          {
+            "type": "text",
+            "id": "title",
+            "label": "Title",
+            "default": "Anchor tab",
+            "info": "Reviews"
+          },
+          {
+            "type": "text",
+            "id": "kik_ref_tab_id",
+            "label": "Referenced Tab ID",
+            "info": "add id in small latters and add '_' instead of space ' ' like 'kikstart_ecom'"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "Prodcut Tabs",
+        "category": "Text",
+        "blocks": [
+          {
+            "type": "text",
+            "settings": {
+              "title": "Returns",
+              "text": "<p>Free returns within 30 days, no questions asked.  We believe in our products and we stand behind them.  We will return any of our items within 30 days just mail them back with your purchase receipt.</p>"
+            }
+          },
+          {
+            "type": "text",
+            "settings": {
+              "title": "Security",
+              "text": "<p>We accept all major credit cards.  All of our transactions are handled on a secure server using bank-grade encryption.  Payments can be handled through trusted third parties like Shopify Pay, Apple Pay, and PayPal.</p>"
+            }
+          },
+          {
+            "type": "text",
+            "settings": {
+              "title": "Support",
+              "text": "<p>Let us know what you think of your items.  If you are not satisfied your purchase can be replaced at any time or returned after 30 days. All of our products come with a 30 day free return and one year manufacturers guarantee against defects.</p>"
+            }
+          }
+        ]
+      }
+    ],
+    "disabled_on": {
+      "groups": ["header","footer","aside"]
+    }
+  }
+  {% endschema %}

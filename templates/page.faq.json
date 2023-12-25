@@ -35,7 +35,9 @@
         "template--16333942030527__c5372aa2-3357-466a-8ade-835a29a053ad-heading-1"
       ],
       "settings": {
+        "kik_section_id": "",
         "align_text": "text-center",
+        "extended_color": "",
         "text_color": "text--white",
         "bg": "palette--dark bg--invert--accent",
         "content_width": 2000,
@@ -110,8 +112,8 @@
         "title": "",
         "title_align": "text-left",
         "title_size": 4,
-        "heading_size": 4,
-        "text_size": 3,
+        "heading_size": 5,
+        "text_size": 4,
         "text_color": "text--neutral",
         "bg": "palette--light bg--neutral",
         "width": "wrapper",

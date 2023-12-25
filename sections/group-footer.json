@@ -5,27 +5,18 @@
     "footer": {
       "type": "footer",
       "blocks": {
-        "6ef87fc9-fad8-4e4f-8a72-78cdbe5b7e71": {
-          "type": "text",
-          "settings": {
-            "title": "Visit Us",
-            "text": "<p>Redin Tech Pte.Ltd<\/p><p>6 Raffles Quay, #14-06 Singapore(04580)<\/p>",
-            "text_size": 4,
-            "accordion_default": "accordion-is-open"
-          }
-        },
         "linklist-1": {
           "type": "linklist",
           "settings": {
             "linklist": "shop",
             "title": "Shop",
-            "accordion_default": ""
+            "accordion_default": "accordion-is-open"
           }
         },
         "linklist-2": {
           "type": "linklist",
           "settings": {
-            "linklist": "customer-information",
+            "linklist": "about",
             "title": "Support",
             "accordion_default": ""
           }
@@ -33,18 +24,26 @@
         "2a5d7b77-87e4-4aab-b9df-90908a6164e3": {
           "type": "linklist",
           "settings": {
-            "linklist": "about",
-            "title": "",
+            "linklist": "customer-information",
+            "title": "Explore",
             "accordion_default": ""
           }
         },
         "social": {
           "type": "social",
           "settings": {
-            "title": "Stay in touch.",
-            "title_size": 48,
+            "title": "",
+            "title_size": 18,
             "text_size": 8,
-            "enable_follow_on_shop": true
+            "enable_follow_on_shop": false
+          }
+        },
+        "1a82826a-b97a-42ed-88ec-87a91375fb9a": {
+          "type": "linklist",
+          "settings": {
+            "linklist": "cooperation",
+            "title": "",
+            "accordion_default": ""
           }
         },
         "newsletter": {
@@ -55,22 +54,22 @@
             "newsletter_enable": true,
             "recaptcha_enabled": false,
             "kicker": "",
-            "heading": "Exclusive offers straight to your inbox & Get the latest news",
+            "heading": "Subscribe to Get the Latest News",
             "richtext": "<p>Be the first to know about new collections and exclusive offers.<\/p>",
-            "news_heading": 40,
+            "news_heading": 24,
             "news_description": 16,
-            "text_size": 4,
+            "text_size": 3,
             "background_color": "#191919",
             "text_color_value": "#ffffff"
           }
         }
       },
       "block_order": [
-        "6ef87fc9-fad8-4e4f-8a72-78cdbe5b7e71",
         "linklist-1",
         "linklist-2",
         "2a5d7b77-87e4-4aab-b9df-90908a6164e3",
         "social",
+        "1a82826a-b97a-42ed-88ec-87a91375fb9a",
         "newsletter"
       ],
       "settings": {
@@ -79,8 +78,8 @@
         "logo_max_limit": 145,
         "text_color": "#ffffff",
         "background_color": "#191919",
-        "label_size": 18,
-        "content_size": 16,
+        "label_size": 17,
+        "content_size": 14,
         "width": "wrapper--full",
         "padding_top": 50,
         "padding_bottom": 50

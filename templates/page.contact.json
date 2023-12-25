@@ -20,19 +20,11 @@
             "heading_size_mob": 48,
             "line_height": 56
           }
-        },
-        "70ad3dd6-df58-486a-9ee2-0d01149271ca": {
-          "type": "text",
-          "settings": {
-            "richtext": "<p>At Joyvolt, we're passionate about delivering top-tier power solutions that redefine reliability and innovation. Whether you're looking for information about our cutting-edge portable power stations, battery packs, or seeking expert advice on the best power solution for your needs, our team is here to assist you every step of the way.<\/p>",
-            "description_size": 18
-          }
         }
       },
       "block_order": [
         "contact-block-kicker",
-        "contact-block-heading",
-        "70ad3dd6-df58-486a-9ee2-0d01149271ca"
+        "contact-block-heading"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/3_1_1.jpg",
@@ -41,8 +33,8 @@
         "overlay_color": "#000000",
         "enable_overlay_text": false,
         "preload_image": true,
-        "heading_color": "#FFFFFF",
-        "description_color": "#FFFFFF",
+        "heading_color": "#ffffff",
+        "description_color": "#ffffff",
         "content_width": 2000,
         "content_width_mob": 100,
         "text_align": "align--middle-left",
@@ -74,6 +66,43 @@
         "padding_bottom": 36
       }
     },
+    "cee473a4-074a-4e77-bad7-4d5023cbd717": {
+      "type": "section-richtext",
+      "blocks": {
+        "9a4e1a29-71bb-4bf0-960e-0e97d83f7600": {
+          "type": "heading",
+          "settings": {
+            "heading": "Contact Us",
+            "heading_size": 32,
+            "line_height": 56,
+            "heading_size_mob": 48
+          }
+        },
+        "template--16333941964991__cee473a4-074a-4e77-bad7-4d5023cbd717-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>At Joyvolt, we're passionate about delivering top-tier power solutions that redefine reliability and innovation. Whether you're looking for information about our cutting-edge portable power stations, battery packs, or seeking expert advice on the best power solution for your needs, our team is here to assist you every step of the way.<\/p>",
+            "text_size": 4,
+            "text_columns": 1
+          }
+        }
+      },
+      "block_order": [
+        "9a4e1a29-71bb-4bf0-960e-0e97d83f7600",
+        "template--16333941964991__cee473a4-074a-4e77-bad7-4d5023cbd717-text-1"
+      ],
+      "settings": {
+        "kik_section_id": "",
+        "align_text": "text-left",
+        "extended_color": "",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "content_width": 2000,
+        "width": "wrapper--narrow",
+        "padding_top": 36,
+        "padding_bottom": 0
+      }
+    },
     "contact": {
       "type": "section-contact",
       "blocks": {
@@ -102,7 +131,7 @@
         "message"
       ],
       "settings": {
-        "title": "Contact us",
+        "title": "",
         "align_text": "text-left",
         "button_size": "btn--long",
         "button_color": "btn--neutral",
@@ -227,6 +256,7 @@
         "aa137612-a3c6-44e6-a024-0f9ecc3df04f",
         "b13208c5-6d83-45ea-936d-043e6c4774fe"
       ],
+      "disabled": true,
       "settings": {
         "bg_color": "#f8f7f6",
         "color": "#000000",
@@ -239,6 +269,7 @@
   "order": [
     "hero",
     "main",
+    "cee473a4-074a-4e77-bad7-4d5023cbd717",
     "contact",
     "ff06ee60-4c0f-441e-b96e-87bf3f86b307",
     "75e9aae7-1b4d-4feb-a209-d30db59911a9"

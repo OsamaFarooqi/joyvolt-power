@@ -2,7 +2,6 @@
   "sections": {
     "hero": {
       "type": "collection-hero",
-      "disabled": true,
       "settings": {
         "text_align": "align--middle-left",
         "show_title": true,
@@ -21,8 +20,8 @@
         "padding_top": 0,
         "padding_bottom": 0,
         "width_text": "wrapper",
-        "padding_top_text": 36,
-        "padding_bottom_text": 0
+        "padding_top_text": 48,
+        "padding_bottom_text": 48
       }
     },
     "c85e3dd3-710b-40b6-999a-978d09b60973": {
@@ -49,6 +48,7 @@
         "template--16240241311935__c85e3dd3-710b-40b6-999a-978d09b60973-heading-1",
         "template--16240241311935__c85e3dd3-710b-40b6-999a-978d09b60973-text-1"
       ],
+      "disabled": true,
       "settings": {
         "image": "{{ collection.metafields.custom.banner.value }}",
         "mobile_image": "{{ collection.metafields.custom.banner_mobile.value }}",
@@ -57,6 +57,8 @@
         "overlay_color": "#000000",
         "enable_overlay_text": false,
         "preload_image": false,
+        "heading_color": "#FFFFFF",
+        "description_color": "#FFFFFF",
         "content_width": 800,
         "content_width_mob": 100,
         "text_align": "align--middle-left",
@@ -94,21 +96,22 @@
     "main": {
       "type": "collection",
       "blocks": {
-        "collections": {
-          "type": "collections",
-          "settings": {
-            "title": "All collections"
-          }
-        },
         "filters": {
           "type": "filters",
           "settings": {
           }
+        },
+        "collections": {
+          "type": "collections",
+          "disabled": true,
+          "settings": {
+            "title": "All collections"
+          }
         }
       },
       "block_order": [
-        "collections",
-        "filters"
+        "filters",
+        "collections"
       ],
       "settings": {
         "product_limit": 36,
@@ -141,7 +144,9 @@
         "template--16240241311935__6b30c07e-ff5c-4cae-bf5c-7589ef303247-text-1"
       ],
       "settings": {
+        "kik_section_id": "",
         "align_text": "text-center",
+        "extended_color": "",
         "text_color": "text--neutral",
         "bg": "palette--light bg--neutral",
         "content_width": 2000,

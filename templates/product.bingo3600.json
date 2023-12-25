@@ -409,7 +409,7 @@
         "template--16240241672383__39193fda-cc19-442e-a84a-c40f901cedb8-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "Bingo3000 Solar Generator",
+            "heading": "Bingo3600 Solar Generator 3124Wh 3600W",
             "heading_size": 40,
             "line_height": 56,
             "heading_size_mob": 36
@@ -418,7 +418,7 @@
         "98875324-cae2-4f05-abac-1ae3c7fb68a2": {
           "type": "text",
           "settings": {
-            "text": "<p>Customize a simple, reliable and sustainable home backup system to keep your essential circuits running when a blackout hits. Ensure peace of mind with the easily integrated whole-home backup kit<\/p>",
+            "text": "<p>Be prepared for any emergency or unpredictable situation with Joyvolt's ample power supply.<\/p>",
             "text_size": 4,
             "text_columns": 1
           }
@@ -470,7 +470,7 @@
         "32a18e80-c8cc-4a44-99fe-388b4ee97a6f": {
           "type": "heading",
           "settings": {
-            "heading": "Powers Heavy-duty Devices Up To 6000 W",
+            "heading": "From 3600W to 14,400W AC output.",
             "heading_size": 40,
             "line_height": 56,
             "heading_size_mob": 36
@@ -479,7 +479,7 @@
         "210951b7-4572-47c8-8276-0aaefac28337": {
           "type": "text",
           "settings": {
-            "text": "<p>Expandable to 6000 W, an increase of 30% in rated power, compared to other 2 kWh products on the market. Powers almost all essential devices.<\/p>",
+            "text": "<p>Supported by Turbo Leap technology power up to 5400W.<\/p><p>Four Bingo3600 paralleling from 3600W to 14,400W AC output.<\/p><p><\/p>",
             "text_size": 4,
             "text_columns": 1
           }
@@ -507,7 +507,7 @@
         "template--16333942259903__3020daf0-6fc8-4da4-b377-3c876732a46b-image-1": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/ac2aa9_2c88806706fc4d48ad88c214fe7eb87b_mv2.webp",
+            "image": "shopify:\/\/shop_images\/turbo_leap-3.jpg",
             "overlay_opacity": 0,
             "overlay_color": "#000000",
             "enable_overlay_text": false,
@@ -521,41 +521,10 @@
             "button_color": "btn--white",
             "button_style": "btn"
           }
-        },
-        "a18cb23f-93a0-4c34-9d4c-414adb283b4b": {
-          "type": "icons",
-          "settings": {
-            "icon_indicator": true,
-            "icon_font_heading": 18,
-            "icon_font_kicker": 18,
-            "icon_font_sub": 18,
-            "sub_icon_color": "#20b29b",
-            "extended_icon_one": "shopify:\/\/shop_images\/Kettle.svg",
-            "extended_title_one": "Kettle",
-            "kicker_title_one": "(850W)",
-            "extended_sub_one": "1.9 Hours",
-            "extended_icon_two": "shopify:\/\/shop_images\/Coffee_Maker.svg",
-            "extended_title_two": "Coffee Maker",
-            "kicker_title_two": "(550W)",
-            "extended_sub_two": "2.8 Hours",
-            "extended_icon_three": "shopify:\/\/shop_images\/Electric_Pressure_Cooker.svg",
-            "extended_title_three": "Electric Pressure Cooker",
-            "kicker_title_three": "(1080W)",
-            "extended_sub_three": "1.7 Hours",
-            "extended_icon_four": "shopify:\/\/shop_images\/Drone.svg",
-            "extended_title_four": "Drone",
-            "kicker_title_four": "(90W)",
-            "extended_sub_four": "45 Times",
-            "extended_icon_five": "shopify:\/\/shop_images\/Portable_Air_Conditioner.svg",
-            "extended_title_five": "Portable Air Conditioner",
-            "kicker_title_five": "(1150W)",
-            "extended_sub_five": "1.9 Hours"
-          }
         }
       },
       "block_order": [
-        "template--16333942259903__3020daf0-6fc8-4da4-b377-3c876732a46b-image-1",
-        "a18cb23f-93a0-4c34-9d4c-414adb283b4b"
+        "template--16333942259903__3020daf0-6fc8-4da4-b377-3c876732a46b-image-1"
       ],
       "settings": {
         "kik_section_id": "",

@@ -85,6 +85,16 @@
     --LOGO-PADDING: {{ section.settings.logo_padding | append: 'px' }};
     --menu-backfill-height: auto;
   }
+  .navtext{
+  color: var(--Black, #1A1A1A);
+  font-feature-settings: 'clig' off, 'liga' off;
+  
+  font-family: Nunito;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; 
+  }
 /* Mobile */
   .drawer__menu .sliderow__title {
       font-size: 17px;
@@ -154,6 +164,59 @@
   }
 {% endstyle %}
 
+<style>
+  .dropdown__family--grandchild .navlink--grandchild:not(.highlight--link) .navtext{
+  color: var(--Black, #353535);
+  }
+   .dropdown__family--grandchild .navlink--grandchild:not(.highlight--link) .navtext:hover{
+     color: #04A7CB;
+   }
+  .dropdown__family--grandchild .navlink--grandchild .navtext{
+    color: var(--Black, #353535);
+    font-feature-settings: 'clig' off, 'liga' off;
+    
+    font-family: Nunito;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px; 
+  }
+   .header__dropdown .kik-3-level .navlink.navlink--child .navtext{
+    color: var(--Dark-Grey, #7D7D7D);
+    font-feature-settings: 'clig' off, 'liga' off;
+    
+    font-family: Nunito;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0.4px;
+  }
+  .header__dropdown .kik-3-level .navlink.navlink--child .navtext:hover{
+    color: var(--Black, #353535);
+  }  
+  .header__dropdown .navlink.navlink--child .navtext {
+    color: var(--Black, #353535);
+    font-feature-settings: 'clig' off, 'liga' off;
+    
+    font-family: Nunito;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+  }
+   .header__dropdown .navlink.navlink--child .navtext:hover {
+     color: #04A7CB;
+   }
+  .grandparent .kik-3-level .navlink--child{
+    border-bottom: 0px solid transparent;  
+  }
+      @media screen and (min-width: 900px){
+ .kik-menu__item .header__dropdown__wrapper.kik-narrow {
+       width: 60%;
+ }
+  } 
+</style>
 {% capture logos %}
   {%- if transparent_header and section.settings.transparent_logo != blank -%}
     {%- assign has_transparent_logo = true -%}
@@ -407,7 +470,7 @@
     {% endif %}
 
     
-      <div class="header__desktop__button {% if request.path contains routes.account_url %} main-menu--active{% endif %}" {{ text_hover }}>
+      <div style="display: none;" class="header__desktop__button {% if request.path contains routes.account_url %} main-menu--active{% endif %}" {{ text_hover }}>
         <a href="#" class="navlink">
           {% if section.settings.use_icons %}
             {% comment %}
@@ -530,7 +593,7 @@
           {% endcomment %}
           {% endif %}
   
-           <a class="drawer__wishlist" href="#">
+           <a class="drawer__wishlist" href="#" style="display: none;">
               {% render 'new-wishlist-icon' %}
               <span class="wishlist_label">Wishlist</span>
             </a>

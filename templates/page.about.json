@@ -6,7 +6,7 @@
         "kicker-about-block": {
           "type": "kicker",
           "settings": {
-            "kicker": "Powerful Work, Joyful Life",
+            "kicker": "POWERFUL WORK, JOYFUL LIFE",
             "enable_line": false,
             "text_size": 3
           }
@@ -14,7 +14,7 @@
         "heading-about-block": {
           "type": "heading",
           "settings": {
-            "title": "Our Story",
+            "title": "Your Reliable Partner to Power the Brighter Future",
             "heading_size": 48,
             "heading_size_mob": 48,
             "line_height": 56
@@ -22,6 +22,7 @@
         },
         "b5d087f6-25e9-4b84-9124-523d50e1f628": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "richtext": "<p><strong>\"Your Reliable Partner to Power the Brighter Future.\"<\/strong><\/p>",
             "description_size": 18
@@ -34,14 +35,14 @@
         "b5d087f6-25e9-4b84-9124-523d50e1f628"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/4_1.jpg",
-        "height": "use_pixels_500",
+        "image": "shopify:\/\/shop_images\/4de6f9_47cc889a453745d48442825ecd119cff_mv2.jpg",
+        "height": "use_image",
         "overlay_opacity": 20,
         "overlay_color": "#000000",
         "enable_overlay_text": false,
         "preload_image": true,
-        "heading_color": "#FFFFFF",
-        "description_color": "#FFFFFF",
+        "heading_color": "#ffffff",
+        "description_color": "#ffffff",
         "content_width": 2000,
         "content_width_mob": 100,
         "text_align": "align--middle-right",
@@ -79,7 +80,7 @@
         "55bfabb9-7495-45c0-8e07-a972fa88b489": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/6_1.jpg",
+            "image": "shopify:\/\/shop_images\/ac2aa9_d95c29616dba4d99b59c01fc4915522b_mv2.webp",
             "overlay_opacity": 15,
             "overlay_color": "#000000",
             "enable_overlay_text": false,
@@ -99,7 +100,7 @@
           "settings": {
             "kicker": "",
             "title": "",
-            "text": "<p>Joyvolt’s journey begins with your everyday moments.<\/p><p>In the tranquility of each night, JoyVolt gently illuminates your dreams.<\/p><p>Outdoors, we fuels joyful adventures.<\/p><p>At home, we ensures worry-free moments.<\/p><p>During journeys, we empowers you.<\/p><p>In crises, we safeguards you.<\/p>",
+            "text": "<p>Joyvolt’s journey begins with your everyday moments.<\/p><p>In the tranquility of each night, Joyvolt gently illuminates your dreams.<\/p><p>Outdoors, we fuels joyful adventures.<\/p><p>At home, we ensures worry-free moments.<\/p><p>During journeys, we empowers you.<\/p><p>In crises, we safeguards you.<\/p>",
             "font_size": 5,
             "text_columns": 1,
             "align_text": "text-left",
@@ -151,7 +152,7 @@
           "type": "video",
           "settings": {
             "object_position": "center-center",
-            "image": "shopify:\/\/shop_images\/8_1.jpg",
+            "image": "shopify:\/\/shop_images\/ac2aa9_af328bcba8144a539bd30975994fb6b3_mv2.webp",
             "video_link": "",
             "popup_text": "",
             "kicker": "",
@@ -198,7 +199,7 @@
         "template--16240241410239__7ff73adf-8518-4578-98ed-e36f6d2fed8b-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Meticulously tending to every facet of your life, we craft innovations fueled by love and care. \"Always Available Power\" is our promise to stand by your side, providing a reliable source of electricity so you can focus on what truly matters—your family and your peace of mind. <\/p><p>As you go about your day, JoyVolt is there to make every detail seamless and enjoyable.<\/p>",
+            "text": "<p>As you go about your day, Joyvolt is there to make every detail seamless and enjoyable.<\/p>",
             "text_size": 5,
             "text_columns": 1
           }
@@ -209,7 +210,9 @@
         "template--16240241410239__7ff73adf-8518-4578-98ed-e36f6d2fed8b-text-1"
       ],
       "settings": {
+        "kik_section_id": "",
         "align_text": "text-center",
+        "extended_color": "",
         "text_color": "text--neutral",
         "bg": "palette--light bg--neutral",
         "content_width": 2000,
@@ -224,8 +227,8 @@
         "8be71354-42ff-484a-8c52-1ad81770a274": {
           "type": "text",
           "settings": {
-            "kicker": "Brand Vision",
-            "title": "",
+            "kicker": "",
+            "title": "Vision",
             "text": "<p>Caring for people's lives through the power of meaningful innovation.<\/p>",
             "font_size": 5,
             "text_columns": 1,
@@ -234,16 +237,16 @@
             "button_url": "",
             "button_color": "btn--neutral",
             "button_style": "btn-text-thick-line",
-            "text_color": "text--white",
+            "text_color": "text--neutral",
             "bg_color": ""
           }
         },
         "db39d551-92fd-4ce4-aa11-b45952bc90e7": {
           "type": "text",
           "settings": {
-            "kicker": "Brand Mission",
-            "title": "",
-            "text": "<p><\/p><p>To provide reliable energy security for more people<\/p>",
+            "kicker": "",
+            "title": "Mission",
+            "text": "<p>To provide reliable energy security for more people<\/p>",
             "font_size": 5,
             "text_columns": 1,
             "align_text": "text-left",
@@ -251,7 +254,7 @@
             "button_url": "",
             "button_color": "btn--neutral",
             "button_style": "btn-text-thick-line",
-            "text_color": "text--white",
+            "text_color": "text--neutral",
             "bg_color": ""
           }
         }
@@ -264,11 +267,11 @@
         "height": "use_screen_one_fifth",
         "brick_gutter": 0,
         "borders": false,
-        "bg_color": "#353535",
+        "bg_color": "#f8f7f6",
         "preload_image": false,
         "width": "wrapper",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 48,
+        "padding_bottom": 48
       }
     },
     "7239829d-d11b-42b6-8055-451936917325": {
@@ -278,9 +281,9 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
-            "image": "shopify:\/\/shop_images\/joyvolt_images_cc9d2a7a-55fb-4261-9f09-8531a7775b9a.png",
-            "title": "Innovation and Care",
-            "text": "<p>Our research and development team consists of scientists from Tsinghua University, UC Berkeley, and MIT. We continuously innovate with a caring heart to meet the genuine life needs of our customers.<\/p>",
+            "image": "shopify:\/\/shop_images\/icon-innovation_b4edc92e-e55f-4240-a797-76b8e6b658cb.png",
+            "title": "",
+            "text": "<h5>Innovation and Care<\/h5><h5><\/h5><p>Our research and development team consists of scientists from Tsinghua University, UC Berkeley, and MIT. <\/p>",
             "button_label": "",
             "button_link": "",
             "button_color": "btn--neutral",
@@ -293,9 +296,9 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
-            "image": "shopify:\/\/shop_images\/joyvolt_images_1_ea0a1364-50e9-488a-bbb7-43bf962e446a.png",
-            "title": "Worry-Free Life",
-            "text": "<p>We consistently break through energy limitations, safeguarding moments of joy for you and your family, infusing your life with the \"Worry-Free\" energy.<\/p>",
+            "image": "shopify:\/\/shop_images\/icon-worry-free.png",
+            "title": "",
+            "text": "<h5>Worry-Free Life<\/h5><p><\/p><p>No energy limitations for Joyvolt, which equiped with super paralleling up to 124kWh and internet power integrated home energy backup solution.<\/p>",
             "button_label": "",
             "button_link": "",
             "button_color": "btn--neutral",
@@ -308,9 +311,9 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
-            "image": "shopify:\/\/shop_images\/joyvolt_images_2_2cd9ecb9-38dc-4fbc-aab0-b9f1b7c4ab72.png",
-            "title": "Open-Minded and Seamless",
-            "text": "<p>We actively break down brand barriers with openness and sharing, providing users with a seamless energy experience, making energy an unobstructed form of care.<\/p>",
+            "image": "shopify:\/\/shop_images\/icon-open-minded-seamless.png",
+            "title": "",
+            "text": "<h5>Open-Minded and Seamless<\/h5><p><\/p><p>We actively break down brand barriers with openness and sharing, our EXB2000\/3000 widely competible with 99% solar generators in the market.<\/p>",
             "button_label": "",
             "button_link": "",
             "button_color": "btn--neutral",
@@ -323,9 +326,9 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
-            "image": "shopify:\/\/shop_images\/joyvolt_images_3.png",
-            "title": "Excellent Service Assurance",
-            "text": "<p>We have established an excellent service assurance system, employing AIoT technology for machine self-diagnosis and repair, multiple offline service centers, and dynamic extended warranties based on user machine usage, ensuring you always have reliable service.<\/p>",
+            "image": "shopify:\/\/shop_images\/icon-service-assurance.png",
+            "title": "",
+            "text": "<h5>Excellent Service Assurance<\/h5><h5><\/h5><p>Set up AIoT technology for machine self-diagnosis and repair, multiple offline service centers, and dynamic extended warranties policy.<\/p>",
             "button_label": "",
             "button_link": "",
             "button_color": "btn--neutral",
@@ -338,9 +341,9 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
-            "image": "shopify:\/\/shop_images\/joyvolt_images_4.png",
-            "title": "Reliable and Professional ",
-            "text": "<p>With a professional team of advanced energy engineers and supply chain management experts, all our products undergo rigorous certification and safety testing to ensure outstanding quality.<\/p>",
+            "image": "shopify:\/\/shop_images\/icon-reliable-professional.png",
+            "title": "",
+            "text": "<h5>Reliable and Professional <\/h5><p><\/p><p>TUV Certificated labs, and have already shipped more than 100k solar generators and sold worldwide.Meanwhile, our battery product comes with most safest semi-solid state battery.<\/p>",
             "button_label": "",
             "button_link": "",
             "button_color": "btn--neutral",
@@ -353,9 +356,9 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
-            "image": "shopify:\/\/shop_images\/joyvolt_images_5.png",
-            "title": "Lifelong Benefits",
-            "text": "<p>We are committed to continuously enriching your experience. Beyond providing reliable energy, we offer lifelong benefits such as extended warranties, extra data, and exciting giveaways to keep you engaged and rewarded. JoyVolt is an ongoing journey of benefits for you and your family.<\/p>",
+            "image": "shopify:\/\/shop_images\/icon-lifelong-benefits.png",
+            "title": "",
+            "text": "<h5>Lifelong Benefits<\/h5><p><\/p><p>We offer lifelong benefits such as extended warranties, extra data, and exciting giveaways to keep you engaged and rewarded. <\/p>",
             "button_label": "",
             "button_link": "",
             "button_color": "btn--neutral",
@@ -376,16 +379,16 @@
       "settings": {
         "title": "Brand Value",
         "bg": "palette--light bg--neutral",
-        "align_text": "text-left",
+        "align_text": "text-center",
         "scale_image": true,
         "wh_ratio": 3,
         "grid_large": 3,
         "grid_medium": 3,
         "grid_mobile": 1.2,
-        "progress_bar_mobile": false,
+        "progress_bar_mobile": true,
         "width": "wrapper",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 64,
+        "padding_bottom": 64
       }
     },
     "9d677dc1-c11a-4825-abbe-c461a89e20b5": {
@@ -394,27 +397,20 @@
         "template--16333941866687__9d677dc1-c11a-4825-abbe-c461a89e20b5-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "Product Identity",
+            "heading": "Meet Bingo's Products",
             "heading_size": 32,
             "line_height": 56,
             "heading_size_mob": 48
           }
-        },
-        "template--16333941866687__9d677dc1-c11a-4825-abbe-c461a89e20b5-text-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>In tranquil days, JoyVolt's quest is to elevate your life's grace and bliss. When tempests rage, guarding your safety and peace becomes JoyVolt's sacred mission and timeless pledge. Always ready with JoyVolt, we aspire for you to feel the lifeline of your everyday moments, the warmth in your home, and the comfort of knowing you're always connected.<\/p>",
-            "text_size": 4,
-            "text_columns": 1
-          }
         }
       },
       "block_order": [
-        "template--16333941866687__9d677dc1-c11a-4825-abbe-c461a89e20b5-heading-1",
-        "template--16333941866687__9d677dc1-c11a-4825-abbe-c461a89e20b5-text-1"
+        "template--16333941866687__9d677dc1-c11a-4825-abbe-c461a89e20b5-heading-1"
       ],
       "settings": {
+        "kik_section_id": "",
         "align_text": "text-left",
+        "extended_color": "",
         "text_color": "text--neutral",
         "bg": "palette--light bg--neutral",
         "content_width": 2000,

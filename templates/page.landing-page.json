@@ -25,7 +25,7 @@
           "type": "heading",
           "settings": {
             "title": "The Most Ultimate Semi-Solid State Portable Home Battery System",
-            "heading_size": 48,
+            "heading_size": 40,
             "heading_size_mob": 48,
             "line_height": 56
           }
@@ -39,6 +39,7 @@
         },
         "template--16370496897215__a7a9faf4-bc91-47b8-ab7d-7d8896264add-button-1": {
           "type": "button",
+          "disabled": true,
           "settings": {
             "btn_size": 16,
             "link_text_1": "Shop Now",
@@ -65,17 +66,17 @@
         "template--16370496897215__a7a9faf4-bc91-47b8-ab7d-7d8896264add-button-1"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/4de6f9_78b9517344a243ea81a73dda48432aad_mv2.png",
-        "height": "use_screen_two_thirds",
-        "overlay_opacity": 70,
+        "image": "shopify:\/\/shop_images\/4de6f9_19b644329c7543e6aed000dc63421ea1_mv2.webp",
+        "height": "use_image",
+        "overlay_opacity": 0,
         "overlay_color": "#000000",
-        "enable_overlay_text": true,
+        "enable_overlay_text": false,
         "preload_image": false,
         "heading_color": "#ffffff",
         "description_color": "#ffffff",
         "content_width": 2000,
         "content_width_mob": 100,
-        "text_align": "align--middle-left",
+        "text_align": "align--top-left",
         "vertical_alignment": "center",
         "horizontal_alignment": "center",
         "content_alignment": "center",
@@ -84,6 +85,17 @@
         "width": "wrapper--none",
         "padding_top": 0,
         "padding_bottom": 0
+      }
+    },
+    "3dde7da1-2478-4ca8-b30e-6a803e80d467": {
+      "type": "section-newsletter",
+      "settings": {
+        "title": "",
+        "richtext": "<h3><strong>Launch Soon<\/strong><\/h3><p>Sign up for additional 35% off<\/p>",
+        "bg": "palette--dark bg--invert--accent",
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "bec00d0e-c238-45ce-bd08-cc9f853071e9": {
@@ -106,6 +118,7 @@
       "block_order": [
         "template--16370496897215__bec00d0e-c238-45ce-bd08-cc9f853071e9-collection-2"
       ],
+      "disabled": true,
       "settings": {
         "title": "",
         "bg": "palette--light bg--neutral",
@@ -125,9 +138,9 @@
           "type": "heading",
           "settings": {
             "heading": "3kWh to 124kWh Expandable Capacity",
-            "heading_size": 32,
-            "line_height": 56,
-            "heading_size_mob": 48
+            "heading_size": 40,
+            "line_height": 48,
+            "heading_size_mob": 32
           }
         },
         "template--16370496897215__0bd08e3b-611d-4e20-9db1-a6490ef1dfcd-text-1": {
@@ -137,24 +150,40 @@
             "text_size": 4,
             "text_columns": 1
           }
-        },
-        "88de4a16-ff85-43bc-822c-1f8ab1bb7067": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/4de6f9_bcf356e70e804f3d8603e8026b5bf0a0f000.jpg",
-            "image_max_limit": 500,
-            "link": ""
-          }
-        },
-        "6e664326-7925-4d0c-9bc8-ef2fb24ec222": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/4de6f9_7db579d1803747bfa8b18b2a3b865d7b_mv2.webp",
-            "image_max_limit": 500,
-            "link": ""
-          }
-        },
-        "1fb19e7a-a651-4f55-81a2-6c15dc648b41": {
+        }
+      },
+      "block_order": [
+        "template--16370496897215__0bd08e3b-611d-4e20-9db1-a6490ef1dfcd-heading-1",
+        "template--16370496897215__0bd08e3b-611d-4e20-9db1-a6490ef1dfcd-text-1"
+      ],
+      "settings": {
+        "kik_section_id": "",
+        "align_text": "text-center",
+        "extended_color": "",
+        "text_color": "text--white",
+        "bg": "palette--dark bg--invert--accent",
+        "content_width": 950,
+        "width": "wrapper",
+        "padding_top": 48,
+        "padding_bottom": 24
+      }
+    },
+    "08aded9d-2694-4f93-aff3-05bf63c7d9c6": {
+      "type": "section-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/1280x600-1.png",
+        "max_width": 100,
+        "x_align": "center",
+        "color_bg": "palette--dark bg--invert--accent",
+        "width": "wrapper",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "6e1245de-0c76-44d0-8d45-27abb04a1a46": {
+      "type": "section-richtext",
+      "blocks": {
+        "4a0b26b5-839a-49ed-843b-1687e5ca459d": {
           "type": "text",
           "settings": {
             "text": "<p>Whether it's for tailgate power or during extended blackouts that can last for days, the Bingo 3600 offers an impressive capacity of up to 124kWh. With this, you're well-prepared for any situation, and there's no need to worry about power interruptions anymore.<\/p>",
@@ -162,23 +191,31 @@
             "text_columns": 1
           }
         },
-        "d7ae401b-5105-4ead-8266-b03e0104c580": {
+        "a028d6a4-b35d-4fcd-88b5-b2c43d9c5f08": {
           "type": "spacer",
           "settings": {
             "spacer_padding": 40,
             "show_line": false
           }
         },
-        "74cc97a9-a2f2-4dff-96e6-dbb30044a6d8": {
+        "d35d5c91-adb4-40ca-99af-1beb560f8df3": {
           "type": "heading",
           "settings": {
-            "heading": "3,600 - 14,400W AC OutputAll the Power You Will Need",
-            "heading_size": 32,
+            "heading": "3,600 - 14,400W AC Output",
+            "heading_size": 48,
             "line_height": 56,
-            "heading_size_mob": 48
+            "heading_size_mob": 36
           }
         },
-        "fadec6fd-ed66-46ac-8ada-d9709dd1c95b": {
+        "e831cf04-fcda-4b6c-a7d7-c47410962a5b": {
+          "type": "text",
+          "settings": {
+            "text": "<h4>All the Power You Will Need<\/h4>",
+            "text_size": 4,
+            "text_columns": 1
+          }
+        },
+        "95e3085a-c7e4-4d33-940d-62adf921e95d": {
           "type": "text",
           "settings": {
             "text": "<p>With a robust AC output ranging from 3600W to a staggering 14400W, it ensures your entire home functions flawlessly, even in blackout situations. Plus, Turbo Leap technology boosts the initial 3600W power to 5400W, making it ideal for powering high-demand appliances. <\/p>",
@@ -188,14 +225,11 @@
         }
       },
       "block_order": [
-        "template--16370496897215__0bd08e3b-611d-4e20-9db1-a6490ef1dfcd-heading-1",
-        "template--16370496897215__0bd08e3b-611d-4e20-9db1-a6490ef1dfcd-text-1",
-        "88de4a16-ff85-43bc-822c-1f8ab1bb7067",
-        "6e664326-7925-4d0c-9bc8-ef2fb24ec222",
-        "1fb19e7a-a651-4f55-81a2-6c15dc648b41",
-        "d7ae401b-5105-4ead-8266-b03e0104c580",
-        "74cc97a9-a2f2-4dff-96e6-dbb30044a6d8",
-        "fadec6fd-ed66-46ac-8ada-d9709dd1c95b"
+        "4a0b26b5-839a-49ed-843b-1687e5ca459d",
+        "a028d6a4-b35d-4fcd-88b5-b2c43d9c5f08",
+        "d35d5c91-adb4-40ca-99af-1beb560f8df3",
+        "e831cf04-fcda-4b6c-a7d7-c47410962a5b",
+        "95e3085a-c7e4-4d33-940d-62adf921e95d"
       ],
       "settings": {
         "kik_section_id": "",
@@ -203,10 +237,10 @@
         "extended_color": "",
         "text_color": "text--white",
         "bg": "palette--dark bg--invert--accent",
-        "content_width": 2000,
+        "content_width": 900,
         "width": "wrapper",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 24,
+        "padding_bottom": 48
       }
     },
     "c8fc89e0-83da-4f58-9cff-2fb3a3b25cb0": {
@@ -216,7 +250,7 @@
           "type": "icon_block",
           "settings": {
             "icon_name": "icon-basket-return",
-            "icon_alt": "shopify:\/\/shop_images\/WechatIMG284.webp",
+            "icon_alt": "shopify:\/\/shop_images\/icon-1.png",
             "icon_color": "#aaaaaa",
             "title": "Turbo Mode for 5,400W",
             "text": "",
@@ -244,11 +278,11 @@
       "settings": {
         "title": "",
         "bg": "palette--dark bg--invert--accent",
-        "icon_size": "icon--medium",
-        "icon_alignment": "icon--left",
+        "icon_size": "icon--large",
+        "icon_alignment": "icon--top",
         "layout": "grid--stacked",
-        "align_text": "text-left",
-        "width": "wrapper--narrow",
+        "align_text": "text-center",
+        "width": "wrapper",
         "padding_top": 0,
         "padding_bottom": 36
       }
@@ -277,7 +311,7 @@
         "color_bg": "hero__content--transparent",
         "width": "wrapper",
         "padding_top": 0,
-        "padding_bottom": 36
+        "padding_bottom": 0
       }
     },
     "e7dfb93a-ad11-45a9-b845-f7585c5610b7": {
@@ -286,7 +320,7 @@
         "template--16370496897215__e7dfb93a-ad11-45a9-b845-f7585c5610b7-image-1": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/WechatIMG33.webp",
+            "image": "shopify:\/\/shop_images\/4_07c0639a-02d2-406b-aec7-805808141441.png",
             "overlay_opacity": 15,
             "overlay_color": "#000000",
             "enable_overlay_text": false,
@@ -305,7 +339,7 @@
           "type": "text",
           "settings": {
             "kicker": "",
-            "title": "EV-GradeSemi-Solid State Cells",
+            "title": "EV Semi-Solid State Cells",
             "text": "<p>Safer, and more compact in size without compromising in capacity. Plus, retaining 80% battery life after 2000+ cycles,<br\/><\/p>",
             "heading_size": 32,
             "sub_heading_size": 16,
@@ -330,20 +364,21 @@
         "template--16370496897215__e7dfb93a-ad11-45a9-b845-f7585c5610b7-text-1"
       ],
       "settings": {
+        "kik_section_id": "",
         "height": "use_screen_one_half",
         "img_position": "center",
         "border_radius": 0,
         "brick_gutter": 0,
         "borders": false,
-        "bg_color": "#000000",
+        "bg_color": "#191919",
         "preload_image": false,
         "width": "wrapper",
         "img_col_width": 60,
         "text_col_width": 40,
         "row_position": "row",
         "column_position": "column-reverse",
-        "padding_top": 36,
-        "padding_bottom": 14
+        "padding_top": 64,
+        "padding_bottom": 32
       }
     },
     "9898e993-777d-4796-a280-77045385fbd0": {
@@ -353,7 +388,7 @@
           "type": "text",
           "settings": {
             "kicker": "",
-            "title": "120-240VDual Voltage Switch",
+            "title": "120-240V Dual Voltage Switch",
             "text": "<p>Whether standard household appliances or higher-voltage equipment, Bingo 3600 has you covered.<\/p>",
             "heading_size": 32,
             "sub_heading_size": 16,
@@ -375,14 +410,14 @@
         "d18af4cc-1944-49d7-a241-32bb7906238c": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/7091699611029__pic.webp",
+            "image": "shopify:\/\/shop_images\/dual_voltage.jpg",
             "overlay_opacity": 15,
             "overlay_color": "#000000",
             "enable_overlay_text": false,
             "kicker": "",
             "title": "",
             "richtext": "",
-            "text_align": "align--middle-center",
+            "text_align": "align--top-center",
             "text_color": "text--white",
             "link_text": "",
             "link": "",
@@ -396,20 +431,21 @@
         "d18af4cc-1944-49d7-a241-32bb7906238c"
       ],
       "settings": {
-        "height": "use_screen_one_half",
+        "kik_section_id": "",
+        "height": "use_image",
         "img_position": "center",
         "border_radius": 0,
         "brick_gutter": 0,
         "borders": false,
-        "bg_color": "#000000",
+        "bg_color": "#191919",
         "preload_image": false,
         "width": "wrapper",
         "img_col_width": 60,
         "text_col_width": 40,
         "row_position": "row",
         "column_position": "column-reverse",
-        "padding_top": 14,
-        "padding_bottom": 36
+        "padding_top": 64,
+        "padding_bottom": 64
       }
     },
     "6629fe52-4ff5-4e92-957e-4c52f08fee05": {
@@ -419,7 +455,7 @@
           "type": "kicker",
           "settings": {
             "kicker": "Joyvolt Multi-Energy",
-            "enable_line": true,
+            "enable_line": false,
             "text_size": 4
           }
         },
@@ -427,15 +463,15 @@
           "type": "heading",
           "settings": {
             "heading": "Home Standby System",
-            "heading_size": 32,
+            "heading_size": 40,
             "line_height": 56,
-            "heading_size_mob": 48
+            "heading_size_mob": 32
           }
         },
         "template--16370496897215__6629fe52-4ff5-4e92-957e-4c52f08fee05-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Introducing our plug-and-play home standby energy system, with over 9kW of AC output and expandable energy reserves, all managed by the Smart Home Panel, which it’s the world first one to support Smart Generator. It covers your daily power needs at a fraction of the cost.<br\/><\/p>",
+            "text": "<p>Introducing our plug-and-play home standby energy system, with over 10.8kW of AC output and expandable energy reserves, all managed by the Smart Home Panel, which it’s the world first one to support Smart Generator. It covers your daily power needs at a fraction of the cost.<br\/><\/p>",
             "text_size": 4,
             "text_columns": 1
           }
@@ -454,14 +490,63 @@
         "bg": "palette--dark bg--invert--accent",
         "content_width": 2000,
         "width": "wrapper",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 48,
+        "padding_bottom": 16
+      }
+    },
+    "1d939b2d-ee2d-4670-b2c4-aff38add7eb8": {
+      "type": "section-gallery-text",
+      "blocks": {
+        "template--16386734915775__1d939b2d-ee2d-4670-b2c4-aff38add7eb8-text-1": {
+          "type": "text",
+          "settings": {
+            "title": "Portable Home Battery",
+            "title_size": 6,
+            "text": "<p>3-124kWh Capacity3.6-14.4kW AC Output<\/p>",
+            "body_size": 4,
+            "text_align": "text-center"
+          }
+        },
+        "b4e36dd3-d81b-4717-9ba4-142903a5546d": {
+          "type": "text",
+          "settings": {
+            "title": "1200W Solar Panel",
+            "title_size": 6,
+            "text": "<p>Green free energy<\/p>",
+            "body_size": 4,
+            "text_align": "text-center"
+          }
+        },
+        "53eae1ca-9f50-4b4f-b040-c0da0bb56baa": {
+          "type": "text",
+          "settings": {
+            "title": "Smart Home Panel",
+            "title_size": 6,
+            "text": "<p>Efficiently manages up to 10 home circuits<\/p>",
+            "body_size": 4,
+            "text_align": "text-center"
+          }
+        }
+      },
+      "block_order": [
+        "template--16386734915775__1d939b2d-ee2d-4670-b2c4-aff38add7eb8-text-1",
+        "b4e36dd3-d81b-4717-9ba4-142903a5546d",
+        "53eae1ca-9f50-4b4f-b040-c0da0bb56baa"
+      ],
+      "settings": {
+        "bg": "palette--dark bg--invert--accent",
+        "grid_large": 3,
+        "grid_medium": 3,
+        "grid_mobile": 1,
+        "width": "wrapper",
+        "padding_top": 16,
+        "padding_bottom": 24
       }
     },
     "c8bff7c5-2a35-4539-8434-170a2fd45f57": {
       "type": "section-hero",
       "settings": {
-        "image": "shopify:\/\/shop_images\/4de6f9_65244ddce91447e1a24f6ef25b982733_mv2.webp",
+        "image": "shopify:\/\/shop_images\/4de6f9_47cc889a453745d48442825ecd119cff_mv2.jpg",
         "height": "use_image",
         "overlay_opacity": 15,
         "overlay_color": "#000000",
@@ -488,10 +573,10 @@
         "template--16370496897215__a6b38a46-2aa4-4237-ad4f-98ad876a10de-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "Only 1\/3 the Costof Traditional Household Energy Storage System",
-            "heading_size": 32,
-            "line_height": 56,
-            "heading_size_mob": 48
+            "heading": "Only 1\/3 the Cost of Traditional Household Energy Storage System",
+            "heading_size": 40,
+            "line_height": 40,
+            "heading_size_mob": 32
           }
         },
         "template--16370496897215__a6b38a46-2aa4-4237-ad4f-98ad876a10de-text-1": {
@@ -501,29 +586,11 @@
             "text_size": 4,
             "text_columns": 1
           }
-        },
-        "f528684f-5361-4308-b96f-59e3b2e4046a": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/9741701076233__pic_hd.webp",
-            "image_max_limit": 500,
-            "link": ""
-          }
-        },
-        "7e08ea86-6f4a-490a-be10-3718cb1ed498": {
-          "type": "text",
-          "settings": {
-            "text": "<p>*1\/3 cost refers to the typical U.S yearly average household power usage (9KW) energy storage system set-up & installation cost. <\/p>",
-            "text_size": 3,
-            "text_columns": 1
-          }
         }
       },
       "block_order": [
         "template--16370496897215__a6b38a46-2aa4-4237-ad4f-98ad876a10de-heading-1",
-        "template--16370496897215__a6b38a46-2aa4-4237-ad4f-98ad876a10de-text-1",
-        "f528684f-5361-4308-b96f-59e3b2e4046a",
-        "7e08ea86-6f4a-490a-be10-3718cb1ed498"
+        "template--16370496897215__a6b38a46-2aa4-4237-ad4f-98ad876a10de-text-1"
       ],
       "settings": {
         "kik_section_id": "",
@@ -531,32 +598,18 @@
         "extended_color": "",
         "text_color": "text--white",
         "bg": "palette--dark bg--invert--accent",
-        "content_width": 2000,
+        "content_width": 950,
         "width": "wrapper",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 64,
+        "padding_bottom": 16
       }
     },
-    "ffaa4919-735b-47d4-946a-891a2ecfcb0f": {
+    "71896296-e498-4646-8986-50a55037c0b4": {
       "type": "section-hero",
-      "blocks": {
-        "6bdb51d1-19d3-468b-9576-096d50685175": {
-          "type": "heading",
-          "settings": {
-            "title": "The Most Powerful Dual-Fuel Generatorin Home Energy Solution",
-            "heading_size": 32,
-            "heading_size_mob": 48,
-            "line_height": 56
-          }
-        }
-      },
-      "block_order": [
-        "6bdb51d1-19d3-468b-9576-096d50685175"
-      ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/4de6f9_7e0dacc64ac94aa3b1b7ad015cadacea_mv2.webp",
+        "image": "shopify:\/\/shop_images\/livo-3.png",
         "height": "use_image",
-        "overlay_opacity": 15,
+        "overlay_opacity": 0,
         "overlay_color": "#000000",
         "enable_overlay_text": false,
         "preload_image": false,
@@ -564,7 +617,7 @@
         "description_color": "#ffffff",
         "content_width": 2000,
         "content_width_mob": 100,
-        "text_align": "align--top-center",
+        "text_align": "align--bottom-center",
         "vertical_alignment": "center",
         "horizontal_alignment": "center",
         "content_alignment": "center",
@@ -573,6 +626,33 @@
         "width": "wrapper--none",
         "padding_top": 0,
         "padding_bottom": 0
+      }
+    },
+    "b02d1efe-a666-4a97-8ac2-2e2731127173": {
+      "type": "section-richtext",
+      "blocks": {
+        "e69ecf01-4cd0-489e-b271-45cd17609706": {
+          "type": "text",
+          "settings": {
+            "text": "<p>*1\/3 cost refers to the typical U.S yearly average household power usage (10.8KW) energy storage system set-up & installation cost. <\/p>",
+            "text_size": 3,
+            "text_columns": 1
+          }
+        }
+      },
+      "block_order": [
+        "e69ecf01-4cd0-489e-b271-45cd17609706"
+      ],
+      "settings": {
+        "kik_section_id": "",
+        "align_text": "text-center",
+        "extended_color": "",
+        "text_color": "text--white",
+        "bg": "palette--dark bg--invert--accent",
+        "content_width": 1000,
+        "width": "wrapper",
+        "padding_top": 16,
+        "padding_bottom": 64
       }
     },
     "ca028e83-64c4-4a5c-bd0e-cbffc2fdd2e5": {
@@ -653,6 +733,7 @@
         "fa682107-a396-4591-b1ab-ffc2e74a4c17",
         "083c03f8-a8c9-44bb-8fcb-59a70c2a3347"
       ],
+      "disabled": true,
       "settings": {
         "two_grid_layout": true,
         "row_gap": 60,
@@ -668,71 +749,37 @@
         "padding_bottom": 36
       }
     },
-    "1d832399-a6ae-4035-b5ee-673508ae6cc3": {
-      "type": "section-hero",
+    "4cd5896f-e389-4a95-852e-3086efc1e521": {
+      "type": "section-double",
       "blocks": {
-        "adebf5d4-2a8a-4923-9b5c-0edb250a6f65": {
-          "type": "heading",
-          "settings": {
-            "title": "4G & WiFi Connections",
-            "heading_size": 32,
-            "heading_size_mob": 48,
-            "line_height": 56
-          }
-        },
-        "c8488159-4244-430d-af24-ec10725b8165": {
+        "template--16386734915775__4cd5896f-e389-4a95-852e-3086efc1e521-text-1": {
           "type": "text",
           "settings": {
-            "richtext": "<p>Stay connected with Bingo 3600's built-in Wi-Fi and 4G, even in remote areas. Bingo 3600 selects the best signal for you, ensuring constant connectivity, ideal for emergency preparedness.<\/p>",
-            "description_size": 18
+            "kicker": "",
+            "title": "4G & WiFi Connections",
+            "text": "<p>Stay connected with Bingo 3600's built-in Wi-Fi and 4G, even in remote areas. Bingo 3600 selects the best signal for you, ensuring constant connectivity, ideal for emergency preparedness.<\/p>",
+            "heading_size": 32,
+            "sub_heading_size": 16,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "btn-text-thick-line",
+            "text_color": "text--white",
+            "bg_color": "",
+            "with_icon_enable": false,
+            "title_icon": "Add a title",
+            "title_icon_one": "Add a title",
+            "title_icon_two": "Add a title",
+            "title_icon_three": "Add a title"
           }
-        }
-      },
-      "block_order": [
-        "adebf5d4-2a8a-4923-9b5c-0edb250a6f65",
-        "c8488159-4244-430d-af24-ec10725b8165"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/satellite-3977165_1920_jpg.jpg",
-        "height": "use_image",
-        "overlay_opacity": 80,
-        "overlay_color": "#000000",
-        "enable_overlay_text": true,
-        "preload_image": false,
-        "heading_color": "#ffffff",
-        "description_color": "#ffffff",
-        "content_width": 2000,
-        "content_width_mob": 100,
-        "text_align": "align--middle-center",
-        "vertical_alignment": "center",
-        "horizontal_alignment": "center",
-        "content_alignment": "center",
-        "text_color": "text--white",
-        "color_bg": "hero__content--transparent",
-        "width": "wrapper--none",
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
-    "5efb3755-ef17-42b3-8bda-10ef0e19ee9a": {
-      "type": "section-newsletter",
-      "settings": {
-        "title": "We Launch Soon On Indiegogo",
-        "richtext": "<p>Join Launch Group to Receive Exclusive Super Early Bird Offer, Secret Product Info and Weekly Giveaways<\/p>",
-        "bg": "palette--light bg--accent",
-        "width": "wrapper",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "81aa2a44-6b7b-4806-8297-20e6653a0b73": {
-      "type": "section-slideshow",
-      "blocks": {
-        "template--16370496897215__81aa2a44-6b7b-4806-8297-20e6653a0b73-image-1": {
+        },
+        "template--16386734915775__4cd5896f-e389-4a95-852e-3086efc1e521-image-1": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/ac2aa9_1faf5294dabf4c6a8fb7d81ced65808b_mv2.webp",
-            "overlay_opacity": 15,
+            "image": "shopify:\/\/shop_images\/app-1_2.png",
+            "overlay_opacity": 0,
             "overlay_color": "#000000",
             "enable_overlay_text": false,
             "kicker": "",
@@ -745,7 +792,44 @@
             "button_color": "btn--white",
             "button_style": "btn"
           }
-        },
+        }
+      },
+      "block_order": [
+        "template--16386734915775__4cd5896f-e389-4a95-852e-3086efc1e521-text-1",
+        "template--16386734915775__4cd5896f-e389-4a95-852e-3086efc1e521-image-1"
+      ],
+      "settings": {
+        "kik_section_id": "",
+        "height": "use_image",
+        "img_position": "center",
+        "border_radius": 0,
+        "brick_gutter": 0,
+        "borders": false,
+        "bg_color": "#191919",
+        "preload_image": false,
+        "width": "wrapper",
+        "img_col_width": 80,
+        "text_col_width": 40,
+        "row_position": "row",
+        "column_position": "column-reverse",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "5efb3755-ef17-42b3-8bda-10ef0e19ee9a": {
+      "type": "section-newsletter",
+      "settings": {
+        "title": "",
+        "richtext": "<h3>Join Launch Group to Receive:<\/h3><p>Exclusive Super Early Bird Offer, Secret Product Info, Weekly Giveaways<\/p>",
+        "bg": "palette--light bg--accent",
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "81aa2a44-6b7b-4806-8297-20e6653a0b73": {
+      "type": "section-slideshow",
+      "blocks": {
         "8e71cd06-a6d8-4e1e-9049-f7c8f87bdcb4": {
           "type": "image",
           "settings": {
@@ -817,61 +901,46 @@
             "button_color": "btn--white",
             "button_style": "btn"
           }
-        },
-        "54bbd451-8054-4eb1-bc16-cc250f8b438e": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/4de6f9_05aa3da3aa3f4638b91bf6444157e678_mv2.webp",
-            "overlay_opacity": 15,
-            "overlay_color": "#000000",
-            "enable_overlay_text": false,
-            "kicker": "",
-            "title": "",
-            "richtext": "",
-            "text_align": "align--middle-center",
-            "text_color": "text--white",
-            "link_text": "",
-            "link": "",
-            "button_color": "btn--white",
-            "button_style": "btn"
-          }
         }
       },
       "block_order": [
-        "template--16370496897215__81aa2a44-6b7b-4806-8297-20e6653a0b73-image-1",
         "8e71cd06-a6d8-4e1e-9049-f7c8f87bdcb4",
         "232e96d3-f14f-42b4-8866-06b21a1f2916",
         "8542d01a-0136-4f57-a7f9-0aac25ea58d5",
-        "5b0b3c1e-5f2d-47e6-8b32-34477bfd7351",
-        "54bbd451-8054-4eb1-bc16-cc250f8b438e"
+        "5b0b3c1e-5f2d-47e6-8b32-34477bfd7351"
       ],
       "settings": {
         "autoplay": true,
-        "autoplay_speed": 8,
+        "autoplay_speed": 3,
         "preload_first_image": false,
         "height": "use_image",
-        "color_bg": "palette--light bg--neutral",
+        "color_bg": "palette--light bg--accent",
         "width": "wrapper",
-        "padding_top": 0,
-        "padding_bottom": 38
+        "padding_top": 64,
+        "padding_bottom": 64
       }
     }
   },
   "order": [
     "main",
     "a7a9faf4-bc91-47b8-ab7d-7d8896264add",
+    "3dde7da1-2478-4ca8-b30e-6a803e80d467",
     "bec00d0e-c238-45ce-bd08-cc9f853071e9",
     "0bd08e3b-611d-4e20-9db1-a6490ef1dfcd",
+    "08aded9d-2694-4f93-aff3-05bf63c7d9c6",
+    "6e1245de-0c76-44d0-8d45-27abb04a1a46",
     "c8fc89e0-83da-4f58-9cff-2fb3a3b25cb0",
     "75a9666b-b315-4a0b-a584-44e2bc509c50",
     "e7dfb93a-ad11-45a9-b845-f7585c5610b7",
     "9898e993-777d-4796-a280-77045385fbd0",
     "6629fe52-4ff5-4e92-957e-4c52f08fee05",
+    "1d939b2d-ee2d-4670-b2c4-aff38add7eb8",
     "c8bff7c5-2a35-4539-8434-170a2fd45f57",
     "a6b38a46-2aa4-4237-ad4f-98ad876a10de",
-    "ffaa4919-735b-47d4-946a-891a2ecfcb0f",
+    "71896296-e498-4646-8986-50a55037c0b4",
+    "b02d1efe-a666-4a97-8ac2-2e2731127173",
     "ca028e83-64c4-4a5c-bd0e-cbffc2fdd2e5",
-    "1d832399-a6ae-4035-b5ee-673508ae6cc3",
+    "4cd5896f-e389-4a95-852e-3086efc1e521",
     "5efb3755-ef17-42b3-8bda-10ef0e19ee9a",
     "81aa2a44-6b7b-4806-8297-20e6653a0b73"
   ]

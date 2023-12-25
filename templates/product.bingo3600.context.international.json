@@ -1,0 +1,8 @@
+{
+  "parent": "product.bingo3600.json",
+  "context": {
+    "market": "international"
+  },
+  "sections": {
+  }
+}

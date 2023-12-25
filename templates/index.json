@@ -6,10 +6,10 @@
         "banner-heading": {
           "type": "heading",
           "settings": {
-            "title": "The best way to stay <br> happy for a day camping",
-            "heading_size": 40,
-            "heading_size_mob": 36,
-            "line_height": 36
+            "title": "POWERFUL WORK<br>JOYFUL LIFE",
+            "heading_size": 24,
+            "heading_size_mob": 10,
+            "line_height": 24
           }
         },
         "banner-button": {
@@ -17,8 +17,8 @@
           "settings": {
             "btn_size": 16,
             "link_text_1": "Shop Now",
-            "link_1": "shopify:\/\/collections\/power-stations",
-            "button_size_1": "btn--medium",
+            "link_1": "shopify:\/\/collections\/steady-home-power-solution",
+            "button_size_1": "btn--small",
             "button_style_1": "btn",
             "button_color_1": "btn--primary",
             "link_text_2": "",
@@ -39,7 +39,7 @@
         "banner-button"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/home-banner.png",
+        "image": "shopify:\/\/shop_images\/banner.jpg",
         "mobile_image": "shopify:\/\/shop_images\/home-banner-mobile.png",
         "height": "use_pixels_650",
         "overlay_opacity": 15,
@@ -50,7 +50,7 @@
         "description_color": "#ffffff",
         "content_width": 2000,
         "content_width_mob": 100,
-        "text_align": "align--middle-center",
+        "text_align": "align--middle-right",
         "vertical_alignment": "end",
         "horizontal_alignment": "center",
         "content_alignment": "center",
@@ -67,68 +67,68 @@
         "template--16240241344703__2c7ba7ab-70a3-40f0-bbae-86326d745a9e-image-1": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/BING3600.png",
+            "image": "shopify:\/\/shop_images\/ac2aa9_078ca0cda9294df2a183ae2359085f68_mv2.webp",
             "overlay_opacity": 30,
-            "title_text": "Portable Power Station",
+            "title_text": "Solar Generator",
             "heading_size": 40,
             "heading_width": 95,
             "heading_alignment": "center",
             "text_align": "text-left tile--bottom",
-            "kicker_text": "BING3600",
+            "kicker_text": "BINGO3000\/3600",
             "sub_heading_size": 16,
             "link_text": "Lean More",
-            "link_url": "shopify:\/\/pages\/become-a-dealer",
+            "link_url": "shopify:\/\/collections\/power-stations",
             "btn_size": 16
           }
         },
         "15e0ad62-1233-4fc9-b500-f3b3b0eafe4a": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/SOLAR_PANELS.png",
+            "image": "shopify:\/\/shop_images\/Frequently_Asked_Questions.png",
             "overlay_opacity": 30,
-            "title_text": "Sustainable Solar Energy",
+            "title_text": "Battery Pack",
             "heading_size": 40,
             "heading_width": 95,
             "heading_alignment": "center",
             "text_align": "text-left tile--bottom",
-            "kicker_text": "SOLAR PANELS",
+            "kicker_text": "EXB2000\/3000",
             "sub_heading_size": 16,
             "link_text": "Lean More",
-            "link_url": "shopify:\/\/pages\/contact",
+            "link_url": "shopify:\/\/collections\/solar-panel",
             "btn_size": 16
           }
         },
         "6e51667e-4f33-4f40-a26f-df3637e1f043": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/SMART_GENERATOR.png",
+            "image": "shopify:\/\/shop_images\/Hours-Long_Outages.png",
             "overlay_opacity": 30,
-            "title_text": "More Efficient, and More Intuitive",
+            "title_text": "Home Panel",
             "heading_size": 40,
             "heading_width": 73,
             "heading_alignment": "center",
             "text_align": "text-left tile--bottom",
-            "kicker_text": "SMART GENERATOR",
+            "kicker_text": "Smart Home Panel",
             "sub_heading_size": 16,
             "link_text": "Lean More",
-            "link_url": "shopify:\/\/pages\/contact",
+            "link_url": "shopify:\/\/collections\/power-stations",
             "btn_size": 16
           }
         },
         "01d1b625-0835-4da4-bb95-b966c43630a6": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/SMART_HOME_PANEL.png",
+            "image": "shopify:\/\/shop_images\/livo2.jpg",
             "overlay_opacity": 30,
-            "title_text": "Simple Assembly",
+            "title_text": "Solar Panel",
             "heading_size": 40,
             "heading_width": 100,
             "heading_alignment": "center",
             "text_align": "text-left tile--bottom",
-            "kicker_text": "SMART HOME PANEL",
+            "kicker_text": "200W\/400W MPPT",
             "sub_heading_size": 16,
             "link_text": "Lean More",
-            "link_url": "#lean-more",
+            "link_url": "shopify:\/\/collections\/smart-home-panel",
             "btn_size": 16
           }
         }
@@ -141,8 +141,8 @@
       ],
       "settings": {
         "two_grid_layout": true,
-        "row_gap": 60,
-        "col_gap": 62,
+        "row_gap": 48,
+        "col_gap": 48,
         "vertical_alignment": "start",
         "horizontal_alignment": "center",
         "first_block_height": "short",
@@ -150,8 +150,8 @@
         "split": "center",
         "color_bg": "palette--light bg--neutral",
         "width": "wrapper",
-        "padding_top": 50,
-        "padding_bottom": 0
+        "padding_top": 64,
+        "padding_bottom": 64
       }
     },
     "e2b2fab4-997a-4e4d-81a5-02dd23a3d4af": {
@@ -175,6 +175,7 @@
 
       ],
       "settings": {
+        "kik_section_id": "",
         "align_text": "text-center",
         "extended_color": "",
         "text_color": "text--neutral",
@@ -239,6 +240,7 @@
         "logo-2",
         "logo-3"
       ],
+      "disabled": true,
       "settings": {
         "enable_special_effects": true,
         "title": "",
@@ -246,7 +248,7 @@
         "enable_marquee": false,
         "marquee_speed": 30,
         "width": "wrapper",
-        "padding_top": 36,
+        "padding_top": 32,
         "padding_bottom": 36
       }
     },
@@ -267,13 +269,14 @@
         "template--16240241344703__51696774-cb44-4243-a0cc-c1a14060beb0-heading-1"
       ],
       "settings": {
+        "kik_section_id": "",
         "align_text": "text-center",
         "extended_color": "",
         "text_color": "text--neutral",
         "bg": "palette--light bg--neutral",
         "content_width": 2000,
         "width": "wrapper",
-        "padding_top": 36,
+        "padding_top": 64,
         "padding_bottom": 0
       }
     },
@@ -353,7 +356,7 @@
         "image": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Semi-Solid_State_Battery-v2.png",
+            "image": "shopify:\/\/shop_images\/turbo_leap-3.jpg",
             "overlay_opacity": 0,
             "overlay_color": "#000000",
             "enable_overlay_text": false,
@@ -371,9 +374,9 @@
         "text": {
           "type": "text",
           "settings": {
-            "kicker": "Semi-Solid State Battery",
-            "title": "Revolutionize Power with Semi-Solid State Battery Technology",
-            "text": "<p>Experience the power revolution with our Semi-Solid State Battery—a fusion of safety, longevity, and unmatched performance, setting the standard for next-generation energy storage solutions.<\/p>",
+            "kicker": "Turbo Leap Tech",
+            "title": "Enough Power",
+            "text": "<ul><li> Joyvolt 3kWh 5400W supported by Turbo Leap technology - compared to Ecoflow 3kWh 4500W supported by X-boost.<\/li><li> 4 Bingo 3600 paralleling from 3600W to 14,400W AC output.<\/li><\/ul><p><\/p>",
             "heading_size": 26,
             "sub_heading_size": 16,
             "text_columns": 1,
@@ -397,7 +400,8 @@
         "text"
       ],
       "settings": {
-        "height": "use_screen_one_half",
+        "kik_section_id": "",
+        "height": "use_image",
         "img_position": "center",
         "border_radius": 0,
         "brick_gutter": 0,
@@ -419,9 +423,9 @@
         "template--16333941801151__9b17377f-000f-4631-903d-3cec0aa80166-text-1": {
           "type": "text",
           "settings": {
-            "kicker": "Internet & Power Integrated",
-            "title": "Internet & Power Integrated for Modern Living",
-            "text": "<p>Transform your lifestyle with our integrated solution—where the power of connectivity meets efficient energy management, creating a harmonious blend of innovation and convenience for the ultimate modern living experience.<\/p>",
+            "kicker": "From 3kWh to 124kWh",
+            "title": "Unlimited Capacity",
+            "text": "<p>The most powerful hand-carry weight solar generator with super capability of paralleling from 3kWh up to 124kW, <\/p>",
             "heading_size": 26,
             "sub_heading_size": 16,
             "text_columns": 1,
@@ -442,8 +446,8 @@
         "template--16333941801151__9b17377f-000f-4631-903d-3cec0aa80166-image-1": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/4_1.jpg",
-            "overlay_opacity": 15,
+            "image": "shopify:\/\/shop_images\/paralleling_3600x1600_bcaaa8bb-5a5e-41d1-b4de-a0c831d6d0a4.png",
+            "overlay_opacity": 0,
             "overlay_color": "#000000",
             "enable_overlay_text": false,
             "kicker": "",
@@ -463,7 +467,8 @@
         "template--16333941801151__9b17377f-000f-4631-903d-3cec0aa80166-image-1"
       ],
       "settings": {
-        "height": "use_screen_one_half",
+        "kik_section_id": "",
+        "height": "use_image",
         "img_position": "center",
         "border_radius": 0,
         "brick_gutter": 0,
@@ -475,8 +480,8 @@
         "text_col_width": 40,
         "row_position": "row",
         "column_position": "column-reverse",
-        "padding_top": 26,
-        "padding_bottom": 26
+        "padding_top": 48,
+        "padding_bottom": 48
       }
     },
     "0d9460c8-3f8e-4229-9f67-7a9ee9558cdb": {
@@ -523,6 +528,7 @@
       ],
       "disabled": true,
       "settings": {
+        "kik_section_id": "",
         "height": "use_screen_two_thirds",
         "img_position": "center",
         "border_radius": 0,
@@ -545,9 +551,9 @@
         "template--16333941801151__189f4de5-ff07-4870-8afc-8044251ac267-text-1": {
           "type": "text",
           "settings": {
-            "kicker": "Super Capacity 124kwh",
-            "title": "Unleash Boundless Power with the Super Capacity 124kWh",
-            "text": "<p>Embark on a new era of energy abundance with our Super Capacity 124kWh—an innovation that redefines possibilities, offering an unparalleled reservoir of power for a limitless range of applications.<\/p>",
+            "kicker": "Built-in 4G Module",
+            "title": "Internet and Power Integrated",
+            "text": "<ul><li>Dynamically pick up the best signal for your smart devices even in remote area.<\/li><li>Not only safeguard with power solution, but also make you keep connecting in any emergency or unpredictable  case<\/li><\/ul>",
             "heading_size": 26,
             "sub_heading_size": 16,
             "text_columns": 1,
@@ -568,8 +574,8 @@
         "template--16333941801151__189f4de5-ff07-4870-8afc-8044251ac267-image-1": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Super_Capacity_124kwh.png",
-            "overlay_opacity": 15,
+            "image": "shopify:\/\/shop_images\/built-in_wifi_3600x1600_832767dc-530a-4974-944e-5e092151c055.png",
+            "overlay_opacity": 0,
             "overlay_color": "#000000",
             "enable_overlay_text": false,
             "kicker": "",
@@ -589,7 +595,8 @@
         "template--16333941801151__189f4de5-ff07-4870-8afc-8044251ac267-image-1"
       ],
       "settings": {
-        "height": "use_screen_one_half",
+        "kik_section_id": "",
+        "height": "use_image",
         "img_position": "center",
         "border_radius": 0,
         "brick_gutter": 0,
@@ -602,7 +609,7 @@
         "row_position": "row-reverse",
         "column_position": "column-reverse",
         "padding_top": 0,
-        "padding_bottom": 26
+        "padding_bottom": 48
       }
     },
     "f6ddfffd-34bd-40fc-9a46-e0e1c9c552ec": {
@@ -611,9 +618,9 @@
         "template--16333941801151__f6ddfffd-34bd-40fc-9a46-e0e1c9c552ec-text-1": {
           "type": "text",
           "settings": {
-            "kicker": "Turbo Leap",
-            "title": "Propel Your Experience into Overdrive",
-            "text": "<p>Elevate your journey with Turbo Leap—an extraordinary leap forward in performance, seamlessly combining power and precision to redefine your driving experience with unmatched speed and efficiency.<\/p>",
+            "kicker": "Semi Solid state battery",
+            "title": "Safe and Reliable",
+            "text": "<p>With the saftest EV-grade Semi Solid state battery which pass the gun-shot test with no fire and no smoke.<\/p>",
             "heading_size": 26,
             "sub_heading_size": 16,
             "text_columns": 1,
@@ -634,8 +641,8 @@
         "template--16333941801151__f6ddfffd-34bd-40fc-9a46-e0e1c9c552ec-image-1": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Turbo_Leap.png",
-            "overlay_opacity": 15,
+            "image": "shopify:\/\/shop_images\/battery_3600x1600_bfe3a64b-876b-4427-8f71-0faedaff0bf8.png",
+            "overlay_opacity": 0,
             "overlay_color": "#000000",
             "enable_overlay_text": false,
             "kicker": "",
@@ -655,7 +662,8 @@
         "template--16333941801151__f6ddfffd-34bd-40fc-9a46-e0e1c9c552ec-image-1"
       ],
       "settings": {
-        "height": "use_screen_one_half",
+        "kik_section_id": "",
+        "height": "use_image",
         "img_position": "center",
         "border_radius": 0,
         "brick_gutter": 0,
@@ -668,7 +676,7 @@
         "row_position": "row",
         "column_position": "column-reverse",
         "padding_top": 0,
-        "padding_bottom": 26
+        "padding_bottom": 48
       }
     },
     "0a51b963-ebdf-47d9-a76e-08a55d8ab96e": {
@@ -677,9 +685,9 @@
         "template--16333941801151__0a51b963-ebdf-47d9-a76e-08a55d8ab96e-text-1": {
           "type": "text",
           "settings": {
-            "kicker": "Cost Effective",
-            "title": "Maximizing Value, Minimizing Expense",
-            "text": "<p>Discover a smarter approach to efficiency with our cost-effective solutions, designed to optimize performance without compromising your budget—empowering you to achieve more with less.<\/p>",
+            "kicker": "Self mantainance",
+            "title": "Smart AIoT",
+            "text": "<p>With machine learning and cloud computing capabilities to achieve machine safety predictions, such as overheating \/ overcharging, to predict and find the problem, the machine can be timely and proactive repair via <strong>Real time monitor and control in APP<\/strong><\/p>",
             "heading_size": 26,
             "sub_heading_size": 16,
             "text_columns": 1,
@@ -700,7 +708,7 @@
         "template--16333941801151__0a51b963-ebdf-47d9-a76e-08a55d8ab96e-image-1": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Cost_Effective.png",
+            "image": "shopify:\/\/shop_images\/machine_self_repair_3600x1600_a049952f-1615-47e7-b855-1ef1f983ef0a.png",
             "overlay_opacity": 15,
             "overlay_color": "#000000",
             "enable_overlay_text": false,
@@ -721,7 +729,8 @@
         "template--16333941801151__0a51b963-ebdf-47d9-a76e-08a55d8ab96e-image-1"
       ],
       "settings": {
-        "height": "use_screen_one_half",
+        "kik_section_id": "",
+        "height": "use_image",
         "img_position": "center",
         "border_radius": 0,
         "brick_gutter": 0,
@@ -734,7 +743,7 @@
         "row_position": "row-reverse",
         "column_position": "column-reverse",
         "padding_top": 0,
-        "padding_bottom": 26
+        "padding_bottom": 48
       }
     },
     "custom": {
@@ -792,9 +801,9 @@
         "template--16333941801151__83a73f69-8a0a-4620-b8c9-22b890d59588-text-1": {
           "type": "text",
           "settings": {
-            "kicker": "Multipower",
-            "title": "Elevate Your Energy, Multiply Your Possibilities",
-            "text": "<p>Experience a new dimension of versatility with Multipower—an innovative energy solution that amplifies your capabilities, providing unmatched adaptability and resilience across a spectrum of applications.<\/p>",
+            "kicker": "Free Extend Warranty",
+            "title": "JoyCare+",
+            "text": "<p>User can earn credit from accumulating the usage of Life-long mode, the warranty days will be added accordingly.<\/p>",
             "heading_size": 26,
             "sub_heading_size": 16,
             "text_columns": 1,
@@ -815,8 +824,8 @@
         "template--16333941801151__83a73f69-8a0a-4620-b8c9-22b890d59588-image-1": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Multipower.png",
-            "overlay_opacity": 15,
+            "image": "shopify:\/\/shop_images\/joycare_3600x1600_3207b02b-2e3f-4c1b-8000-c3b6e2ef028b.png",
+            "overlay_opacity": 0,
             "overlay_color": "#000000",
             "enable_overlay_text": false,
             "kicker": "",
@@ -836,7 +845,8 @@
         "template--16333941801151__83a73f69-8a0a-4620-b8c9-22b890d59588-image-1"
       ],
       "settings": {
-        "height": "use_screen_one_half",
+        "kik_section_id": "",
+        "height": "use_image",
         "img_position": "center",
         "border_radius": 0,
         "brick_gutter": 0,
@@ -849,7 +859,7 @@
         "row_position": "row",
         "column_position": "column-reverse",
         "padding_top": 0,
-        "padding_bottom": 0
+        "padding_bottom": 64
       }
     },
     "e3fbc60c-7ddc-4b31-9a4a-ffdfb819e83f": {
@@ -928,8 +938,8 @@
         "35a21921-b7e5-460f-b528-70027e7f5810": {
           "type": "heading",
           "settings": {
-            "heading": "Joyvolt’s Hybrid Powertrain System",
-            "heading_size": 40,
+            "heading": "「LIVO」HOME BACKUP SYSTEM",
+            "heading_size": 48,
             "line_height": 56,
             "heading_size_mob": 36
           }
@@ -939,13 +949,14 @@
         "35a21921-b7e5-460f-b528-70027e7f5810"
       ],
       "settings": {
+        "kik_section_id": "",
         "align_text": "text-center",
         "extended_color": "",
         "text_color": "text--neutral",
         "bg": "palette--light bg--neutral",
-        "content_width": 700,
+        "content_width": 900,
         "width": "wrapper",
-        "padding_top": 50,
+        "padding_top": 64,
         "padding_bottom": 32
       }
     },
@@ -955,16 +966,16 @@
         "template--16240241344703__87ee4dd9-cdac-40f1-8449-d68b4a61fe0a-heading-1": {
           "type": "heading",
           "settings": {
-            "title": "Electrifying Performance, Efficiently Engineered",
+            "title": "10.8KW Family Power Solution",
             "heading_size": 40,
-            "heading_size_mob": 40,
-            "line_height": 56
+            "heading_size_mob": 48,
+            "line_height": 32
           }
         },
         "template--16240241344703__87ee4dd9-cdac-40f1-8449-d68b4a61fe0a-text-1": {
           "type": "text",
           "settings": {
-            "richtext": "<p>Experience electrifying performance and efficiency with Joyvolt's Hybrid Powertrain System—an innovative blend of electric and traditional propulsion, redefining the future of automotive excellence.<\/p>",
+            "richtext": "<h6>Enjoy the benefits of a modular and plug-and-play power solution that costs only 1\/3 of a typical home energy system.<\/h6>",
             "description_size": 18
           }
         },
@@ -973,7 +984,7 @@
           "settings": {
             "btn_size": 16,
             "link_text_1": "Learn More",
-            "link_1": "shopify:\/\/pages\/about-us",
+            "link_1": "shopify:\/\/collections\/steady-home-power-solution",
             "button_size_1": "btn--large btn--long",
             "button_style_1": "btn",
             "button_color_1": "btn--primary",
@@ -1000,7 +1011,7 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Image_-_Column_1_f6c08de6-3227-4311-ac67-b90ca7d58de8.png",
-        "height": "use_screen_full",
+        "height": "use_screen_three_quarters",
         "overlay_opacity": 70,
         "overlay_color": "#000000",
         "enable_overlay_text": false,
@@ -1017,7 +1028,7 @@
         "color_bg": "hero__content--transparent",
         "width": "wrapper--none",
         "padding_top": 0,
-        "padding_bottom": 50
+        "padding_bottom": 64
       }
     },
     "72cf5262-a396-4583-a944-7b21a72b9355": {
@@ -1036,6 +1047,7 @@
         "92deadb9-fae3-4a2d-9d71-9e5f6ddc66d6"
       ],
       "settings": {
+        "kik_section_id": "",
         "align_text": "text-center",
         "extended_color": "",
         "text_color": "text--neutral",
@@ -1055,7 +1067,7 @@
         "blog_btn": 16,
         "btn_color": "#04a7cb",
         "homepage_blog": "news",
-        "homepage_blog_count": 3,
+        "homepage_blog_count": 6,
         "progress_bar": "mobile",
         "grid_large": 3,
         "grid_medium": 2,
@@ -1091,6 +1103,7 @@
         "acfb01b3-8c71-4dd3-887e-16f3480cba88"
       ],
       "settings": {
+        "kik_section_id": "",
         "align_text": "text-center",
         "extended_color": "",
         "text_color": "text--neutral",
@@ -1223,6 +1236,7 @@
         "c9a9bc45-dd09-40e5-857e-18ff8f38956f",
         "bed32102-316e-429c-8c44-016c5e4c0585"
       ],
+      "disabled": true,
       "settings": {
         "bg_color": "#f8f7f6",
         "color": "#000000",

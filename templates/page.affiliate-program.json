@@ -24,7 +24,7 @@
         "1934877e-693e-4213-904f-8c79f252b4d9": {
           "type": "kicker",
           "settings": {
-            "kicker": "Elevate Your Earnings and Impact",
+            "kicker": "ELEVATE YOUR EARNINGS AND IMPACT",
             "enable_line": false,
             "text_size": 4
           }
@@ -74,14 +74,14 @@
         "8eb39992-f4fe-4a89-b00c-44f11e80a24f"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/IMG_0553_1.jpg",
-        "height": "use_screen_two_thirds",
+        "image": "shopify:\/\/shop_images\/joycare.jpg",
+        "height": "use_image",
         "overlay_opacity": 45,
         "overlay_color": "#000000",
         "enable_overlay_text": false,
         "preload_image": false,
-        "heading_color": "#FFFFFF",
-        "description_color": "#FFFFFF",
+        "heading_color": "#ffffff",
+        "description_color": "#ffffff",
         "content_width": 2000,
         "content_width_mob": 100,
         "text_align": "align--middle-center",
@@ -125,7 +125,7 @@
         "template--16244449476799__9cf1a787-82df-4c8c-ad90-7643bec1095f-image-1": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/9.jpg",
+            "image": "shopify:\/\/shop_images\/Image_-_Column_189ee4f3-fbca-4417-b88d-07df72264ce4.png",
             "overlay_opacity": 15,
             "overlay_color": "#000000",
             "enable_overlay_text": false,
@@ -146,6 +146,7 @@
         "template--16244449476799__9cf1a787-82df-4c8c-ad90-7643bec1095f-image-1"
       ],
       "settings": {
+        "kik_section_id": "",
         "height": "use_screen_one_half",
         "img_position": "center",
         "border_radius": 0,
@@ -168,8 +169,8 @@
         "f747842c-621a-4117-b6cb-cc5b29e99796": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/SMART_HOME_PANEL.png",
-            "overlay_opacity": 15,
+            "image": "shopify:\/\/shop_images\/battery.png",
+            "overlay_opacity": 0,
             "overlay_color": "#000000",
             "enable_overlay_text": false,
             "kicker": "",
@@ -213,7 +214,8 @@
         "e15ddcd9-c7c3-4a3e-89c2-c9122c84d60a"
       ],
       "settings": {
-        "height": "use_screen_one_half",
+        "kik_section_id": "",
+        "height": "use_image",
         "img_position": "center",
         "border_radius": 0,
         "brick_gutter": 0,
@@ -433,7 +435,9 @@
         "template--16333941899455__7c200b0f-6afb-4a72-b627-01c07890437a-button-1"
       ],
       "settings": {
+        "kik_section_id": "",
         "align_text": "text-center",
+        "extended_color": "",
         "text_color": "text--neutral",
         "bg": "palette--light bg--neutral",
         "content_width": 2000,
@@ -489,14 +493,14 @@
         "template--16244449476799__5d1c7dd1-8dbc-4411-8f9a-f13e7735ac49-button-1"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/11_1.jpg",
+        "image": "shopify:\/\/shop_images\/Cost_Effective.png",
         "height": "use_screen_two_thirds",
         "overlay_opacity": 50,
         "overlay_color": "#000000",
         "enable_overlay_text": false,
         "preload_image": false,
-        "heading_color": "#FFFFFF",
-        "description_color": "#FFFFFF",
+        "heading_color": "#ffffff",
+        "description_color": "#ffffff",
         "content_width": 2000,
         "content_width_mob": 100,
         "text_align": "align--middle-center",

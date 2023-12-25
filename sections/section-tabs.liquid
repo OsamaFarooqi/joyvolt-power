@@ -104,10 +104,36 @@
 
 
 {% endstyle %}
+
+<style>
+  .kikfixedElement {
+    background-color: #c0c0c0;
+    position:fixed;
+    top:0;
+    width:100%;
+    z-index:100;
+}
+</style>
+
+<script>
+  $(window).scroll(function(e){ 
+  var $el = $('.kikfixedElement'); 
+  var isPositionFixed = ($el.css('position') == 'fixed');
+  var position_el= $el.position;
+  if ($(this).scrollTop() > 200 && !isPositionFixed){ 
+    $el.css({'position': 'fixed', 'top': '8%'}); 
+  }
+  if ($(this).scrollTop() < 200 && isPositionFixed){
+    $el.css({'position': 'static', 'top': '0px'}); 
+  } 
+});
+</script>
+
 <section
   class="
     {{ section.settings.color_bg }}
     {{ section.settings.width }}
+    
   "
   style="
     --PT: {{ section.settings.padding_top }}px;

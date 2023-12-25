@@ -83,21 +83,21 @@
             "display": "all"
           }
         },
-        "e7a84f1d-deb7-4e07-a4c5-8274d8545796": {
+        "6f34b35c-e52d-4d7f-80ce-991715696e47": {
           "type": "collection",
           "settings": {
             "position": "1",
-            "collection": "solar-panel",
+            "collection": "smart-home-panel",
             "limit": 2,
             "wide_element": false,
             "display": "all"
           }
         },
-        "9fba2509-2ed6-49f0-8bc0-31fa85387944": {
+        "e7a84f1d-deb7-4e07-a4c5-8274d8545796": {
           "type": "collection",
           "settings": {
             "position": "1",
-            "collection": "smart-generator",
+            "collection": "solar-panel",
             "limit": 2,
             "wide_element": false,
             "display": "all"
@@ -112,33 +112,22 @@
             "wide_element": false,
             "display": "all"
           }
-        },
-        "6f34b35c-e52d-4d7f-80ce-991715696e47": {
-          "type": "collection",
-          "settings": {
-            "position": "1",
-            "collection": "smart-home-panel",
-            "limit": 2,
-            "wide_element": false,
-            "display": "all"
-          }
         }
       },
       "block_order": [
         "header-block-toolbar",
         "553d3265-0959-43c2-b5e6-2cbd98975735",
         "a47c3793-bdf9-4903-b5a3-5db6492455c6",
+        "6f34b35c-e52d-4d7f-80ce-991715696e47",
         "e7a84f1d-deb7-4e07-a4c5-8274d8545796",
-        "9fba2509-2ed6-49f0-8bc0-31fa85387944",
-        "cdcadb22-c2df-40f9-b524-93fb42c81559",
-        "6f34b35c-e52d-4d7f-80ce-991715696e47"
+        "cdcadb22-c2df-40f9-b524-93fb42c81559"
       ],
       "settings": {
         "header_style": "menu_center",
         "logo": "shopify:\/\/shop_images\/Joyvolt.png",
         "logo_max_limit": 120,
         "logo_padding": 30,
-        "logo_text_size": 5,
+        "logo_text_size": 4,
         "main_menu_linklist": "main-menu",
         "mobile_menu_linklist": "",
         "full_width": true,
@@ -146,7 +135,7 @@
         "enable_search": true,
         "enable_account": true,
         "use_icons": true,
-        "header_sticky": "static",
+        "header_sticky": "sticky",
         "transparent_home": false,
         "transparent_collection": false,
         "transparent_blog": false,
