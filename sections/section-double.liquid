@@ -447,9 +447,26 @@ button.accordion {
         flex-direction: {{row_position}};
   }
  {{ section_identifier }} .text__standard h2.standard__heading {
-   font-size: {{heading_size}};
-   font-weight: 700;
-   /* line-height: 40px; */
+  color: var(--Black, #353535);
+  text-align: center;
+  font-feature-settings: 'clig' off, 'liga' off;
+
+  font-family: Open Sauce Sans;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 56px;
+ }
+ {{ section_identifier }} .kik-section-double .kik-description {
+  color: var(--Black, #353535);
+  text-align: center;
+  font-feature-settings: 'clig' off, 'liga' off;
+
+  font-family: Nunito;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
  }
  {{ section_identifier }} .text__standard p.standard__kicker {
      font-size: {{sub_heading_size}};
@@ -477,15 +494,29 @@ button.accordion {
     {{ section_identifier }} .brick--2 .brick__block.text_block {
         width: 100%;
     }
-     
+    {{ section_identifier }} .text__standard h2.standard__heading {
+        font-size: 36px;
+        line-height: 40px;
+    }
+    {{ section_identifier }} .kik-section-double .kik-description {
+        font-size: 14px;
+        line-height: 19px;
+        letter-spacing: 0.05px;
+
+    }
   }
 @media only screen and (max-width: 430px) {
      {{ section_identifier }} .brick__section {
         flex-direction: {{column_position}};
   }
+  /* {{ section_identifier }} .text__standard h2.standard__heading {
+    font-size: 30px;
+  } */
+}
+@media only screen and (max-width: 380px) {
   {{ section_identifier }} .text__standard h2.standard__heading {
-    font-size: 25px;
-  }
+        font-size: 30px;
+    }
 }
 @media only screen and (max-width: 320px) {
   {{ section_identifier }} .text__standard h2.standard__heading {
@@ -679,7 +710,7 @@ button.accordion {
 
                     {% if block.settings.text != blank %}
                       {% assign text_columns_class = block.settings.text_columns | prepend: 'columns--' %}
-                      <div class="rte {{ text_size_class }} {{ text_columns_class }} {{ justify_class }}"
+                      <div class="rte {{ text_size_class }} kik-description {{ text_columns_class }} {{ justify_class }}"
                         data-aos="hero"
                         data-aos-anchor="{{ animation_anchor }}"
                         data-aos-order="3">
