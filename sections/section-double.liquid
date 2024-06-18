@@ -11,6 +11,7 @@
      {% case block.type %}
        {% when 'text' %}
         {%- assign heading_size = block.settings.heading_size | append:'px' -%}
+        {%- assign heading_size_mobile = block.settings.heading_size_mobile | append:'px' -%}
         {%- assign sub_heading_size = block.settings.sub_heading_size | append:'px' -%}
         {%- assign with_icon_enable = block.settings.with_icon_enable -%}
        
@@ -448,18 +449,19 @@ button.accordion {
   }
  {{ section_identifier }} .text__standard h2.standard__heading {
   color: var(--Black, #353535);
-  text-align: center;
+  /* text-align: center; */
   font-feature-settings: 'clig' off, 'liga' off;
 
   font-family: Open Sauce Sans;
-  font-size: 48px;
+  /* font-size: 48px; */
+  font-size: {{heading_size}};
   font-style: normal;
   font-weight: 700;
-  line-height: 56px;
+  /* line-height: 56px; */
  }
  {{ section_identifier }} .kik-section-double .kik-description {
   color: var(--Black, #353535);
-  text-align: center;
+  /* text-align: center; */
   font-feature-settings: 'clig' off, 'liga' off;
 
   font-family: Nunito;
@@ -478,12 +480,12 @@ button.accordion {
   }
   @media only screen and (max-width: 1440px) {
      {{ section_identifier }} .text__standard h2.standard__heading {
-         line-height: 30px;
+         /* line-height: 30px; */
        }
   }
    @media only screen and (max-width: 1024px) {
       {{ section_identifier }} .text__standard h2.standard__heading {
-         line-height: 1.3;
+         /* line-height: 1.3; */
        }
    }
 
@@ -495,8 +497,8 @@ button.accordion {
         width: 100%;
     }
     {{ section_identifier }} .text__standard h2.standard__heading {
-        font-size: 36px;
-        line-height: 40px;
+        /* font-size: 36px; */
+        /* line-height: 40px; */
     }
     {{ section_identifier }} .kik-section-double .kik-description {
         font-size: 14px;
@@ -505,22 +507,27 @@ button.accordion {
 
     }
   }
+  @media only screen and (max-width: 767px) {
+  {{ section_identifier }} .text__standard h2.standard__heading {
+    font-size: {{heading_size_mobile}};
+  }
+}
 @media only screen and (max-width: 430px) {
      {{ section_identifier }} .brick__section {
         flex-direction: {{column_position}};
   }
-  /* {{ section_identifier }} .text__standard h2.standard__heading {
-    font-size: 30px;
-  } */
+  {{ section_identifier }} .text__standard h2.standard__heading {
+    /* font-size: {{heading_size_mobile}}; */
+  }
 }
 @media only screen and (max-width: 380px) {
   {{ section_identifier }} .text__standard h2.standard__heading {
-        font-size: 30px;
+        /* font-size: 30px; */
     }
 }
 @media only screen and (max-width: 320px) {
   {{ section_identifier }} .text__standard h2.standard__heading {
-        font-size: 20px;
+        /* font-size: 20px; */
     }
   {{ section_identifier }} .text__standard p.standard__kicker {
         font-size: 13px;
@@ -1758,11 +1765,22 @@ accordions.forEach((accordion, i) => {
         "type": "range",
         "id": "heading_size",
         "min": 0,
-        "max": 180,
-        "step": 2,
+        "max": 100,
+        "step": 1,
         "unit": "px",
-        "label": "Heading Size",
+        "label": "Heading Size (Desktop)",
         "default": 32
+      },
+      {
+        "type": "range",
+        "id": "heading_size_mobile",
+        "min": 0,
+        "max": 100,
+        "step": 1,
+        "unit": "px",
+        "label": "Heading Size (Mobile)",
+        "info": "Apply on small devices (max-width: 767px)",
+        "default": 27
       },
       {
         "type": "range",
